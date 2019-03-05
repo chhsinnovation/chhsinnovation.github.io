@@ -2,7 +2,11 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
+- name: Engagements
   link: /blog.html
-- name: Staff
+- name: Work with us
+  link: /
+- name: Join the Team
+  link: /
+- name: Our Stories
   link: /staff.html
