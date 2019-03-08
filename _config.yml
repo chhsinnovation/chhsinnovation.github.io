@@ -23,3 +23,5 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
+
+encoding: utf-8
