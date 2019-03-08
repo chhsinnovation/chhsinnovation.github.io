@@ -25,3 +25,6 @@ plugins:
   - jekyll-include-cache
 
 encoding: utf-8
+
+sass:
+  add_charset: true
