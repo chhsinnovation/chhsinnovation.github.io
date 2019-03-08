@@ -1,12 +1,12 @@
 - name: Home
   link: /
-- name: About
+- name: About OI
   link: /about.html
-- name: Engagements
+- name: Past Engagements
   link: /blog.html
-- name: Work with us
+- name: Need OI to Help?
   link: /
-- name: Join the Team
-  link: /
-- name: Our Stories
+- name: Want to Join OI Staff?
+  link: /join.html
+- name: Meet the Staff
   link: /staff.html
