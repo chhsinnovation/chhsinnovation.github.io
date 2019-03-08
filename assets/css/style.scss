@@ -1,6 +1,7 @@
 ---
 ---
 @import "{{ site.theme }}";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
 h1 {
   text-align: center;
