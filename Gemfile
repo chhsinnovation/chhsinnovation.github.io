@@ -8,3 +8,4 @@ gem "jekyll-theme-architect", "~>0.1.1"
 gem "minimal-mistakes-jekyll"
 gem "jekyll-seo-tag", "~> 2.1"
 gem "github-pages", group:  :jekyll_plugins
+gem "jekyll-include-cache"
