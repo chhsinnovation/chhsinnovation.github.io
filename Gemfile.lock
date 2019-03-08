@@ -257,6 +257,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-include-cache
   jekyll-seo-tag (~> 2.1)
   jekyll-theme-architect (~> 0.1.1)
   jekyll-theme-leap-day (~> 0.1.1)
