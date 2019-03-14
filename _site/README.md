@@ -8,4 +8,6 @@ Attempts to install github pages themes in jekyll either didn't work or didn't h
 
 Special folders: The variables scss file holds the code for the custom font color to match the logo. The call for to stylesheet in the default template uses relative url to ensure it works both locally and on github pages.
 
+Adding an author - put the file name for the md file and the authors name in front matter both in lower case and it should auto populate the info and links.
+
 To update the site, contributors merely need to add narratives for the engagements into the post folder. Staff profiles can go into the authors folder. Both can be written as markdown files, but html can be added too, if desired. The playbook is a separate repo and site built using the aforementioned techniques. Each method is a post, but no staff profiles are included in that repo.
