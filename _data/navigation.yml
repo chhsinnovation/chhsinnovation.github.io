@@ -1,10 +1,10 @@
-- name: About OI
-  link: /about.html
-- name: Past Engagements
-  link: /blog.html
-- name: Need OI to Help?
-  link: /
-- name: Want to Join OI Staff?
-  link: /join.html
-- name: Meet the Staff
+- name: About |
   link: /staff.html
+- name: Engagements |
+  link: /blog.html
+- name: Need help? |
+  link: /
+- name: Join Us |
+  link: /join.html
+- name: Playbook |
+  link: /playbook.html

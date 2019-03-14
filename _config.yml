@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+# theme: jekyll-theme-midnight
 
 collections:
   authors:
@@ -28,3 +28,6 @@ encoding: utf-8
 
 sass:
   add_charset: true
+  sass_dir: /assets/css
+
+exclude: []

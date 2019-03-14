@@ -1,12 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CHHS Office of Innovation website">
+    <meta name="author" content="CHHS Staff">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ "assets/css/style.css" | relative_url }}">
+
   </head>
   <body>
-    {% include header.html %}
     {% include navigation.html %}
     {{ content }}
     {% include footer.html %}
