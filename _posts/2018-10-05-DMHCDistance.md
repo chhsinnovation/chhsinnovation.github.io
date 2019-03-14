@@ -2,7 +2,9 @@
 layout: post
 author: chaeny
 ---
-<h1 class="jumbotron">DMHC Department of Managed Health Care  - Distance to Provider </h1>
+DMHC Department of Managed Health Care - Distance to Provider
+
+<h1 class="jumbotron">Distance to Provider</h1>
 
 <p>The California Department of Managed Health Care protects consumers’ health care rights and ensures a stable health care delivery system. DMHC responds to consumers’ disputes with their respective DMHC-regulated health providers through independent medical reviews and complaint resolution processes. This makes DMHC a critical part of success delivery of the managed health care system. </p>
 
