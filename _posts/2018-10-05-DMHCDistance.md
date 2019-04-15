@@ -2,9 +2,14 @@
 layout: post
 author: chaeny
 ---
-DMHC Department of Managed Health Care - Distance to Provider
+Tl:dr - We worked with the Dept of Managed Health Care to improve the cumbersome, inexact and time intensive process of collecting data on the relative burden to accessing health care (the distance between a medical provider and given client). Working shoulder to shoulder with subject matter experts OI prototypes removed redundant steps, better utilized existing tools and created a process to improve process time by 70%. The reduction in staff frustration was key to creating a better environment.
 
-<h1 class="jumbotron">Distance to Provider</h1>
+<h1 class="jumbotron">Department of Managed Health Care -Distance to Provider</h1>
+
+<p>Team Members: Marni Sager, Dorian Rodriguez, Kerry Gantt, Isabella Blassi<br />
+Office of Innovation Director: Chaeny Emanavin <br />
+Department Engagement Champion: Michael Hodnett
+</p>
 
 <p>The California Department of Managed Health Care protects consumers’ health care rights and ensures a stable health care delivery system. DMHC responds to consumers’ disputes with their respective DMHC-regulated health providers through independent medical reviews and complaint resolution processes. This makes DMHC a critical part of success delivery of the managed health care system. </p>
 
