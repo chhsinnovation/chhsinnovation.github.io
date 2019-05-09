@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Blog
+title: Plays
 ---
-<h1 class="jumbotron">Latest Posts</h1>
+<h1 class="jumbotron">CHHS OI Plays</h1>
 
 <ul>
   {% for post in site.posts %}
-    {% if post.secondary != null %}
-    {% else %}
+    {% if post.secondary == 'playbook' %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>

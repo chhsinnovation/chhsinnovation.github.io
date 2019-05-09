@@ -3,8 +3,10 @@
 - name: Engagements |
   link: /blog.html
 - name: Need help? |
-  link: /
+  link: /gethelp.html
 - name: Join Us |
   link: /join.html
+- name: Our Methods |
+  link: /methods.html
 - name: Playbook |
-  link: /playbook.html
+  link: /secondary.html
