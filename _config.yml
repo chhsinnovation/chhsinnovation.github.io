@@ -28,6 +28,6 @@ encoding: utf-8
 
 sass:
   add_charset: true
-  sass_dir: /assets/css
+  sass_dir: assets/css
 
 exclude: []
