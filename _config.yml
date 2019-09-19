@@ -32,5 +32,4 @@ sass:
 
 exclude: []
 
-build:
-  baseurl: /chhsinnovation.github.io/
+baseurl: /chhsinnovation.github.io/
