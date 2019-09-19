@@ -5,3 +5,58 @@
 // Option A: Include all of Bootstrap
 
 @import "bootstrap/bootstrap";
+
+h1 {
+}
+
+#navigation_bar li {
+    display: inline;
+    margin-left: 5px;
+    list-style-type: none;
+ }
+#navigation_bar ul {
+    list-style-position: outside;
+}
+#navigation_bar.show {
+    visibility: visible;
+}
+#plays_index {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navigation_bar.show {
+    visibility: visible;
+    display: block;
+    height: 60px;
+}
+#navigation_bar {
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #e9ecef;
+    color: #fff;
+}
+#navigation_bar ul {
+    float: right;
+    display: inline;
+    padding: 0;
+    list-style-position: outside;
+}
+#navigation_bar {
+    visibility: hidden;
+    color: #fff;
+}
+
+ol li, ul li {
+    margin: 1em 0;
+        margin-left: 0px;
+    color: #323A45;
+}
+
+
+
+
