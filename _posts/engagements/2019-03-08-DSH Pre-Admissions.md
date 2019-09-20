@@ -3,8 +3,6 @@ layout: post
 author: chaeny
 title: "DSH Pre-Admissions"
 ---
-<img src="../assets/images/DSH Survey Chart.png"/>
-<br/>
 Tl;dr - DSH had an urgent need to reduce the amount of time it took to admit patients into facilities as part of the incompetitent to stand trial process. The existing process was taking up to six months. The team worked with DSH staff across hospitals and the central office to identify redundancies. The initial prototype reduced the expected time to 70 days. The revised prototype further reduced the expected process down to 21 days.
 
 <h1 class="jumbotron">Department of State Hospitals - Reimagining the Imcompetent to stand trial process
