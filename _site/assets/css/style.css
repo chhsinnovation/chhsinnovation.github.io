@@ -2288,24 +2288,22 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table { border-collapse: collapse !important; }
   .table td, .table th { background-color: #fff !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
+body { font-family: 'Source Sans Pro', sans-serif; font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+
 blockquote { font-weight: bold; font-size: 30px; padding-bottom: 20px; }
 
 blockquote p { margin-bottom: 0; padding-bottom: 0; }
 
-#navigation_bar li { display: inline; margin-left: 5px; list-style-type: none; }
+nav { padding: 5px; margin-bottom: 20px; }
 
-#navigation_bar ul { list-style-position: outside; }
+.accordian { padding-bottom: 30px !important; }
 
-#navigation_bar.show { visibility: visible; }
+.jumbotron, .jumbotron h1 { color: #fff; }
 
-#plays_index { padding-top: 20px; padding-bottom: 20px; }
+.jumbotron { background: #114476; }
 
-#navigation_bar.show { visibility: visible; display: block; height: 60px; }
+.btn-link { font-size: 20px !important; font-weight: 900 !important; }
 
-#navigation_bar { visibility: hidden; display: none; position: fixed; bottom: 0; width: 100%; height: 0; background: #e9ecef; color: #fff; }
-
-#navigation_bar ul { float: right; display: inline; padding: 0; list-style-position: outside; }
-
-#navigation_bar { visibility: hidden; color: #fff; }
-
-ol li, ul li { margin: 1em 0; margin-left: 0px; color: #323A45; }
+footer { border-top: 1px solid #f1f1f1; margin-top: 20px; padding-top: 20px; padding-bottom: 20px; }
