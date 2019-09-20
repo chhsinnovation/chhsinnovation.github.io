@@ -6,7 +6,14 @@
 
 @import "bootstrap/bootstrap";
 
-h1 {
+blockquote {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+blockquote p {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #navigation_bar li {
