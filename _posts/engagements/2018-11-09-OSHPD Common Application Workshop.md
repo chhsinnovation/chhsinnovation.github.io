@@ -3,6 +3,8 @@ layout: post
 author: chaeny
 title: "OSHPD Common Application Workshop"
 ---
+<img src="../assets/images/Speed Geeking Visual - OSHPD Workshop for Higher Ed.png"/>
+<br/>
 Tl:dr - External researchers using state health data for their research must request the data. Depending on the departments involved, the researchers must submit multiple, cumbersome applications and a lengthy review process which can delay their ability to publish. OI conducted a series of workshops to craft a single application form that works for both researchers and state reviewers for all CHHS departments. The more complete information gathered in the form helps speed review processes.
 
 <h1 class="jumbotron">Office of Statewide Health Planning and Development (OSHPD) - Common Application Workshop
