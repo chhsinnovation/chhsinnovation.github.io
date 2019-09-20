@@ -1,6 +1,7 @@
 ---
 layout: post
 author: chaeny
+title: "OSHPD Common Application Workshop"
 ---
 <img src="../assets/images/Speed Geeking Visual - OSHPD Workshop for Higher Ed.png"/>
 <br/>

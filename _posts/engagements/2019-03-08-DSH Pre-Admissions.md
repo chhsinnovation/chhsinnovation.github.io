@@ -1,6 +1,7 @@
 ---
 layout: post
 author: chaeny
+title: "DSH Pre-Admissions"
 ---
 <img src="../assets/images/DSH Survey Chart.png"/>
 <br/>
