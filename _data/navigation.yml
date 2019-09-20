@@ -1,5 +1,7 @@
 - name: About |
   link: /chhsinnovation.github.io/staff.html
+- name: How We Work |
+  link: /chhsinnovation.github.io/how-we-work.html
 - name: Engagements |
   link: /chhsinnovation.github.io/blog.html
 - name: Need help? |
@@ -10,6 +12,6 @@
   link: /chhsinnovation.github.io/methods.html
 - name: Playbook |
   link: /chhsinnovation.github.io/secondary.html
-- name: Training |
+- name: Training
   link: /chhsinnovation.github.io/training.html
 
