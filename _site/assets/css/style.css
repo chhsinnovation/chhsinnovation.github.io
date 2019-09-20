@@ -2307,3 +2307,7 @@ nav { padding: 5px; margin-bottom: 20px; }
 .btn-link { font-size: 20px !important; font-weight: 900 !important; }
 
 footer { border-top: 1px solid #f1f1f1; margin-top: 20px; padding-top: 20px; padding-bottom: 20px; }
+
+.jumbotron-home { background: #f1f1f1 !important; color: #212121 !important; padding: 30px; padding-top: 50px; margin-bottom: 30px; }
+
+.jumbotron-home img { margin-bottom: 20px; }
