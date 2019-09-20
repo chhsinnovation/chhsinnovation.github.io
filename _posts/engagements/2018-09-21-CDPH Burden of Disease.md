@@ -1,6 +1,7 @@
 ---
 layout: post
 author: chaeny
+title: "CDPH Burden of Disease"
 ---
 Tl:dr - CDPH was working on a tight deadline to provide a visualization of the burden of disease data across several criteria such as location, disease type, etc. The OI team worked with the team to produce a bug tracking process to identify, prioritize and address the issues. The team also provided high level product management methodology training.
 

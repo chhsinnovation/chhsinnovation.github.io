@@ -1,6 +1,7 @@
 ---
 layout: post
 author: chaeny
+title: "DOR Increase Access to Services"
 ---
 Tl;dr - Originally conceived as a project focusing on giving DOR staff a convenient way to submit applications on behalf of DOR clients for other CHHS services, this project pivoted to a new challenge when the original problem was not pervasive. The project focused on better servicing foster youth eligible for DOR services by scaling up a successful partner model used by one of the counties.
 

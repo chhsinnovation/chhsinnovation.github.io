@@ -1,6 +1,7 @@
 ---
 layout: post
 author: chaeny
+title: "DMHC Distance"
 ---
 Tl:dr - We worked with the Dept of Managed Health Care to improve the cumbersome, inexact and time intensive process of collecting data on the relative burden to accessing health care (the distance between a medical provider and given client). Working shoulder to shoulder with subject matter experts OI prototypes removed redundant steps, better utilized existing tools and created a process to improve process time by 70%. The reduction in staff frustration creating a more effective work environment that continues to pay dividends.
 
