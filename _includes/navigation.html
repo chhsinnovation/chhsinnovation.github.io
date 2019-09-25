@@ -1,5 +1,5 @@
 <nav>
-  <a href="/"><img src="assets/images/OoI-logo-lg borders.png" alt="OI logo" height="45"></a>
+  <a href="/"><img src="/assets/images/OoI-logo-lg borders.png" alt="OI logo" height="45"></a>
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
       {{ item.name }}
