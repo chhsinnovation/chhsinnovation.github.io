@@ -46,7 +46,7 @@ paths.markdownPattern = '/**/*.+(md|MD|markdown|MARKDOWN)';
 paths.htmlPattern = '/**/*.html';
 paths.xmlPattern = '/**/*.xml';
 
-// Asset files globs
+// APP files globs
 paths.cssFilesGlob = paths.cssFiles + paths.cssPattern;
 paths.jsFilesGlob = paths.jsFiles + paths.jsPattern;
 paths.imageFilesGlob = paths.imageFiles + paths.imagePattern;

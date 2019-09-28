@@ -20,11 +20,13 @@
     "defaults"
   ],
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.6.1",
     "fancy-log": "^1.3.3",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "require-dir": "^1.2.0",
+    "stylelint-config-recommended": "^3.0.0",
     "tailwindcss": "^1.1.2"
   }
 }
