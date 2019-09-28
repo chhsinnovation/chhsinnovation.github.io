@@ -30,4 +30,11 @@ sass:
   add_charset: true
   sass_dir: assets/css
 
-exclude: []
+exclude:
+  - _app
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
