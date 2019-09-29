@@ -1,9 +1,5 @@
 # theme: jekyll-theme-midnight
 
-collections:
-  authors:
-      output: true
-
 defaults:
   - scope:
       path: ""
@@ -26,9 +22,14 @@ plugins:
 
 encoding: utf-8
 
-sass:
-  add_charset: true
-  sass_dir: assets/css
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  authors:
+    output: true
+
+permalink: pretty
 
 exclude:
   - _app
