@@ -1,4 +1,3 @@
-const paths = require('./_app/config/paths');
 const gulp  = require('gulp');
 const cp = require("child_process");
 const log = require('fancy-log');
@@ -13,7 +12,7 @@ const browsersync = require('browser-sync').create();
 // Initialize BrowserSync.
 function browserSync(done) {
   browsersync.init({
-    server: paths.siteDir,
+    server: './_site/',
     ghostMode: false,
     logFileChanges: true,
     logLevel: 'debug',
