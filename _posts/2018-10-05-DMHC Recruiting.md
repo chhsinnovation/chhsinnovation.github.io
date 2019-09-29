@@ -2,6 +2,8 @@
 layout: post
 author: chaeny
 title: "DMHC Recruiting"
+tags:
+  - engagement
 ---
 Tl:dr - DMHC’s technology department lost interesting candidates because they took other jobs while waiting for the state’s longer hiring process. The OI team worked with representatives from HR and IT to craft a better job listing template, provide better direction on completing the state application process, and illustrate the great working culture at DMHC. The new template yielded applicants that previously had not considered working for the state.
 
