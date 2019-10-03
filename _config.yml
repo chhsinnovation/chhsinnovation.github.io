@@ -3,9 +3,9 @@
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "people"
     values:
-      layout: "author"
+      layout: "person"
   - scope:
       path: ""
       type: "posts"
@@ -26,7 +26,7 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  authors:
+  people:
     output: true
 
 permalink: pretty

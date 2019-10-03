@@ -6,20 +6,25 @@
     <meta name="description" content="CHHS Office of Innovation website">
     <meta name="author" content="CHHS Staff">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "assets/css/style.css" | relative_url }}">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="{{ "/assets/styles/full/styles.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900&display=swap" rel="stylesheet">     
+    <script>
+      function toggleIt() {
+        var element = document.getElementById("methods-menu");
+        element.classList.toggle("hidden");
+      }
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementById('methods-menu-link').onclick = toggleIt;
+      });
+    </script>
   </head>
   <body>
     {% include navigation.html %}
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          {{ content }}
-        </div>
-      </div>
+    <div class="container mx-blok pt-32 pb-12">
+      {{ content }}
     </div>
+    
     {% include footer.html %}
   </body>
 </html>
