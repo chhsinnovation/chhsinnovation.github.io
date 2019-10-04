@@ -1,23 +1,39 @@
 @tailwind base;
 
+a {
+    @apply underline;
+}
+
+article {
+    @apply text-gray-800;
+}
+
 article p {
     @apply leading-relaxed mb-6;
 }
 
 article h2 {
-    @apply text-2xl font-bold mt-12;
-}
-
-article a {
-    @apply underline;
+    @apply text-2xl font-bold mt-12 text-gray-900;
 }
 
 article ol {
-    @apply list-decimal pl-6 pt-2;
+    @apply list-decimal ml-6 mt-4;
 }
 
 article ul {
-    @apply list-disc pl-6 pt-2;
+    @apply list-disc ml-6 mt-4;
+}
+
+article li {
+    @apply mb-4;
+}
+
+article blockquote {
+    @apply border-l-4 border-gray-600 p-4 ml-12 my-12 bg-gray-200;
+}
+
+article blockquote p {
+    @apply italic mb-0;
 }
 
 @tailwind components;

@@ -19,7 +19,7 @@ champs:
   - name: Katey DeSanti
 director: chaeny
 tags:
-  - engagement
+  - Engagement
 ---
 
 ## The Initial Problem

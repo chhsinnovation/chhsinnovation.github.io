@@ -1,28 +1,39 @@
 ---
 layout: post
 author: chaeny
+host: Department name in full
+title: A short title
+full_title: The full title
+summary: One-paragraph summary, abstract, or tl;dr.
+staff:
+  - name: Name or Person ID
+  - name: Name or Person ID
+  - name: Name or Person ID
+  - name: Name or Person ID
+champs:
+  - name: Name or Person ID
+    role: Role/title within the engagement
+director: chaeny
+tags:
+  - Engagement
 ---
-Tl:dr - This posting has a date. Will it show up without one? Nope.! 
+Just type paragraphs like this. 
 
-<h1 class="jumbotron">This posting has no date</h1>
+## Headings
 
-<p>OI Staff: Belle E Ringer, Jru Wurk Toomuch, Gotobed Already<br />
+Here's another regular paragraph.
 
-CDPH Champion: We R. Champions<br />
-OI Director: Me</p>
+* Bullet 1
+* Bullet 2
+* Bullet 3
+    * Sub-bullet A
+    * Sub-bullet B
+* Bullet 4
 
-<h2>The Initial Problem</h2>
-<p>There were problems, others were blamed.</p>
+1. Numbered Lists Too
+2. Numbered Lists Two
+3. Numbered Lists Three
 
-<h2>Discovery</h2>
-<p>We discovered, no on talked to each other when they needed to</p>
+> Blockquotes
 
-<h2>New Challenge Statement</h2>
-<ul><li>(1)What the the capital of Assyria? </li> <li>(2) Istabul was Constantinople?</li></ul>
-<h2>Prototyping & Deliverables</h2>
-<p>Do it faster!</p>
 
-<h2>What you can use in your Department</h2>
-<ul><li>Talk to each other</li>
-<li>Be helpful</li>
-<li>Act like the person you want to be</li></ul>

@@ -3,16 +3,24 @@ layout: default
 title: Blog
 permalink: /blog
 ---
-<h1 class="jumbotron">Latest Posts</h1>
+<div class="mx-blok max-w-3xl">
+  <h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    {% if post.secondary != null %}
-    {% else %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  <ul>
+    {% for post in site.posts %}
+      <li class="mb-12">
+        <span class="text-sm text-gray-700 leading-none">
+            {{ post.tags | slice: 0, 3 | join: ", " }}
+        </span>
+        <h2 class="text-2xl mb-4 font-bold text-gray-900 leading-none">
+          <a href="{{ post.url }}">{{ post.full_title }}</a>
+        </h2>
+        <span class="text-gray-700 mb-2">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </span>
+        <p class="text-gray-800 mb-2">{{ post.summary }}</p>
+        <a class="block" href="{{ post.url }}">Read more</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
