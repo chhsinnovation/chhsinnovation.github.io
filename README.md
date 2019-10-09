@@ -1,4 +1,4 @@
-This is the GitHub.io presence for the CHHS Office of Innovation. This site houses information about the office, the official communications and outreach calendars, the playbook and open source innovation places for collaboration.
+This is the GitHub.io presence for the CHHS Office of Innovation. This site houses information about the office, the official communications and outreach calendars, the playbook, and open source innovation places for collaboration.
 
 Cohort 1 created the content and structure for the site during the Agile the Right Way workshop in June 2018. It was the first "project" the team did together and inspired most of the content on here.
 
