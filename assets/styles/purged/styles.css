@@ -801,10 +801,6 @@ article blockquote p {
   background-color: #175692;
 }
 
-.border-gray-100 {
-  border-color: #f7fafc;
-}
-
 .border-gray-300 {
   border-color: #e2e8f0;
 }
@@ -840,10 +836,6 @@ article blockquote p {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-r {
-  border-right-width: 1px;
 }
 
 .block {
@@ -926,8 +918,8 @@ article blockquote p {
   height: 6rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-64 {
+  height: 16rem;
 }
 
 .leading-none {
@@ -1008,6 +1000,11 @@ article blockquote p {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .px-6 {
@@ -1102,6 +1099,10 @@ article blockquote p {
 
 .text-4xl {
   font-size: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 4rem;
 }
 
 .italic {
