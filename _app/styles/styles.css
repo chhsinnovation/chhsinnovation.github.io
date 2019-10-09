@@ -1,11 +1,15 @@
 @tailwind base;
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 a {
     @apply underline;
 }
 
 article {
-    @apply text-gray-800;
+    @apply text-gray-700;
 }
 
 article p {
@@ -13,7 +17,7 @@ article p {
 }
 
 article h2 {
-    @apply text-2xl font-bold mt-12 text-gray-900;
+    @apply text-2xl font-bold mt-12 text-gray-800;
 }
 
 article ol {
@@ -29,7 +33,7 @@ article li {
 }
 
 article blockquote {
-    @apply border-l-4 border-gray-600 p-4 ml-12 my-12 bg-gray-200;
+    @apply border-l-4 border-gray-500 p-4 ml-12 my-12 bg-gray-200;
 }
 
 article blockquote p {
@@ -48,3 +52,22 @@ article blockquote p {
 }
 
 @tailwind utilities;
+
+.rotate-0 {
+    transform: rotate(0deg);
+}
+.rotate-2 {
+    transform: rotate(2deg);
+}
+.rotate-5 {
+    transform: rotate(5deg);
+}
+.rotate-30 {
+    transform: rotate(30deg);
+}
+.-rotate-2 {
+    transform: rotate(-2deg);
+}
+.-rotate-5 {
+    transform: rotate(-5deg);
+}

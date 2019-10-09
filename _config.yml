@@ -25,7 +25,7 @@ encoding: utf-8
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:name/
   people:
     output: true
 

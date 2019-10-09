@@ -1,28 +1,46 @@
-<div class="fixed bg-white w-full">
+<div class="fixed z-50 bg-white w-full">
   <nav class="container mx-blok h-20 sm:h-24 flex items-center justify-between flex-wrap py-2">
     <div>
-      <a href="/"><img class="object-contain h-12 sm:h-16" src="/assets/images/OoI-logo-lg borders.png" alt="Office of Innovation Homepage"></a>
+      <a href="{{ "/" | relative_url }}"><img class="object-contain h-12 sm:h-16" src="{{ "/assets/images/OoI-logo-lg borders.png" | relative_url }}" alt="Office of Innovation Homepage"></a>
     </div>
     <div class="block flex-grow flex items-center w-auto justify-end">
       <a href="#responsive-header" id="methods-menu-link" class="hidden md:block lg:inline-block text-sm sm:text-base lg:text-lg font-bold text-blue-700 hover:text-blue-900 mr-6 lg:mr-12">
         Methods
       </a>
-      <a href="/blog.html" class="hidden md:block lg:inline-block text-sm sm:text-base lg:text-lg font-bold text-blue-700 hover:text-blue-900 mr-6 lg:mr-12">
-        Engagements
+      <a href="{{ "/blog" | relative_url }}" class="hidden md:block lg:inline-block text-sm sm:text-base lg:text-lg font-bold text-blue-700 hover:text-blue-900 mr-6 lg:mr-12">
+        Blog
       </a>
       <a href="#responsive-header" class="hidden md:block lg:inline-block text-sm sm:text-base lg:text-lg font-bold text-blue-700 hover:text-blue-900 mr-6 lg:mr-12">
         Community
       </a>
-      <a href="#" class="hidden md:block text-sm lg:text-lg font-bold px-6 lg:px-8 py-4 lg:py-4 leading-none border rounded text-white bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
+      <a href="{{ "/get-involved" | relative_url }}" class="hidden no-underline md:block text-base lg:text-lg font-bold px-6 lg:px-8 py-4 lg:py-4 leading-none border rounded text-white bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
         Get Involved
       </a>
-      <a href="#" class="block md:hidden text-sm sm:text-base font-bold px-6 py-4 leading-none border rounded text-white bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
+      <a href="#" class="block no-underline md:hidden text-sm sm:text-base font-bold px-6 py-4 leading-none border rounded text-white bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
         Menu
       </a>
     </div>
   </nav>
   <hr class="border-t border-gray-500">
-  <div id="methods-menu" class="hidden">
-    <h1>I'm alive!</h1>
+  <div id="methods-menu" class="hidden bg-blue-700">
+    <div class="container mx-blok py-6 h-64 flex flex-row items-center justify-center text-gray-100">
+      <div class="flex flex-row">
+        <svg class="h-24 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><circle cx="50.8" cy="16.3" r="1.9"/><path d="M77.5,19h-1.9c-1.1-2.9-3.5-5-6.5-5.8c-1.2-3.2-4.2-5.4-7.8-5.4h-21c-3.6,0-6.6,2.3-7.8,5.4c-3,0.8-5.4,3-6.5,5.8h-1.9  c-4.6,0-8.4,3.8-8.4,8.4v56.4c0,4.6,3.8,8.4,8.4,8.4h53.4c4.6,0,8.4-3.8,8.4-8.4V27.4C85.9,22.8,82.1,19,77.5,19z M20.6,83.8V27.4  c0-1.9,1.5-3.4,3.4-3.4h3.2v2.6c0,1.3,1,2.3,2.3,2.3h42.3c1.3,0,2.3-1,2.3-2.3V24h3.2c1.9,0,3.4,1.5,3.4,3.4v56.4  c0,1.9-1.5,3.4-3.4,3.4H24.1C22.2,87.2,20.6,85.7,20.6,83.8z M37,17.9v-1.8c0-1.8,1.5-3.4,3.4-3.4h20.9c1.8,0,3.4,1.5,3.4,3.4v1.8  h2.1c2.5,0,4.5,2,4.5,4.5V26h-41v-3.5c0-2.5,2-4.5,4.5-4.5H37V17.9z"/><path d="M51.2,61.4l1.1-1.1c0.6-0.6,0.6-1.6,0-2.2c-0.6-0.6-1.6-0.6-2.2,0L49,59.2l-1-1.1c-0.6-0.6-1.6-0.6-2.2,0s-0.6,1.6,0,2.2  l1.1,1.1l-1.1,1.1c-0.6,0.6-0.6,1.6,0,2.2c0.2,0.2,0.7,0.5,1.1,0.5s0.7-0.1,1.1-0.5l1.1-1.1l1.1,1.1c0.2,0.2,0.7,0.5,1.1,0.5  c0.4,0,0.7-0.1,1.1-0.5c0.6-0.6,0.6-1.6,0-2.2L51.2,61.4z"/><path d="M65.7,54.8l1.1-1.1c0.6-0.6,0.6-1.6,0-2.2s-1.6-0.6-2.2,0l-1.1,1.1l-1-1.1c-0.6-0.6-1.6-0.6-2.2,0s-0.6,1.6,0,2.2l1.1,1.1  l-1.1,1.1c-0.6,0.6-0.6,1.6,0,2.2c0.2,0.2,0.7,0.5,1.1,0.5s0.7-0.1,1.1-0.5l1.1-1.1l1.1,1.1c0.2,0.2,0.7,0.5,1.1,0.5  s0.7-0.1,1.1-0.5c0.6-0.6,0.6-1.6,0-2.2L65.7,54.8z"/><path d="M39.1,42l1.1-1.1c0.6-0.6,0.6-1.6,0-2.2s-1.6-0.6-2.2,0l-1.1,1.1l-1-1.1c-0.6-0.6-1.6-0.6-2.2,0s-0.6,1.6,0,2.2l1.1,1.1  l-1.1,1.1c-0.6,0.6-0.6,1.6,0,2.2c0.2,0.2,0.7,0.5,1.1,0.5s0.7-0.1,1.1-0.5l1.1-1.1l1.1,1.1c0.2,0.2,0.7,0.5,1.1,0.5  c0.4,0,0.7-0.1,1.1-0.5c0.6-0.6,0.6-1.6,0-2.2L39.1,42z"/><g><path d="M37.6,78.9c-2.6,0-4.7-2.1-4.7-4.7s2.1-4.7,4.7-4.7s4.7,2.1,4.7,4.7S40.2,78.9,37.6,78.9z M37.6,71.9c-1.3,0-2.3,1-2.3,2.3   s1,2.3,2.3,2.3s2.3-1,2.3-2.3S38.9,71.9,37.6,71.9z"/></g><g><path d="M50.7,78.9c-2.6,0-4.7-2.1-4.7-4.7s2.1-4.7,4.7-4.7s4.7,2.1,4.7,4.7S53.2,78.9,50.7,78.9z M50.7,71.9c-1.3,0-2.3,1-2.3,2.3   s1,2.3,2.3,2.3s2.3-1,2.3-2.3S51.9,71.9,50.7,71.9z"/></g><g><path d="M63.7,78.9c-2.6,0-4.7-2.1-4.7-4.7s2.1-4.7,4.7-4.7s4.7,2.1,4.7,4.7S66.2,78.9,63.7,78.9z M63.7,71.9c-1.3,0-2.3,1-2.3,2.3   s1,2.3,2.3,2.3s2.3-1,2.3-2.3S64.9,71.9,63.7,71.9z"/></g><path d="M61.9,40.6L58.4,36c-0.4-0.5-1.2-0.5-1.6,0l-3.5,4.6C52.9,41,53,41.6,53.4,42c0.2,0.1,0.4,0.2,0.6,0.2  c0.3,0,0.6-0.1,0.8-0.4l1.7-2.2c0,0.7,0,1.4,0,2.4c0.1,5.7-3.3,6.2-8.7,6.6c-5,0.3-11.2,0.8-11.2,9.5c0,4.3,0,8.1,0,8.1  c0,0.6,0.4,1,1,1c0,0,0,0,0,0c0.6,0,1-0.5,1-1c0,0,0-3.9,0-8.1c0-6.9,4.1-7.2,9.4-7.5c4.7-0.3,10.6-0.7,10.5-8.6c0-1.1,0-1.9,0-2.5  l1.7,2.3c0.3,0.4,1,0.5,1.4,0.2C62.1,41.6,62.2,41,61.9,40.6z"/></svg>
+        <div class="flex flex-col">
+          <a href="playbook" class="text-2xl text-gray-100 font-bold no-underline">
+            Playbook
+          </a>
+          <span class="block">
+            Fifteen in-depth plays to foster innovation in your organization.
+          </span>
+        </div>
+      </div>
+      <div class="w-1/3">
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
   </div>
 </div>

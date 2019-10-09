@@ -40,7 +40,7 @@ function clean() {
 function css() {
   return gulp.src(['./_app/styles/styles.css'])
     .pipe(postcss([
-      tailwindcss('./_app/config/tailwind.config.js'),
+      tailwindcss('./tailwind.config.js'),
       autoprefixer(),
     ]))
     .pipe(gulp.dest('./assets/styles/full/'))
@@ -83,14 +83,14 @@ function prodJekyll(done) {
 function localJekyll(done) {
   jekyll([
     '_config.yml',
-    '_app/config/_config.development.yml'
+    '_config.development.yml'
   ]);
   done();
 };
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./_app/styles/**/*.css", css);
+  gulp.watch(["./_app/styles/**/*.css", "./tailwind.config.js"], css);
   gulp.watch(
     [
       "./_authors/**/*",
