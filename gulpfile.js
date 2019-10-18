@@ -90,7 +90,11 @@ function localJekyll(done) {
 
 // Watch files
 function watchFiles() {
-  gulp.watch(["./_app/styles/**/*.css", "./tailwind.config.js"], css);
+  gulp.watch(
+    ["./_app/styles/**/*.css", 
+    "./tailwind.config.js"], 
+    gulp.series(css, browserSyncReload)
+  );
   gulp.watch(
     [
       "./_authors/**/*",

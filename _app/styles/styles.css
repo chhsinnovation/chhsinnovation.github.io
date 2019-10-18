@@ -8,10 +8,6 @@ a {
     @apply underline;
 }
 
-article {
-    @apply text-gray-700;
-}
-
 article p {
     @apply leading-relaxed mb-6;
 }
@@ -33,11 +29,11 @@ article li {
 }
 
 article blockquote {
-    @apply border-l-4 border-gray-500 p-4 ml-12 my-12 bg-gray-200;
+    @apply border-l-4 border-gray-500 p-4 ml-12 my-12 bg-gray-200 text-gray-800;
 }
 
 article blockquote p {
-    @apply italic mb-0;
+    @apply mb-0;
 }
 
 @tailwind components;
@@ -55,19 +51,4 @@ article blockquote p {
 
 .rotate-0 {
     transform: rotate(0deg);
-}
-.rotate-2 {
-    transform: rotate(2deg);
-}
-.rotate-5 {
-    transform: rotate(5deg);
-}
-.rotate-30 {
-    transform: rotate(30deg);
-}
-.-rotate-2 {
-    transform: rotate(-2deg);
-}
-.-rotate-5 {
-    transform: rotate(-5deg);
 }

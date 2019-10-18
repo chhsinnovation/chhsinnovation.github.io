@@ -8,6 +8,7 @@ module.exports = {
         '80': '20rem',
         '84': '21rem',
         '96': '24rem',
+        '128': '32rem',
       },
       zIndex: {
         '-10': '-10'
@@ -216,9 +217,21 @@ module.exports = {
         return accumulator;
       }, baseClass);
 
-
-
       addComponents(selectors);
+    },
+    function({ addUtilities }) {
+      let selectors = _.reduce(_.range(1, 11), function(accumulator, value){
+        accumulator[`.rotate-${value}`] = {
+          'transform': `rotate(${value}deg)`
+        };
+        accumulator[`.-rotate-${value}`] = {
+          'transform': `rotate(-${value}deg)`
+        };
+
+        return accumulator;
+      }, {});
+
+      addUtilities(selectors, ['responsive', 'hover']);
     }
   ]
 }
