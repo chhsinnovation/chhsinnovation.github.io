@@ -88,7 +88,7 @@ For knowing nothing about our struggles six weeks ago, I am amazed at what you w
 {% capture attribution %}
 Dan Southard, Deputy Director- OPM, DMHC
 {% endcapture %}
-{% include blockquote-attribution.html quote=quote attribution=attribution %}
+{% include components/blockquote-attribution.html quote=quote attribution=attribution %}
 
 {% capture quote %}
 It was wonderful to work with you and the rest of the innovation team and we’re so pleased with the changes we’ve already been able to implement based on your work. Depending on the complexity and background of the filing, our [pre-work] process has effectively reduced work time up to about 30% . . . but we’ve seen real efficiencies in cases where there might otherwise have been misplaced focus or duplicative work. The reduction in ambiguity and staff frustration due to [our pre-work process] is less quantifiable, but not less important.
@@ -96,7 +96,7 @@ It was wonderful to work with you and the rest of the innovation team and we’r
 {% capture attribution %}
 Michael Hodnett, Lawyer- OPM, DMHC
 {% endcapture %}
-{% include blockquote-attribution.html quote=quote attribution=attribution %}
+{% include components/blockquote-attribution.html quote=quote attribution=attribution %}
 
 {% capture quote %}
 It was an awesome experience for us as well. We will be looking forward to that next opportunity to work together. Until then, rock on!
@@ -104,7 +104,7 @@ It was an awesome experience for us as well. We will be looking forward to that 
 {% capture attribution %}
 Chris Wordlaw, SSM II- OPM, DMHC
 {% endcapture %}
-{% include blockquote-attribution.html quote=quote attribution=attribution %}
+{% include components/blockquote-attribution.html quote=quote attribution=attribution %}
 
 ## Other Quotes
 
@@ -129,4 +129,4 @@ Given the workload in my office, the time commitment requested by the CHHS Innov
 {% capture attribution %}
 Dan Southard, Deputy Director- OPM, DMHC
 {% endcapture %}
-{% include blockquote-attribution.html quote=quote attribution=attribution %}
+{% include components/blockquote-attribution.html quote=quote attribution=attribution %}

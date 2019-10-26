@@ -12,10 +12,6 @@ article p {
     @apply leading-relaxed mb-6;
 }
 
-article h2 {
-    @apply text-2xl font-bold mt-12 text-gray-800;
-}
-
 article ol {
     @apply list-decimal ml-6 mt-4;
 }
@@ -34,6 +30,22 @@ article blockquote {
 
 article blockquote p {
     @apply mb-0;
+}
+
+article#post h2 {
+    @apply text-2xl font-bold mt-12 text-gray-800;
+}
+
+article#playbook h1 {
+    @apply text-6xl font-black my-12 text-gray-900 leading-none;
+}
+
+article#playbook h2 {
+    @apply text-4xl font-bold mb-12 pt-48 mt-24 text-gray-800 leading-none border-t border-gray-300;
+}
+
+article#post section h2 {
+    @apply mt-0;
 }
 
 @tailwind components;

@@ -616,13 +616,6 @@ article p {
   margin-bottom: 1.5rem;
 }
 
-article h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 3rem;
-  color: #2d3748;
-}
-
 article ol {
   list-style-type: decimal;
   margin-left: 1.5rem;
@@ -652,6 +645,38 @@ article blockquote {
 
 article blockquote p {
   margin-bottom: 0;
+}
+
+article#post h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  color: #2d3748;
+}
+
+article#playbook h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #1a202c;
+  line-height: 1;
+}
+
+article#playbook h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  padding-top: 12rem;
+  margin-top: 6rem;
+  color: #2d3748;
+  line-height: 1;
+  border-top-width: 1px;
+  border-color: #e2e8f0;
+}
+
+article#post section h2 {
+  margin-top: 0;
 }
 
 .container {

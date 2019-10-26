@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="max-w-3xl text-lg mx-blok mt-12 text-gray-700">
+<article id="post" class="max-w-3xl text-lg mx-blok mt-12 text-gray-700">
   <span class="text-2xl text-gray-800 font-thin mt-8 leading-none">
       {{ page.host }}
   </span>
@@ -12,7 +12,7 @@ layout: default
   {% assign author = site.people | where: 'short_name', page.author | first %}
   <div class="mb-12">
     {% if author %}
-      {% include contact-card-mini.html person=author %}
+      {% include components/contact-card-mini.html person=author %}
     {% else %}
       <span class="block">
         {{ author.name }}
@@ -25,14 +25,14 @@ layout: default
   </span>
 
   {% if page.summary %}
-    <div class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
+    <section class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
       <h2 class="mt-0">
         Summary
       </h2>
       <p class="mb-0">
         {{ page.summary }}
       </p>
-    </div>
+    </section>
   {% endif %}
 
   {{content}}
@@ -45,9 +45,9 @@ layout: default
       {% for person in page.staff %}
         {% assign profile = site.people | where: 'short_name', person.name | first %}
         {% if profile %}
-          {% include contact-card-mini.html person=profile %}
+          {% include components/contact-card-mini.html person=profile %}
         {% else %}
-          {% include contact-card-mini.html person=person %}
+          {% include components/contact-card-mini.html person=person %}
         {% endif %}
       {% endfor %}
     </div>
@@ -59,7 +59,7 @@ layout: default
     </h2>
     <div class="flex flex-col">
       {% for person in page.champs %}
-          {% include contact-card-guest.html person=person %}
+          {% include components/contact-card-guest.html person=person %}
       {% endfor %}
     </div>
   {% endif %}

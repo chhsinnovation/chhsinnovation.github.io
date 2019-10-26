@@ -1,5 +1,3 @@
-# theme: jekyll-theme-midnight
-
 defaults:
   - scope:
       path: ""
@@ -18,6 +16,11 @@ defaults:
       layout: "page"
   - scope:
       path: ""
+      type: "plays"
+    values:
+      layout: "play"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
@@ -33,6 +36,10 @@ collections:
     permalink: /:name/
   people:
     output: true
+    permalink: /people/:name/
+  plays:
+    output: true
+    permalink: /playbook/:name/
 
 permalink: pretty
 

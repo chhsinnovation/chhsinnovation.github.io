@@ -7,8 +7,7 @@
     <meta name="author" content="CHHS Staff">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/styles/full/styles.css" | relative_url }}">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Sans+Pro:200i,400,700,900&display=swap" rel="stylesheet">     
-    <script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">     <script>
       function toggleIt() {
         var element = document.getElementById("methods-menu");
         element.classList.toggle("hidden");
@@ -21,9 +20,9 @@
   <body>
     {% include navigation.html %}
 
-    <div class="container mx-blok pt-24 pb-12">
+    <main class="container mx-blok pt-24 pb-24">
       {{ content }}
-    </div>
+    </main>
     
     {% include footer.html %}
   </body>

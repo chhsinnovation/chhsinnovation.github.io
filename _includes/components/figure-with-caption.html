@@ -1,0 +1,8 @@
+<figure class="my-16 flex flex-col items-center border border-gray-500">
+    <div class="p-2 border-b-4 border-gray-500 w-full flex flex-col items-center">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.description }}" title="{{ include.title }}">
+    </div>
+    <figcaption class="py-2 w-full text-center bg-gray-200 text-gray-600">
+        {{ include.caption }}
+    </figcaption>
+</figure>
