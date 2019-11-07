@@ -2288,3 +2288,26 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table { border-collapse: collapse !important; }
   .table td, .table th { background-color: #fff !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
+body { font-family: 'Source Sans Pro', sans-serif; font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+
+blockquote { font-weight: bold; font-size: 30px; padding-bottom: 20px; }
+
+blockquote p { margin-bottom: 0; padding-bottom: 0; }
+
+nav { padding: 5px; margin-bottom: 20px; }
+
+.accordian { padding-bottom: 30px !important; }
+
+.jumbotron, .jumbotron h1 { color: #fff; }
+
+.jumbotron { background: #114476; }
+
+.btn-link { font-size: 20px !important; font-weight: 900 !important; }
+
+footer { border-top: 1px solid #f1f1f1; margin-top: 20px; padding-top: 20px; padding-bottom: 20px; }
+
+.jumbotron-home { background: #f1f1f1 !important; color: #212121 !important; padding: 30px; padding-top: 50px; margin-bottom: 30px; }
+
+.jumbotron-home img { margin-bottom: 20px; }

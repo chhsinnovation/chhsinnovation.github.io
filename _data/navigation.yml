@@ -1,5 +1,7 @@
 - name: About |
   link: /staff.html
+- name: How We Work |
+  link: /how-we-work.html
 - name: Engagements |
   link: /blog.html
 - name: Need help? |
@@ -10,3 +12,7 @@
   link: /methods.html
 - name: Playbook |
   link: /secondary.html
+- name: Training |
+  link: /training.html
+- name: Get Involved
+  link: /get-involved.html
