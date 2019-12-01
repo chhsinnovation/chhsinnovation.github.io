@@ -999,11 +999,13 @@ a {
 }
 
 @media (min-width: 640px) {
-  .mx-blok{
+
+.mx-blok {
     padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
+
+    padding-right: 1.5rem
 }
+  }
 
 .sr-only {
   position: absolute;
@@ -14652,88 +14654,102 @@ a {
   left: 50%;
 }
 
-/* Utilities end, markdown assignments begin. */
-
 article p, article ol, article ul, article h1, article h2, article h3 {
-  max-width: 48rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 
 @media (min-width: 640px) {
-  article p, article ol, article ul, article h1, article h2, article h3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+
+article p, article ol, article ul, article h1, article h2, article h3 {
+      padding-left: 1.5rem;
+
+      padding-right: 1.5rem
   }
-}
+    }
 
 article p {
-  line-height: 1.625;
-  margin-bottom: 1.5rem;
-}
+    line-height: 1.625;
+    margin-bottom: 1.5rem;
+  }
 
 article ol {
-  list-style-type: decimal;
-  margin-top: 1rem;
-}
+    list-style-type: decimal;
+    margin-top: 1rem;
+  }
 
 article ul {
-  list-style-type: disc;
-  margin-top: 1rem;
-}
+    list-style-type: disc;
+    margin-top: 1rem;
+  }
 
 article li {
-  margin-bottom: 1rem;
-  margin-left: 1.5rem;
-}
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
 
 article blockquote {
-  max-width: 36rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-left-width: 4px;
-  border-color: #a0aec0;
-  padding: 1rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background-color: #edf2f7;
-  color: #2d3748;
-}
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-left-width: 4px;
+    border-color: #a0aec0;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #edf2f7;
+    color: #2d3748;
+  }
 
 article blockquote p {
-  margin-bottom: 0;
-}
+      margin-bottom: 0;
+    }
 
 article h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 3rem;
-  color: #2d3748;
-}
-
-article#playbook h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  padding-top: 10rem;
-  margin-top: 10rem;
-  color: #2d3748;
-  line-height: 1;
-  border-top-width: 1px;
-  border-color: #e2e8f0;
-}
-
-article#post section h2 {
-  margin-top: 0;
-}
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    color: #2d3748;
+  }
 
 article h3 {
-  font-weight: 700;
-  margin-top: 3rem;
-  color: #2d3748;
-}
+    font-weight: 700;
+    margin-top: 3rem;
+    color: #2d3748;
+  }
+
+article#playbook h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    padding-top: 10rem;
+    margin-top: 10rem;
+    color: #2d3748;
+    line-height: 1;
+    border-top-width: 1px;
+    border-color: #e2e8f0;
+  }
+
+article#post section h2 {
+    margin-top: 0;
+  }
+
+article#summaries p, article#summaries ol, article#summaries ul, article#summaries h1, article#summaries h2, article#summaries h3 {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+article#summaries h3 {
+    margin-top: 1.5rem;
+  }
+
+article#summaries ol, article#summaries ul {
+    margin-bottom: 1.5rem;
+  }
 
 @media (min-width: 640px) {
   .sm\:sr-only {

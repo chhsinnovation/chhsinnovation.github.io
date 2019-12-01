@@ -3,7 +3,9 @@ const cp = require("child_process");
 const log = require('fancy-log');
 const del = require('del');
 const postcss = require('gulp-postcss');
+const cssnested = require('postcss-nested');
 const tailwindcss = require('tailwindcss');
+const cssimporter = require('postcss-import');
 const autoprefixer = require('autoprefixer');
 const purgecss = require('@fullhuman/postcss-purgecss')
 
@@ -40,7 +42,9 @@ function clean() {
 function css() {
   return gulp.src(['./_app/styles/styles.css'])
     .pipe(postcss([
+      cssimporter(),
       tailwindcss('./tailwind.config.js'),
+      cssnested({ unwrap: ['']}),
       autoprefixer(),
     ]))
     .pipe(gulp.dest('./assets/styles/full/'))
@@ -105,7 +109,8 @@ function watchFiles() {
       "./_includes/**/*",
       "./_layouts/**/*",
       "./_pages/**/*",
-      "./_posts/**/*"
+      "./_posts/**/*",
+      "./_summaries/**/*",
     ],
     gulp.series(localJekyll, browserSyncReload)
   );

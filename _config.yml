@@ -1,25 +1,25 @@
 defaults:
   - scope:
-      path: ""
+      path: "_people"
       type: "people"
     values:
       layout: "person"
   - scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
       type: "post"
   - scope:
-      path: ""
+      path: "_pages"
       type: "pages"
     values:
       layout: "page"
   - scope:
-      path: ""
-      type: "plays"
+      path: "_summaries"
+      type: "summaries"
     values:
-      layout: "play"
+      layout: "page"
   - scope:
       path: ""
     values:
@@ -37,6 +37,9 @@ collections:
   pages:
     output: true
     permalink: /:name/
+  summaries:
+    output: true
+    permalink: /summaries/:name/
   people:
     output: true
     permalink: /people/:name/
