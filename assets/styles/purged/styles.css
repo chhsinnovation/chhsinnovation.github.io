@@ -1084,6 +1084,10 @@ a {
   max-width: 48rem;
 }
 
+.min-w-0 {
+  min-width: 0;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
