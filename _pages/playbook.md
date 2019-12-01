@@ -1,10 +1,8 @@
 ---
-layout: article
+layout: page
 type: playbook
 title: Playbook
 ---
-# Playbook
-
 The creation of the CA Health and Human Services Office of Innovation (CHHS OI) progressed rapidly and is producing better than expected results. Informed by advice from many mentors and direct experience in government, private industry, higher ed and “Momma knows best” (my mother has been in state service for over 50 years and is currently crafting product roadmaps and writing user stories for FTB). Refined by experience in actual engagements.
 
 This is a constant work in progress. As we do each engagement, we look back at our processes and habits and refine them… also known as agile. These principles and techniques worked for us, but they may not work for you. We invite you to take anything from our experiences and try them. Fork the items here and if you find something that works better, let us know. Let’s work together to create the government services we all deserve.
@@ -13,19 +11,19 @@ This is a constant work in progress. As we do each engagement, we look back at o
 
 1. [Create safe psychological spaces](#create-safe-psychological-spaces)
 2. [Train staff in human centered design](#train-staff-in-human-centered-design)
-3. Timebox your efforts
-4. Emphasize communications and facilitation skills
-5. Define your problem
-6. Skills exchange
-7. Showcase skills daily
-8. Pick staff based on curiosity and grit
-9. Meet with the highest leader of your organization
-10. Adjust the methods to fit the culture of your organization
-11. Honestly assess the leadership buy-in
-12. Resist arbitrary measures of your success
-13. “Find the Truth, Tell the Truth”
-14. Start with problem definition and iterate solutions
-15. No individual contributors
+3. [Timebox your efforts](#timebox-your-efforts)
+4. [Emphasize communications and facilitation skills](#emphasize-communications-and-facilitation-skills)
+5. [Define your problem](#define-your-problem)
+6. [Skills exchange](#skills-exchange)
+7. [Showcase skills daily](#showcase-skills-daily)
+8. [Pick staff based on curiosity and grit](#pick-staff-based-on-curiosity-and-grit)
+9. [Meet with the highest leader of your organization](#meet-with-the-highest-leader-of-your-organization)
+10. [Adjust the methods to fit the culture of your organization](#adjust-the-methods-to-fit-the-culture-of-your-organization)
+11. [Honestly assess the leadership buy-in](#honestly-assess-the-leadership-buy-in)
+12. [Resist arbitrary measures of your success](#resist-arbitrary-measures-of-your-success)
+13. [“Find the Truth, Tell the Truth”](#find-the-truth-tell-the-truth)
+14. [Start with problem definition and iterate solutions](#start-with-problem-definition-and-iterate-solutions)
+15. [No individual contributors](#no-individual-contributors)
 
 
 
@@ -45,6 +43,8 @@ Ask yourself:
 Resources for you:
 		
 [Google’s two year study on high performing teams](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -93,6 +93,8 @@ Core to our success is our training in communications and facilitation technique
 
 Lastly, we strive to push staff into high levels of personal growth. The more enlightened staff feel, the better they are able to perform this challenging, transformative work. We want staff to push to become the best versions of themselves. Self-awareness and empathy are core to this.
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Timebox your efforts
@@ -107,6 +109,8 @@ Our structure is that existing state staff join the office either as full time o
 Our engagements with departments are timeboxed to eight weeks to avoid getting stuck in quagmires and to create a sense of urgency. The eight weeks are broken into a week of prep to schedule interviews and meet the subject matter experts (SMEs) followed by three two week sprints and ending with a week of wrap up and documentation. Prior to starting we have 2-3 weeks of prep work to set up interviews and logistics so we can start interviews first thing Monday morning on our official start day.
 
 We also have two additional models: Two week mini-engagements focused on problem definition or skills exchange. 16 week engagements for larger scale efforts/more complex delivery needs.
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -125,6 +129,8 @@ Resources for you:
 
 * [AspirationTech - Facilitation courses](https://facilitation.aspirationtech.org/index.php?title=Main_Page)
 * [MarketForce Global - Humanware 2.0 communication skills](https://www.marketforceglobal.com/)
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -149,6 +155,8 @@ Resources for you:
 
 Check out the [lightweight strategy](https://docs.google.com/document/d/1fgI_3IcPWjOwRrWjt4SK54Y6khrYIeWWEnWjtJ2_1KY/edit#heading=h.hwhaodn2gqk) for OI
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Skills exchange
@@ -169,6 +177,8 @@ Resources for you:
 
 The Phoenix Project by Kevin Behr, George Spafford, and Gene Kim
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Showcase skills daily
@@ -187,6 +197,8 @@ This means Innovation and organizational leadership must agree that
 3. The participants will use the techniques and processes taught by the OI staff
 4. They OI staff and department staff on the engagement will work shoulder to shoulder to build a prototype solution and teach/learn along the way
 5. The department staff will carry on with the work after the engagement ends
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -213,6 +225,8 @@ Resources for you:
 		
 LINK TO HIRING STRATEGY DOCUMENT WITH INTERVIEW QUESTIONS, SCORING STAFF AFTER INTERVIEWS (FORM ON DRIVE), STAFFING ASK METHOD FOR FT/PT STAFF (IO STAFFING PROPOSAL ON DRIVE), IO STAFFING POSITION DESC (ON DRIVE), STRUCTURE OVERVIEW FT/PT for 1 or 2 years (MAYBE MAKE A SECTION ON GH AND JUST LINK TO IT)
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Meet with the highest leader of your organization
@@ -223,6 +237,8 @@ Convenience the highest leader of your organization to think about calculus whil
 {% include components/short-punch-summary.html summary=summary %}
 
 Coming soon.
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -235,6 +251,8 @@ Principles remain constant, but adjust the methods to fit the culture of your or
 
 Coming soon.
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Honestly assess the leadership buy-in
@@ -246,6 +264,7 @@ Honestly assess the leadership buy-in: top, middle and “influencers” not any
 
 Top must support 100% but not dictate what processes you do. Influencers - get grassroots and gurus onto projects and teach them the techniques either as staff or early engagements. Middle don’t forget….put in stuff about specialized training for them to learn how to manage and report project using these techniques.
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
       
 
 ## Resist arbitrary measures of your success
@@ -258,6 +277,8 @@ Resist arbitrary measures of your success, while using metrics everywhere you ca
 This is so key. Top has to just expect culture change….eventually. Not 5 innovations in a quarter. It doesn’t work that way and when you put those arbitrary goals, then you press for success and force things that need to be pivoted or stopped.
 
 Use metrics like UTAUT, net promoter to see if your prototypes are improving things. Look at usage, etc. that shows your things are better than status quo.
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 
 
 
@@ -272,6 +293,8 @@ We borrowed shamelessly from [USDS’s values](https://www.usds.gov/values.html)
 
 It’s uncomfortable at times, but if the organization can’t honestly look at things that aren’t going well, they will have no chance in fixing it. Do it gently and respectfully, but insist on telling the truth as you found it AND add a solution to fix it. That is the point of the prototypes. “This is bad, but if we try this our testing found that it will make it XX% better”.
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## Start with problem definition and iterate solutions
@@ -283,9 +306,13 @@ It’s not about technology - it’s about problem definition and iterating solu
 
 Resist the temptation to make everything about technology. Tech is a tool and an enabler so you must align closely with the tech people. You will undoubtedly have cultural and skills based blockers. If people think you are only about providing them with shiny new technology, they will be waiting for a silver bullet solution to fix everything. Focus on improving the human based workflows. Ask what makes the most sense to get the job done if technology or existing limitations were not a factor. When those are working better, then add technology. This will also gain you buy in that you are truly there to improve the human condition in the organization for both employees and constituents.
 
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
+
 
 
 ## No Individual Contributors!
 
 Individual contributors get swallowed by the larger organization and this process needs a team. Teams of 4 or at least multiples of 2 so you have a note taker and interviewer. (Can pull in quote from Content Strategy Toolkit Meghan Casey)
+
+{% include components/back-to-top.html selector="#the-fifteen-plays" %}
 

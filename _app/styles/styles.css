@@ -8,46 +8,6 @@ a {
     @apply underline;
 }
 
-article p {
-    @apply leading-relaxed mb-6;
-}
-
-article ol {
-    @apply list-decimal ml-6 mt-4;
-}
-
-article ul {
-    @apply list-disc ml-6 mt-4;
-}
-
-article li {
-    @apply mb-4;
-}
-
-article blockquote {
-    @apply border-l-4 border-gray-500 p-4 ml-12 my-12 bg-gray-200 text-gray-800;
-}
-
-article blockquote p {
-    @apply mb-0;
-}
-
-article#post h2 {
-    @apply text-2xl font-bold mt-12 text-gray-800;
-}
-
-article#playbook h1 {
-    @apply text-6xl font-black my-12 text-gray-900 leading-none;
-}
-
-article#playbook h2 {
-    @apply text-4xl font-bold mb-12 pt-48 mt-24 text-gray-800 leading-none border-t border-gray-300;
-}
-
-article#post section h2 {
-    @apply mt-0;
-}
-
 @tailwind components;
 
 .mx-blok {
@@ -61,6 +21,84 @@ article#post section h2 {
 
 @tailwind utilities;
 
+.rock-salt {
+    font-family: 'Rock Salt', serif;
+}
+
+.marker {
+    font-family: 'Permanent Marker', serif;
+}
+
 .rotate-0 {
     transform: rotate(0deg);
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.right-50 {
+    right: 50%;
+}
+
+.bottom-50 {
+    bottom: 50%;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+
+/* Utilities end, markdown assignments begin. */
+
+
+article p, article ol, article ul, article h1, article h2, article h3 {
+    @apply max-w-3xl mx-auto px-2;
+}
+
+@screen sm {
+    article p, article ol, article ul, article h1, article h2, article h3 {
+        @apply px-6;
+    }
+}
+
+article p {
+    @apply leading-relaxed mb-6;
+}
+
+article ol {
+    @apply list-decimal mt-4;
+}
+
+article ul {
+    @apply list-disc mt-4;
+}
+
+article li {
+    @apply mb-4 ml-6;
+}
+
+article blockquote {
+    @apply max-w-xl mx-auto border-l-4 border-gray-500 p-4 my-12 bg-gray-200 text-gray-800;
+}
+
+article blockquote p {
+    @apply mb-0;
+}
+
+article h2 {
+    @apply text-2xl font-bold mt-12 text-gray-800;
+}
+
+article#playbook h2 {
+    @apply text-4xl font-bold mb-12 pt-40 mt-40 text-gray-800 leading-none border-t border-gray-300;
+}
+
+article#post section h2 {
+    @apply mt-0;
+}
+
+article h3 {
+    @apply font-bold mt-12 text-gray-800;
 }

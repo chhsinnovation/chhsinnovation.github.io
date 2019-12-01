@@ -3,6 +3,6 @@
         <img src="{{ include.image | relative_url }}" alt="{{ include.description }}" title="{{ include.title }}">
     </div>
     <figcaption class="py-2 w-full text-center bg-gray-200 text-gray-600">
-        {{ include.caption }}
+        {{ include.caption | strip }}
     </figcaption>
 </figure>

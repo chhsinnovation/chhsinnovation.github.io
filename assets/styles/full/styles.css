@@ -484,23 +484,19 @@ textarea {
   resize: vertical;
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #a0aec0;
 }
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a0aec0;
 }
 
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #a0aec0;
 }
 
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   color: #a0aec0;
 }
 
@@ -611,74 +607,6 @@ a {
   text-decoration: underline;
 }
 
-article p {
-  line-height: 1.625;
-  margin-bottom: 1.5rem;
-}
-
-article ol {
-  list-style-type: decimal;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-}
-
-article ul {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-}
-
-article li {
-  margin-bottom: 1rem;
-}
-
-article blockquote {
-  border-left-width: 4px;
-  border-color: #a0aec0;
-  padding: 1rem;
-  margin-left: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background-color: #edf2f7;
-  color: #2d3748;
-}
-
-article blockquote p {
-  margin-bottom: 0;
-}
-
-article#post h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 3rem;
-  color: #2d3748;
-}
-
-article#playbook h1 {
-  font-size: 4rem;
-  font-weight: 900;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  color: #1a202c;
-  line-height: 1;
-}
-
-article#playbook h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  padding-top: 12rem;
-  margin-top: 6rem;
-  color: #2d3748;
-  line-height: 1;
-  border-top-width: 1px;
-  border-color: #e2e8f0;
-}
-
-article#post section h2 {
-  margin-top: 0;
-}
-
 .container {
   width: 100%;
 }
@@ -716,6 +644,7 @@ article#post section h2 {
 }
 
 .post-it-yellow {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(48, 97%, 57%)), color-stop(25%, hsl(48, 100%, 59%)));
   background: linear-gradient(hsl(48, 97%, 57%) 25%, hsl(48, 100%, 59%) 25%);
 }
 
@@ -737,7 +666,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-yellow-peel-l {
@@ -758,7 +688,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-yellow-peel-both {
@@ -771,6 +702,7 @@ article#post section h2 {
 }
 
 .post-it-green {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(120, 58%, 62%)), color-stop(25%, hsl(120, 60%, 64%)));
   background: linear-gradient(hsl(120, 58%, 62%) 25%, hsl(120, 60%, 64%) 25%);
 }
 
@@ -792,7 +724,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-green-peel-l {
@@ -813,7 +746,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-green-peel-both {
@@ -826,6 +760,7 @@ article#post section h2 {
 }
 
 .post-it-orange {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(31, 97%, 56%)), color-stop(25%, hsl(31, 100%, 58%)));
   background: linear-gradient(hsl(31, 97%, 56%) 25%, hsl(31, 100%, 58%) 25%);
 }
 
@@ -847,7 +782,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-orange-peel-l {
@@ -868,7 +804,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-orange-peel-both {
@@ -881,6 +818,7 @@ article#post section h2 {
 }
 
 .post-it-pink {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(328, 97%, 68%)), color-stop(25%, hsl(328, 100%, 70%)));
   background: linear-gradient(hsl(328, 97%, 68%) 25%, hsl(328, 100%, 70%) 25%);
 }
 
@@ -902,7 +840,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-pink-peel-l {
@@ -923,7 +862,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-pink-peel-both {
@@ -936,6 +876,7 @@ article#post section h2 {
 }
 
 .post-it-blue {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(210, 96%, 58%)), color-stop(25%, hsl(210, 99%, 60%)));
   background: linear-gradient(hsl(210, 96%, 58%) 25%, hsl(210, 99%, 60%) 25%);
 }
 
@@ -957,7 +898,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-blue-peel-l {
@@ -978,7 +920,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-blue-peel-both {
@@ -991,6 +934,7 @@ article#post section h2 {
 }
 
 .post-it-purple {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, hsl(301, 26%, 65%)), color-stop(25%, hsl(301, 29%, 67%)));
   background: linear-gradient(hsl(301, 26%, 65%) 25%, hsl(301, 29%, 67%) 25%);
 }
 
@@ -1012,7 +956,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+          transform: matrix(-1, -0.1, 0, 1, 0, 0);
 }
 
 .post-it-purple-peel-l {
@@ -1033,7 +978,8 @@ article#post section h2 {
   bottom: 1.25rem;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: -0.125rem 0.9375rem 0.3125rem rgba(0, 0, 0, 0.40);
-  transform: matrix(-1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0.1, 0, 1, 0, 0);
+          transform: matrix(-1, 0.1, 0, 1, 0, 0);
 }
 
 .post-it-purple-peel-both {
@@ -4444,10 +4390,12 @@ article#post section h2 {
 }
 
 .flex {
+  display: -webkit-box;
   display: flex;
 }
 
 .inline-flex {
+  display: -webkit-inline-box;
   display: inline-flex;
 }
 
@@ -4468,19 +4416,27 @@ article#post section h2 {
 }
 
 .flex-row {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
 }
 
 .flex-row-reverse {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
 }
 
 .flex-col {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .flex-col-reverse {
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+          flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -4496,23 +4452,28 @@ article#post section h2 {
 }
 
 .items-start {
-  align-items: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
 }
 
 .items-end {
-  align-items: flex-end;
+  -webkit-box-align: end;
+          align-items: flex-end;
 }
 
 .items-center {
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .items-baseline {
-  align-items: baseline;
+  -webkit-box-align: baseline;
+          align-items: baseline;
 }
 
 .items-stretch {
-  align-items: stretch;
+  -webkit-box-align: stretch;
+          align-items: stretch;
 }
 
 .self-auto {
@@ -4536,19 +4497,23 @@ article#post section h2 {
 }
 
 .justify-start {
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
 }
 
 .justify-end {
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
 }
 
 .justify-center {
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 .justify-between {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
 
 .justify-around {
@@ -4576,27 +4541,33 @@ article#post section h2 {
 }
 
 .flex-1 {
-  flex: 1 1 0%;
+  -webkit-box-flex: 1;
+          flex: 1 1 0%;
 }
 
 .flex-auto {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
 }
 
 .flex-initial {
-  flex: 0 1 auto;
+  -webkit-box-flex: 0;
+          flex: 0 1 auto;
 }
 
 .flex-none {
-  flex: none;
+  -webkit-box-flex: 0;
+          flex: none;
 }
 
 .flex-grow-0 {
-  flex-grow: 0;
+  -webkit-box-flex: 0;
+          flex-grow: 0;
 }
 
 .flex-grow {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
 }
 
 .flex-shrink-0 {
@@ -4608,63 +4579,78 @@ article#post section h2 {
 }
 
 .order-1 {
-  order: 1;
+  -webkit-box-ordinal-group: 2;
+          order: 1;
 }
 
 .order-2 {
-  order: 2;
+  -webkit-box-ordinal-group: 3;
+          order: 2;
 }
 
 .order-3 {
-  order: 3;
+  -webkit-box-ordinal-group: 4;
+          order: 3;
 }
 
 .order-4 {
-  order: 4;
+  -webkit-box-ordinal-group: 5;
+          order: 4;
 }
 
 .order-5 {
-  order: 5;
+  -webkit-box-ordinal-group: 6;
+          order: 5;
 }
 
 .order-6 {
-  order: 6;
+  -webkit-box-ordinal-group: 7;
+          order: 6;
 }
 
 .order-7 {
-  order: 7;
+  -webkit-box-ordinal-group: 8;
+          order: 7;
 }
 
 .order-8 {
-  order: 8;
+  -webkit-box-ordinal-group: 9;
+          order: 8;
 }
 
 .order-9 {
-  order: 9;
+  -webkit-box-ordinal-group: 10;
+          order: 9;
 }
 
 .order-10 {
-  order: 10;
+  -webkit-box-ordinal-group: 11;
+          order: 10;
 }
 
 .order-11 {
-  order: 11;
+  -webkit-box-ordinal-group: 12;
+          order: 11;
 }
 
 .order-12 {
-  order: 12;
+  -webkit-box-ordinal-group: 13;
+          order: 12;
 }
 
 .order-first {
-  order: -9999;
+  -webkit-box-ordinal-group: -9998;
+          order: -9999;
 }
 
 .order-last {
-  order: 9999;
+  -webkit-box-ordinal-group: 10000;
+          order: 9999;
 }
 
 .order-none {
-  order: 0;
+  -webkit-box-ordinal-group: 1;
+          order: 0;
 }
 
 .float-right {
@@ -4897,6 +4883,10 @@ article#post section h2 {
   height: 32rem;
 }
 
+.h-192 {
+  height: 48rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -5049,6 +5039,10 @@ article#post section h2 {
   margin: 32rem;
 }
 
+.m-192 {
+  margin: 48rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -5143,6 +5137,10 @@ article#post section h2 {
 
 .-m-128 {
   margin: -32rem;
+}
+
+.-m-192 {
+  margin: -48rem;
 }
 
 .-m-px {
@@ -5377,6 +5375,16 @@ article#post section h2 {
 .mx-128 {
   margin-left: 32rem;
   margin-right: 32rem;
+}
+
+.my-192 {
+  margin-top: 48rem;
+  margin-bottom: 48rem;
+}
+
+.mx-192 {
+  margin-left: 48rem;
+  margin-right: 48rem;
 }
 
 .my-auto {
@@ -5617,6 +5625,16 @@ article#post section h2 {
 .-mx-128 {
   margin-left: -32rem;
   margin-right: -32rem;
+}
+
+.-my-192 {
+  margin-top: -48rem;
+  margin-bottom: -48rem;
+}
+
+.-mx-192 {
+  margin-left: -48rem;
+  margin-right: -48rem;
 }
 
 .-my-px {
@@ -5995,6 +6013,22 @@ article#post section h2 {
 
 .ml-128 {
   margin-left: 32rem;
+}
+
+.mt-192 {
+  margin-top: 48rem;
+}
+
+.mr-192 {
+  margin-right: 48rem;
+}
+
+.mb-192 {
+  margin-bottom: 48rem;
+}
+
+.ml-192 {
+  margin-left: 48rem;
 }
 
 .mt-auto {
@@ -6381,6 +6415,22 @@ article#post section h2 {
   margin-left: -32rem;
 }
 
+.-mt-192 {
+  margin-top: -48rem;
+}
+
+.-mr-192 {
+  margin-right: -48rem;
+}
+
+.-mb-192 {
+  margin-bottom: -48rem;
+}
+
+.-ml-192 {
+  margin-left: -48rem;
+}
+
 .-mt-px {
   margin-top: -1px;
 }
@@ -6755,6 +6805,10 @@ article#post section h2 {
   padding: 32rem;
 }
 
+.p-192 {
+  padding: 48rem;
+}
+
 .p-px {
   padding: 1px;
 }
@@ -6987,6 +7041,16 @@ article#post section h2 {
 .px-128 {
   padding-left: 32rem;
   padding-right: 32rem;
+}
+
+.py-192 {
+  padding-top: 48rem;
+  padding-bottom: 48rem;
+}
+
+.px-192 {
+  padding-left: 48rem;
+  padding-right: 48rem;
 }
 
 .py-px {
@@ -7365,6 +7429,22 @@ article#post section h2 {
 
 .pl-128 {
   padding-left: 32rem;
+}
+
+.pt-192 {
+  padding-top: 48rem;
+}
+
+.pr-192 {
+  padding-right: 48rem;
+}
+
+.pb-192 {
+  padding-bottom: 48rem;
+}
+
+.pl-192 {
+  padding-left: 48rem;
 }
 
 .pt-px {
@@ -14187,6 +14267,10 @@ article#post section h2 {
   width: 32rem;
 }
 
+.w-192 {
+  width: 48rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -14340,167 +14424,315 @@ article#post section h2 {
 }
 
 .rotate-1 {
-  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 
 .-rotate-1 {
-  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .rotate-2 {
-  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
 }
 
 .-rotate-2 {
-  transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
 
 .rotate-3 {
-  transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
 }
 
 .-rotate-3 {
-  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
 }
 
 .rotate-4 {
-  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
 }
 
 .-rotate-4 {
-  transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
 }
 
 .rotate-5 {
-  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .-rotate-5 {
-  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 .rotate-6 {
-  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
 }
 
 .-rotate-6 {
-  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
 }
 
 .rotate-7 {
-  transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
 }
 
 .-rotate-7 {
-  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
 }
 
 .rotate-8 {
-  transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
 }
 
 .-rotate-8 {
-  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
 }
 
 .rotate-9 {
-  transform: rotate(9deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
 }
 
 .-rotate-9 {
-  transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
 }
 
 .rotate-10 {
-  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 
 .-rotate-10 {
-  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 .hover\:rotate-1:hover {
-  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 
 .hover\:-rotate-1:hover {
-  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .hover\:rotate-2:hover {
-  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
 }
 
 .hover\:-rotate-2:hover {
-  transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
 
 .hover\:rotate-3:hover {
-  transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
 }
 
 .hover\:-rotate-3:hover {
-  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
 }
 
 .hover\:rotate-4:hover {
-  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
 }
 
 .hover\:-rotate-4:hover {
-  transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
 }
 
 .hover\:rotate-5:hover {
-  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .hover\:-rotate-5:hover {
-  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 .hover\:rotate-6:hover {
-  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
 }
 
 .hover\:-rotate-6:hover {
-  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
 }
 
 .hover\:rotate-7:hover {
-  transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
 }
 
 .hover\:-rotate-7:hover {
-  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
 }
 
 .hover\:rotate-8:hover {
-  transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
 }
 
 .hover\:-rotate-8:hover {
-  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
 }
 
 .hover\:rotate-9:hover {
-  transform: rotate(9deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
 }
 
 .hover\:-rotate-9:hover {
-  transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
 }
 
 .hover\:rotate-10:hover {
-  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 
 .hover\:-rotate-10:hover {
-  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.rock-salt {
+  font-family: 'Rock Salt', serif;
+}
+
+.marker {
+  font-family: 'Permanent Marker', serif;
 }
 
 .rotate-0 {
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.right-50 {
+  right: 50%;
+}
+
+.bottom-50 {
+  bottom: 50%;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+/* Utilities end, markdown assignments begin. */
+
+article p, article ol, article ul, article h1, article h2, article h3 {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  article p, article ol, article ul, article h1, article h2, article h3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+article p {
+  line-height: 1.625;
+  margin-bottom: 1.5rem;
+}
+
+article ol {
+  list-style-type: decimal;
+  margin-top: 1rem;
+}
+
+article ul {
+  list-style-type: disc;
+  margin-top: 1rem;
+}
+
+article li {
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+article blockquote {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-left-width: 4px;
+  border-color: #a0aec0;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+article blockquote p {
+  margin-bottom: 0;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  color: #2d3748;
+}
+
+article#playbook h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  padding-top: 10rem;
+  margin-top: 10rem;
+  color: #2d3748;
+  line-height: 1;
+  border-top-width: 1px;
+  border-color: #e2e8f0;
+}
+
+article#post section h2 {
+  margin-top: 0;
+}
+
+article h3 {
+  font-weight: 700;
+  margin-top: 3rem;
+  color: #2d3748;
 }
 
 @media (min-width: 640px) {
@@ -17889,10 +18121,12 @@ article#post section h2 {
   }
 
   .sm\:flex {
+    display: -webkit-box;
     display: flex;
   }
 
   .sm\:inline-flex {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
 
@@ -17913,19 +18147,27 @@ article#post section h2 {
   }
 
   .sm\:flex-row {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
 
   .sm\:flex-row-reverse {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
 
   .sm\:flex-col {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 
   .sm\:flex-col-reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
 
   .sm\:flex-wrap {
@@ -17941,23 +18183,28 @@ article#post section h2 {
   }
 
   .sm\:items-start {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
 
   .sm\:items-end {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
 
   .sm\:items-center {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
 
   .sm\:items-baseline {
-    align-items: baseline;
+    -webkit-box-align: baseline;
+            align-items: baseline;
   }
 
   .sm\:items-stretch {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
 
   .sm\:self-auto {
@@ -17981,19 +18228,23 @@ article#post section h2 {
   }
 
   .sm\:justify-start {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
 
   .sm\:justify-end {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
 
   .sm\:justify-center {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
 
   .sm\:justify-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
 
   .sm\:justify-around {
@@ -18021,27 +18272,33 @@ article#post section h2 {
   }
 
   .sm\:flex-1 {
-    flex: 1 1 0%;
+    -webkit-box-flex: 1;
+            flex: 1 1 0%;
   }
 
   .sm\:flex-auto {
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
   }
 
   .sm\:flex-initial {
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto;
   }
 
   .sm\:flex-none {
-    flex: none;
+    -webkit-box-flex: 0;
+            flex: none;
   }
 
   .sm\:flex-grow-0 {
-    flex-grow: 0;
+    -webkit-box-flex: 0;
+            flex-grow: 0;
   }
 
   .sm\:flex-grow {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
   }
 
   .sm\:flex-shrink-0 {
@@ -18053,63 +18310,78 @@ article#post section h2 {
   }
 
   .sm\:order-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
 
   .sm\:order-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
 
   .sm\:order-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
 
   .sm\:order-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
 
   .sm\:order-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
 
   .sm\:order-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
 
   .sm\:order-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
 
   .sm\:order-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
 
   .sm\:order-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
 
   .sm\:order-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
 
   .sm\:order-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
 
   .sm\:order-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
 
   .sm\:order-first {
-    order: -9999;
+    -webkit-box-ordinal-group: -9998;
+            order: -9999;
   }
 
   .sm\:order-last {
-    order: 9999;
+    -webkit-box-ordinal-group: 10000;
+            order: 9999;
   }
 
   .sm\:order-none {
-    order: 0;
+    -webkit-box-ordinal-group: 1;
+            order: 0;
   }
 
   .sm\:float-right {
@@ -18342,6 +18614,10 @@ article#post section h2 {
     height: 32rem;
   }
 
+  .sm\:h-192 {
+    height: 48rem;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -18494,6 +18770,10 @@ article#post section h2 {
     margin: 32rem;
   }
 
+  .sm\:m-192 {
+    margin: 48rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -18588,6 +18868,10 @@ article#post section h2 {
 
   .sm\:-m-128 {
     margin: -32rem;
+  }
+
+  .sm\:-m-192 {
+    margin: -48rem;
   }
 
   .sm\:-m-px {
@@ -18822,6 +19106,16 @@ article#post section h2 {
   .sm\:mx-128 {
     margin-left: 32rem;
     margin-right: 32rem;
+  }
+
+  .sm\:my-192 {
+    margin-top: 48rem;
+    margin-bottom: 48rem;
+  }
+
+  .sm\:mx-192 {
+    margin-left: 48rem;
+    margin-right: 48rem;
   }
 
   .sm\:my-auto {
@@ -19062,6 +19356,16 @@ article#post section h2 {
   .sm\:-mx-128 {
     margin-left: -32rem;
     margin-right: -32rem;
+  }
+
+  .sm\:-my-192 {
+    margin-top: -48rem;
+    margin-bottom: -48rem;
+  }
+
+  .sm\:-mx-192 {
+    margin-left: -48rem;
+    margin-right: -48rem;
   }
 
   .sm\:-my-px {
@@ -19440,6 +19744,22 @@ article#post section h2 {
 
   .sm\:ml-128 {
     margin-left: 32rem;
+  }
+
+  .sm\:mt-192 {
+    margin-top: 48rem;
+  }
+
+  .sm\:mr-192 {
+    margin-right: 48rem;
+  }
+
+  .sm\:mb-192 {
+    margin-bottom: 48rem;
+  }
+
+  .sm\:ml-192 {
+    margin-left: 48rem;
   }
 
   .sm\:mt-auto {
@@ -19826,6 +20146,22 @@ article#post section h2 {
     margin-left: -32rem;
   }
 
+  .sm\:-mt-192 {
+    margin-top: -48rem;
+  }
+
+  .sm\:-mr-192 {
+    margin-right: -48rem;
+  }
+
+  .sm\:-mb-192 {
+    margin-bottom: -48rem;
+  }
+
+  .sm\:-ml-192 {
+    margin-left: -48rem;
+  }
+
   .sm\:-mt-px {
     margin-top: -1px;
   }
@@ -20200,6 +20536,10 @@ article#post section h2 {
     padding: 32rem;
   }
 
+  .sm\:p-192 {
+    padding: 48rem;
+  }
+
   .sm\:p-px {
     padding: 1px;
   }
@@ -20432,6 +20772,16 @@ article#post section h2 {
   .sm\:px-128 {
     padding-left: 32rem;
     padding-right: 32rem;
+  }
+
+  .sm\:py-192 {
+    padding-top: 48rem;
+    padding-bottom: 48rem;
+  }
+
+  .sm\:px-192 {
+    padding-left: 48rem;
+    padding-right: 48rem;
   }
 
   .sm\:py-px {
@@ -20810,6 +21160,22 @@ article#post section h2 {
 
   .sm\:pl-128 {
     padding-left: 32rem;
+  }
+
+  .sm\:pt-192 {
+    padding-top: 48rem;
+  }
+
+  .sm\:pr-192 {
+    padding-right: 48rem;
+  }
+
+  .sm\:pb-192 {
+    padding-bottom: 48rem;
+  }
+
+  .sm\:pl-192 {
+    padding-left: 48rem;
   }
 
   .sm\:pt-px {
@@ -27632,6 +27998,10 @@ article#post section h2 {
     width: 32rem;
   }
 
+  .sm\:w-192 {
+    width: 48rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -27785,163 +28155,203 @@ article#post section h2 {
   }
 
   .sm\:rotate-1 {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .sm\:-rotate-1 {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .sm\:rotate-2 {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .sm\:-rotate-2 {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .sm\:rotate-3 {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .sm\:-rotate-3 {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .sm\:rotate-4 {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .sm\:-rotate-4 {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .sm\:rotate-5 {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .sm\:-rotate-5 {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .sm\:rotate-6 {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .sm\:-rotate-6 {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .sm\:rotate-7 {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .sm\:-rotate-7 {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .sm\:rotate-8 {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .sm\:-rotate-8 {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .sm\:rotate-9 {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .sm\:-rotate-9 {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .sm\:rotate-10 {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .sm\:-rotate-10 {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   .sm\:hover\:rotate-1:hover {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .sm\:hover\:-rotate-1:hover {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .sm\:hover\:rotate-2:hover {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .sm\:hover\:-rotate-2:hover {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .sm\:hover\:rotate-3:hover {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .sm\:hover\:-rotate-3:hover {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .sm\:hover\:rotate-4:hover {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .sm\:hover\:-rotate-4:hover {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .sm\:hover\:rotate-5:hover {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .sm\:hover\:-rotate-5:hover {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .sm\:hover\:rotate-6:hover {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .sm\:hover\:-rotate-6:hover {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .sm\:hover\:rotate-7:hover {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .sm\:hover\:-rotate-7:hover {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .sm\:hover\:rotate-8:hover {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .sm\:hover\:-rotate-8:hover {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .sm\:hover\:rotate-9:hover {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .sm\:hover\:-rotate-9:hover {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .sm\:hover\:rotate-10:hover {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .sm\:hover\:-rotate-10:hover {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 }
 
@@ -31331,10 +31741,12 @@ article#post section h2 {
   }
 
   .md\:flex {
+    display: -webkit-box;
     display: flex;
   }
 
   .md\:inline-flex {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
 
@@ -31355,19 +31767,27 @@ article#post section h2 {
   }
 
   .md\:flex-row {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
 
   .md\:flex-row-reverse {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
 
   .md\:flex-col {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 
   .md\:flex-col-reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
 
   .md\:flex-wrap {
@@ -31383,23 +31803,28 @@ article#post section h2 {
   }
 
   .md\:items-start {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
 
   .md\:items-end {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
 
   .md\:items-center {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
 
   .md\:items-baseline {
-    align-items: baseline;
+    -webkit-box-align: baseline;
+            align-items: baseline;
   }
 
   .md\:items-stretch {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
 
   .md\:self-auto {
@@ -31423,19 +31848,23 @@ article#post section h2 {
   }
 
   .md\:justify-start {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
 
   .md\:justify-end {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
 
   .md\:justify-center {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
 
   .md\:justify-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
 
   .md\:justify-around {
@@ -31463,27 +31892,33 @@ article#post section h2 {
   }
 
   .md\:flex-1 {
-    flex: 1 1 0%;
+    -webkit-box-flex: 1;
+            flex: 1 1 0%;
   }
 
   .md\:flex-auto {
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
   }
 
   .md\:flex-initial {
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto;
   }
 
   .md\:flex-none {
-    flex: none;
+    -webkit-box-flex: 0;
+            flex: none;
   }
 
   .md\:flex-grow-0 {
-    flex-grow: 0;
+    -webkit-box-flex: 0;
+            flex-grow: 0;
   }
 
   .md\:flex-grow {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
   }
 
   .md\:flex-shrink-0 {
@@ -31495,63 +31930,78 @@ article#post section h2 {
   }
 
   .md\:order-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
 
   .md\:order-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
 
   .md\:order-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
 
   .md\:order-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
 
   .md\:order-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
 
   .md\:order-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
 
   .md\:order-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
 
   .md\:order-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
 
   .md\:order-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
 
   .md\:order-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
 
   .md\:order-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
 
   .md\:order-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
 
   .md\:order-first {
-    order: -9999;
+    -webkit-box-ordinal-group: -9998;
+            order: -9999;
   }
 
   .md\:order-last {
-    order: 9999;
+    -webkit-box-ordinal-group: 10000;
+            order: 9999;
   }
 
   .md\:order-none {
-    order: 0;
+    -webkit-box-ordinal-group: 1;
+            order: 0;
   }
 
   .md\:float-right {
@@ -31784,6 +32234,10 @@ article#post section h2 {
     height: 32rem;
   }
 
+  .md\:h-192 {
+    height: 48rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -31936,6 +32390,10 @@ article#post section h2 {
     margin: 32rem;
   }
 
+  .md\:m-192 {
+    margin: 48rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -32030,6 +32488,10 @@ article#post section h2 {
 
   .md\:-m-128 {
     margin: -32rem;
+  }
+
+  .md\:-m-192 {
+    margin: -48rem;
   }
 
   .md\:-m-px {
@@ -32264,6 +32726,16 @@ article#post section h2 {
   .md\:mx-128 {
     margin-left: 32rem;
     margin-right: 32rem;
+  }
+
+  .md\:my-192 {
+    margin-top: 48rem;
+    margin-bottom: 48rem;
+  }
+
+  .md\:mx-192 {
+    margin-left: 48rem;
+    margin-right: 48rem;
   }
 
   .md\:my-auto {
@@ -32504,6 +32976,16 @@ article#post section h2 {
   .md\:-mx-128 {
     margin-left: -32rem;
     margin-right: -32rem;
+  }
+
+  .md\:-my-192 {
+    margin-top: -48rem;
+    margin-bottom: -48rem;
+  }
+
+  .md\:-mx-192 {
+    margin-left: -48rem;
+    margin-right: -48rem;
   }
 
   .md\:-my-px {
@@ -32882,6 +33364,22 @@ article#post section h2 {
 
   .md\:ml-128 {
     margin-left: 32rem;
+  }
+
+  .md\:mt-192 {
+    margin-top: 48rem;
+  }
+
+  .md\:mr-192 {
+    margin-right: 48rem;
+  }
+
+  .md\:mb-192 {
+    margin-bottom: 48rem;
+  }
+
+  .md\:ml-192 {
+    margin-left: 48rem;
   }
 
   .md\:mt-auto {
@@ -33268,6 +33766,22 @@ article#post section h2 {
     margin-left: -32rem;
   }
 
+  .md\:-mt-192 {
+    margin-top: -48rem;
+  }
+
+  .md\:-mr-192 {
+    margin-right: -48rem;
+  }
+
+  .md\:-mb-192 {
+    margin-bottom: -48rem;
+  }
+
+  .md\:-ml-192 {
+    margin-left: -48rem;
+  }
+
   .md\:-mt-px {
     margin-top: -1px;
   }
@@ -33642,6 +34156,10 @@ article#post section h2 {
     padding: 32rem;
   }
 
+  .md\:p-192 {
+    padding: 48rem;
+  }
+
   .md\:p-px {
     padding: 1px;
   }
@@ -33874,6 +34392,16 @@ article#post section h2 {
   .md\:px-128 {
     padding-left: 32rem;
     padding-right: 32rem;
+  }
+
+  .md\:py-192 {
+    padding-top: 48rem;
+    padding-bottom: 48rem;
+  }
+
+  .md\:px-192 {
+    padding-left: 48rem;
+    padding-right: 48rem;
   }
 
   .md\:py-px {
@@ -34252,6 +34780,22 @@ article#post section h2 {
 
   .md\:pl-128 {
     padding-left: 32rem;
+  }
+
+  .md\:pt-192 {
+    padding-top: 48rem;
+  }
+
+  .md\:pr-192 {
+    padding-right: 48rem;
+  }
+
+  .md\:pb-192 {
+    padding-bottom: 48rem;
+  }
+
+  .md\:pl-192 {
+    padding-left: 48rem;
   }
 
   .md\:pt-px {
@@ -41074,6 +41618,10 @@ article#post section h2 {
     width: 32rem;
   }
 
+  .md\:w-192 {
+    width: 48rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -41227,163 +41775,203 @@ article#post section h2 {
   }
 
   .md\:rotate-1 {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .md\:-rotate-1 {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .md\:rotate-2 {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .md\:-rotate-2 {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .md\:rotate-3 {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .md\:-rotate-3 {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .md\:rotate-4 {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .md\:-rotate-4 {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .md\:rotate-5 {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .md\:-rotate-5 {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .md\:rotate-6 {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .md\:-rotate-6 {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .md\:rotate-7 {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .md\:-rotate-7 {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .md\:rotate-8 {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .md\:-rotate-8 {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .md\:rotate-9 {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .md\:-rotate-9 {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .md\:rotate-10 {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .md\:-rotate-10 {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   .md\:hover\:rotate-1:hover {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .md\:hover\:-rotate-1:hover {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .md\:hover\:rotate-2:hover {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .md\:hover\:-rotate-2:hover {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .md\:hover\:rotate-3:hover {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .md\:hover\:-rotate-3:hover {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .md\:hover\:rotate-4:hover {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .md\:hover\:-rotate-4:hover {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .md\:hover\:rotate-5:hover {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .md\:hover\:-rotate-5:hover {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .md\:hover\:rotate-6:hover {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .md\:hover\:-rotate-6:hover {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .md\:hover\:rotate-7:hover {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .md\:hover\:-rotate-7:hover {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .md\:hover\:rotate-8:hover {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .md\:hover\:-rotate-8:hover {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .md\:hover\:rotate-9:hover {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .md\:hover\:-rotate-9:hover {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .md\:hover\:rotate-10:hover {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .md\:hover\:-rotate-10:hover {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 }
 
@@ -44773,10 +45361,12 @@ article#post section h2 {
   }
 
   .lg\:flex {
+    display: -webkit-box;
     display: flex;
   }
 
   .lg\:inline-flex {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
 
@@ -44797,19 +45387,27 @@ article#post section h2 {
   }
 
   .lg\:flex-row {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
 
   .lg\:flex-row-reverse {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
 
   .lg\:flex-col {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 
   .lg\:flex-col-reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
 
   .lg\:flex-wrap {
@@ -44825,23 +45423,28 @@ article#post section h2 {
   }
 
   .lg\:items-start {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
 
   .lg\:items-end {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
 
   .lg\:items-center {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
 
   .lg\:items-baseline {
-    align-items: baseline;
+    -webkit-box-align: baseline;
+            align-items: baseline;
   }
 
   .lg\:items-stretch {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
 
   .lg\:self-auto {
@@ -44865,19 +45468,23 @@ article#post section h2 {
   }
 
   .lg\:justify-start {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
 
   .lg\:justify-end {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
 
   .lg\:justify-center {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
 
   .lg\:justify-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
 
   .lg\:justify-around {
@@ -44905,27 +45512,33 @@ article#post section h2 {
   }
 
   .lg\:flex-1 {
-    flex: 1 1 0%;
+    -webkit-box-flex: 1;
+            flex: 1 1 0%;
   }
 
   .lg\:flex-auto {
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
   }
 
   .lg\:flex-initial {
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto;
   }
 
   .lg\:flex-none {
-    flex: none;
+    -webkit-box-flex: 0;
+            flex: none;
   }
 
   .lg\:flex-grow-0 {
-    flex-grow: 0;
+    -webkit-box-flex: 0;
+            flex-grow: 0;
   }
 
   .lg\:flex-grow {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
   }
 
   .lg\:flex-shrink-0 {
@@ -44937,63 +45550,78 @@ article#post section h2 {
   }
 
   .lg\:order-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
 
   .lg\:order-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
 
   .lg\:order-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
 
   .lg\:order-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
 
   .lg\:order-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
 
   .lg\:order-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
 
   .lg\:order-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
 
   .lg\:order-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
 
   .lg\:order-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
 
   .lg\:order-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
 
   .lg\:order-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
 
   .lg\:order-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
 
   .lg\:order-first {
-    order: -9999;
+    -webkit-box-ordinal-group: -9998;
+            order: -9999;
   }
 
   .lg\:order-last {
-    order: 9999;
+    -webkit-box-ordinal-group: 10000;
+            order: 9999;
   }
 
   .lg\:order-none {
-    order: 0;
+    -webkit-box-ordinal-group: 1;
+            order: 0;
   }
 
   .lg\:float-right {
@@ -45226,6 +45854,10 @@ article#post section h2 {
     height: 32rem;
   }
 
+  .lg\:h-192 {
+    height: 48rem;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -45378,6 +46010,10 @@ article#post section h2 {
     margin: 32rem;
   }
 
+  .lg\:m-192 {
+    margin: 48rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -45472,6 +46108,10 @@ article#post section h2 {
 
   .lg\:-m-128 {
     margin: -32rem;
+  }
+
+  .lg\:-m-192 {
+    margin: -48rem;
   }
 
   .lg\:-m-px {
@@ -45706,6 +46346,16 @@ article#post section h2 {
   .lg\:mx-128 {
     margin-left: 32rem;
     margin-right: 32rem;
+  }
+
+  .lg\:my-192 {
+    margin-top: 48rem;
+    margin-bottom: 48rem;
+  }
+
+  .lg\:mx-192 {
+    margin-left: 48rem;
+    margin-right: 48rem;
   }
 
   .lg\:my-auto {
@@ -45946,6 +46596,16 @@ article#post section h2 {
   .lg\:-mx-128 {
     margin-left: -32rem;
     margin-right: -32rem;
+  }
+
+  .lg\:-my-192 {
+    margin-top: -48rem;
+    margin-bottom: -48rem;
+  }
+
+  .lg\:-mx-192 {
+    margin-left: -48rem;
+    margin-right: -48rem;
   }
 
   .lg\:-my-px {
@@ -46324,6 +46984,22 @@ article#post section h2 {
 
   .lg\:ml-128 {
     margin-left: 32rem;
+  }
+
+  .lg\:mt-192 {
+    margin-top: 48rem;
+  }
+
+  .lg\:mr-192 {
+    margin-right: 48rem;
+  }
+
+  .lg\:mb-192 {
+    margin-bottom: 48rem;
+  }
+
+  .lg\:ml-192 {
+    margin-left: 48rem;
   }
 
   .lg\:mt-auto {
@@ -46710,6 +47386,22 @@ article#post section h2 {
     margin-left: -32rem;
   }
 
+  .lg\:-mt-192 {
+    margin-top: -48rem;
+  }
+
+  .lg\:-mr-192 {
+    margin-right: -48rem;
+  }
+
+  .lg\:-mb-192 {
+    margin-bottom: -48rem;
+  }
+
+  .lg\:-ml-192 {
+    margin-left: -48rem;
+  }
+
   .lg\:-mt-px {
     margin-top: -1px;
   }
@@ -47084,6 +47776,10 @@ article#post section h2 {
     padding: 32rem;
   }
 
+  .lg\:p-192 {
+    padding: 48rem;
+  }
+
   .lg\:p-px {
     padding: 1px;
   }
@@ -47316,6 +48012,16 @@ article#post section h2 {
   .lg\:px-128 {
     padding-left: 32rem;
     padding-right: 32rem;
+  }
+
+  .lg\:py-192 {
+    padding-top: 48rem;
+    padding-bottom: 48rem;
+  }
+
+  .lg\:px-192 {
+    padding-left: 48rem;
+    padding-right: 48rem;
   }
 
   .lg\:py-px {
@@ -47694,6 +48400,22 @@ article#post section h2 {
 
   .lg\:pl-128 {
     padding-left: 32rem;
+  }
+
+  .lg\:pt-192 {
+    padding-top: 48rem;
+  }
+
+  .lg\:pr-192 {
+    padding-right: 48rem;
+  }
+
+  .lg\:pb-192 {
+    padding-bottom: 48rem;
+  }
+
+  .lg\:pl-192 {
+    padding-left: 48rem;
   }
 
   .lg\:pt-px {
@@ -54516,6 +55238,10 @@ article#post section h2 {
     width: 32rem;
   }
 
+  .lg\:w-192 {
+    width: 48rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -54669,163 +55395,203 @@ article#post section h2 {
   }
 
   .lg\:rotate-1 {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .lg\:-rotate-1 {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .lg\:rotate-2 {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .lg\:-rotate-2 {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .lg\:rotate-3 {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .lg\:-rotate-3 {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .lg\:rotate-4 {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .lg\:-rotate-4 {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .lg\:rotate-5 {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .lg\:-rotate-5 {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .lg\:rotate-6 {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .lg\:-rotate-6 {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .lg\:rotate-7 {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .lg\:-rotate-7 {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .lg\:rotate-8 {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .lg\:-rotate-8 {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .lg\:rotate-9 {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .lg\:-rotate-9 {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .lg\:rotate-10 {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .lg\:-rotate-10 {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   .lg\:hover\:rotate-1:hover {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .lg\:hover\:-rotate-1:hover {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .lg\:hover\:rotate-2:hover {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .lg\:hover\:-rotate-2:hover {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .lg\:hover\:rotate-3:hover {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .lg\:hover\:-rotate-3:hover {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .lg\:hover\:rotate-4:hover {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .lg\:hover\:-rotate-4:hover {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .lg\:hover\:rotate-5:hover {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .lg\:hover\:-rotate-5:hover {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .lg\:hover\:rotate-6:hover {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .lg\:hover\:-rotate-6:hover {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .lg\:hover\:rotate-7:hover {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .lg\:hover\:-rotate-7:hover {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .lg\:hover\:rotate-8:hover {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .lg\:hover\:-rotate-8:hover {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .lg\:hover\:rotate-9:hover {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .lg\:hover\:-rotate-9:hover {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .lg\:hover\:rotate-10:hover {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .lg\:hover\:-rotate-10:hover {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 }
 
@@ -58215,10 +58981,12 @@ article#post section h2 {
   }
 
   .xl\:flex {
+    display: -webkit-box;
     display: flex;
   }
 
   .xl\:inline-flex {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
 
@@ -58239,19 +59007,27 @@ article#post section h2 {
   }
 
   .xl\:flex-row {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
 
   .xl\:flex-row-reverse {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
 
   .xl\:flex-col {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 
   .xl\:flex-col-reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
 
   .xl\:flex-wrap {
@@ -58267,23 +59043,28 @@ article#post section h2 {
   }
 
   .xl\:items-start {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
 
   .xl\:items-end {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
 
   .xl\:items-center {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
 
   .xl\:items-baseline {
-    align-items: baseline;
+    -webkit-box-align: baseline;
+            align-items: baseline;
   }
 
   .xl\:items-stretch {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
 
   .xl\:self-auto {
@@ -58307,19 +59088,23 @@ article#post section h2 {
   }
 
   .xl\:justify-start {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
 
   .xl\:justify-end {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
 
   .xl\:justify-center {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
 
   .xl\:justify-between {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
 
   .xl\:justify-around {
@@ -58347,27 +59132,33 @@ article#post section h2 {
   }
 
   .xl\:flex-1 {
-    flex: 1 1 0%;
+    -webkit-box-flex: 1;
+            flex: 1 1 0%;
   }
 
   .xl\:flex-auto {
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
   }
 
   .xl\:flex-initial {
-    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto;
   }
 
   .xl\:flex-none {
-    flex: none;
+    -webkit-box-flex: 0;
+            flex: none;
   }
 
   .xl\:flex-grow-0 {
-    flex-grow: 0;
+    -webkit-box-flex: 0;
+            flex-grow: 0;
   }
 
   .xl\:flex-grow {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
   }
 
   .xl\:flex-shrink-0 {
@@ -58379,63 +59170,78 @@ article#post section h2 {
   }
 
   .xl\:order-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
 
   .xl\:order-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
 
   .xl\:order-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
 
   .xl\:order-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
 
   .xl\:order-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
 
   .xl\:order-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
 
   .xl\:order-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
 
   .xl\:order-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
 
   .xl\:order-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
 
   .xl\:order-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
 
   .xl\:order-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
 
   .xl\:order-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
 
   .xl\:order-first {
-    order: -9999;
+    -webkit-box-ordinal-group: -9998;
+            order: -9999;
   }
 
   .xl\:order-last {
-    order: 9999;
+    -webkit-box-ordinal-group: 10000;
+            order: 9999;
   }
 
   .xl\:order-none {
-    order: 0;
+    -webkit-box-ordinal-group: 1;
+            order: 0;
   }
 
   .xl\:float-right {
@@ -58668,6 +59474,10 @@ article#post section h2 {
     height: 32rem;
   }
 
+  .xl\:h-192 {
+    height: 48rem;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -58820,6 +59630,10 @@ article#post section h2 {
     margin: 32rem;
   }
 
+  .xl\:m-192 {
+    margin: 48rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -58914,6 +59728,10 @@ article#post section h2 {
 
   .xl\:-m-128 {
     margin: -32rem;
+  }
+
+  .xl\:-m-192 {
+    margin: -48rem;
   }
 
   .xl\:-m-px {
@@ -59148,6 +59966,16 @@ article#post section h2 {
   .xl\:mx-128 {
     margin-left: 32rem;
     margin-right: 32rem;
+  }
+
+  .xl\:my-192 {
+    margin-top: 48rem;
+    margin-bottom: 48rem;
+  }
+
+  .xl\:mx-192 {
+    margin-left: 48rem;
+    margin-right: 48rem;
   }
 
   .xl\:my-auto {
@@ -59388,6 +60216,16 @@ article#post section h2 {
   .xl\:-mx-128 {
     margin-left: -32rem;
     margin-right: -32rem;
+  }
+
+  .xl\:-my-192 {
+    margin-top: -48rem;
+    margin-bottom: -48rem;
+  }
+
+  .xl\:-mx-192 {
+    margin-left: -48rem;
+    margin-right: -48rem;
   }
 
   .xl\:-my-px {
@@ -59766,6 +60604,22 @@ article#post section h2 {
 
   .xl\:ml-128 {
     margin-left: 32rem;
+  }
+
+  .xl\:mt-192 {
+    margin-top: 48rem;
+  }
+
+  .xl\:mr-192 {
+    margin-right: 48rem;
+  }
+
+  .xl\:mb-192 {
+    margin-bottom: 48rem;
+  }
+
+  .xl\:ml-192 {
+    margin-left: 48rem;
   }
 
   .xl\:mt-auto {
@@ -60152,6 +61006,22 @@ article#post section h2 {
     margin-left: -32rem;
   }
 
+  .xl\:-mt-192 {
+    margin-top: -48rem;
+  }
+
+  .xl\:-mr-192 {
+    margin-right: -48rem;
+  }
+
+  .xl\:-mb-192 {
+    margin-bottom: -48rem;
+  }
+
+  .xl\:-ml-192 {
+    margin-left: -48rem;
+  }
+
   .xl\:-mt-px {
     margin-top: -1px;
   }
@@ -60526,6 +61396,10 @@ article#post section h2 {
     padding: 32rem;
   }
 
+  .xl\:p-192 {
+    padding: 48rem;
+  }
+
   .xl\:p-px {
     padding: 1px;
   }
@@ -60758,6 +61632,16 @@ article#post section h2 {
   .xl\:px-128 {
     padding-left: 32rem;
     padding-right: 32rem;
+  }
+
+  .xl\:py-192 {
+    padding-top: 48rem;
+    padding-bottom: 48rem;
+  }
+
+  .xl\:px-192 {
+    padding-left: 48rem;
+    padding-right: 48rem;
   }
 
   .xl\:py-px {
@@ -61136,6 +62020,22 @@ article#post section h2 {
 
   .xl\:pl-128 {
     padding-left: 32rem;
+  }
+
+  .xl\:pt-192 {
+    padding-top: 48rem;
+  }
+
+  .xl\:pr-192 {
+    padding-right: 48rem;
+  }
+
+  .xl\:pb-192 {
+    padding-bottom: 48rem;
+  }
+
+  .xl\:pl-192 {
+    padding-left: 48rem;
   }
 
   .xl\:pt-px {
@@ -67958,6 +68858,10 @@ article#post section h2 {
     width: 32rem;
   }
 
+  .xl\:w-192 {
+    width: 48rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -68111,162 +69015,202 @@ article#post section h2 {
   }
 
   .xl\:rotate-1 {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .xl\:-rotate-1 {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .xl\:rotate-2 {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .xl\:-rotate-2 {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .xl\:rotate-3 {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .xl\:-rotate-3 {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .xl\:rotate-4 {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .xl\:-rotate-4 {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .xl\:rotate-5 {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .xl\:-rotate-5 {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .xl\:rotate-6 {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .xl\:-rotate-6 {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .xl\:rotate-7 {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .xl\:-rotate-7 {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .xl\:rotate-8 {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .xl\:-rotate-8 {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .xl\:rotate-9 {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .xl\:-rotate-9 {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .xl\:rotate-10 {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .xl\:-rotate-10 {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 
   .xl\:hover\:rotate-1:hover {
-    transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
   }
 
   .xl\:hover\:-rotate-1:hover {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
 
   .xl\:hover\:rotate-2:hover {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 
   .xl\:hover\:-rotate-2:hover {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
 
   .xl\:hover\:rotate-3:hover {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 
   .xl\:hover\:-rotate-3:hover {
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
   }
 
   .xl\:hover\:rotate-4:hover {
-    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 
   .xl\:hover\:-rotate-4:hover {
-    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
 
   .xl\:hover\:rotate-5:hover {
-    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 
   .xl\:hover\:-rotate-5:hover {
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
   }
 
   .xl\:hover\:rotate-6:hover {
-    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
   }
 
   .xl\:hover\:-rotate-6:hover {
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
   }
 
   .xl\:hover\:rotate-7:hover {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 
   .xl\:hover\:-rotate-7:hover {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
 
   .xl\:hover\:rotate-8:hover {
-    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
   }
 
   .xl\:hover\:-rotate-8:hover {
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
   }
 
   .xl\:hover\:rotate-9:hover {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 
   .xl\:hover\:-rotate-9:hover {
-    transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
   }
 
   .xl\:hover\:rotate-10:hover {
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
 
   .xl\:hover\:-rotate-10:hover {
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
   }
 }

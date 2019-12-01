@@ -9,6 +9,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      type: "post"
   - scope:
       path: ""
       type: "pages"
@@ -23,6 +24,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+environment: production
 
 plugins:
   - jekyll-seo-tag

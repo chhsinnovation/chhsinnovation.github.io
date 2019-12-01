@@ -91,8 +91,10 @@ function localJekyll(done) {
 // Watch files
 function watchFiles() {
   gulp.watch(
-    ["./_app/styles/**/*.css", 
-    "./tailwind.config.js"], 
+    [
+      "./_app/styles/**/*.css", 
+      "./tailwind.config.js"
+    ], 
     gulp.series(css, browserSyncReload)
   );
   gulp.watch(
@@ -109,8 +111,12 @@ function watchFiles() {
   );
 };
 
-const build = gulp.series(clean, gulp.parallel(css, prodJekyll), tidyCSS);
-const watch = gulp.parallel(watchFiles, browserSync);
+// For development
+const build = gulp.series(clean, gulp.parallel(css, localJekyll), tidyCSS);
+const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
+
+// For production
+const deploy = gulp.series(clean, gulp.parallel(css, prodJekyll), tidyCSS);
 
 exports.css = css;
 exports.tidyCSS = tidyCSS;
@@ -118,5 +124,6 @@ exports.localJekyll = localJekyll;
 exports.prodJekyll = prodJekyll;
 exports.build = build;
 exports.watch = watch;
+exports.deploy = deploy;
 
 

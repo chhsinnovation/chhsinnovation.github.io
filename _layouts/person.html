@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: article
 ---
+<h1 class="text-5xl text-gray-900 font-black mt-8 leading-none">
+  {{ page.name }}
+</h1>
+<span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mb-12 leading-none">
+  {{ page.position }}
+</span>
 
-<!-- <h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2> -->
-
-    {{ content }}
+{{ content }}
 
 <h2>Posts</h2>
 <ul>

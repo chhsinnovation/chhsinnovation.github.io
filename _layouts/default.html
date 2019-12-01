@@ -6,21 +6,30 @@
     <meta name="description" content="CHHS Office of Innovation website">
     <meta name="author" content="CHHS Staff">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/styles/full/styles.css" | relative_url }}">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">     <script>
+    {% if site.environment == "development" %}
+      <link rel="stylesheet" href="{{ "/assets/styles/full/styles.css" | relative_url }}">
+    {% else %}
+      <link rel="stylesheet" href="{{ "/assets/styles/purged/styles.css" | relative_url }}">
+    {% endif %}
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,400,400i,700,700i,900,900i|Permanent+Marker|Rock+Salt&display=swap" rel="stylesheet">     
+    <script>
       function toggleIt() {
-        var element = document.getElementById("methods-menu");
+        var element = document.getElementById("menu");
         element.classList.toggle("hidden");
+        var element2 = document.getElementById("menu-link-text");
+        element2.classList.toggle("hidden");
+        var element3 = document.getElementById("menu-link-close-text");
+        element3.classList.toggle("hidden");
       }
       document.addEventListener("DOMContentLoaded", function(event) {
-        document.getElementById('methods-menu-link').onclick = toggleIt;
+        document.getElementById('menu-link').onclick = toggleIt;
       });
     </script>
   </head>
-  <body>
+  <body class="bg-blue-900">
     {% include navigation.html %}
 
-    <main class="container mx-blok pt-24 pb-24">
+    <main class="bg-white">
       {{ content }}
     </main>
     

@@ -1,67 +1,67 @@
 ---
-layout: default
+layout: article
+type: post
 ---
-<article id="post" class="max-w-3xl text-lg mx-blok mt-12 text-gray-700">
-  <span class="text-2xl text-gray-800 font-thin mt-8 leading-none">
-      {{ page.host }}
-  </span>
-  <h1 class="text-4xl text-gray-900 font-black mb-12 leading-none">
-    {{ page.full_title }}
-  </h1>
-  
-  {% assign author = site.people | where: 'short_name', page.author | first %}
-  <div class="mb-12">
-    {% if author %}
-      {% include components/contact-card-mini.html person=author %}
-    {% else %}
-      <span class="block">
-        {{ author.name }}
-      </span>
-    {% endif %}
-  </div>
-   
-  <span>
-      {{ page.date  | date: "%B %-d, %Y" }}
-  </span>
+<span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mt-8 leading-none">
+    {{ page.host }}
+</span>
+<h1 class="text-5xl text-gray-900 font-black mb-12 leading-none">
+  {{ page.full_title }}
+</h1>
 
-  {% if page.summary %}
-    <section class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
-      <h2 class="mt-0">
+{% assign author = site.people | where: 'short_name', page.author | first %}
+<div class="mx-blok max-w-3xl mb-12">
+  {% if author %}
+    {% include components/contact-card-mini.html person=author %}
+  {% else %}
+    <span class="block">
+      {{ author.name }}
+    </span>
+  {% endif %}
+</div>
+  
+<span class="block mx-blok max-w-3xl">
+    {{ page.date  | date: "%B %-d, %Y" }}
+</span>
+
+{% if page.summary %}
+  <section class="max-w-3xl mx-blok">
+    <div class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
+      <h2 class="m-0 p-0">
         Summary
       </h2>
-      <p class="mb-0">
+      <p class="m-0 p-0">
         {{ page.summary }}
       </p>
-    </section>
-  {% endif %}
-
-  {{content}}
-
-  {% if page.staff.size > 0 %}
-    <h2>
-      Office of Innovation Staff
-    </h2>
-    <div class="flex flex-wrap">
-      {% for person in page.staff %}
-        {% assign profile = site.people | where: 'short_name', person.name | first %}
-        {% if profile %}
-          {% include components/contact-card-mini.html person=profile %}
-        {% else %}
-          {% include components/contact-card-mini.html person=person %}
-        {% endif %}
-      {% endfor %}
     </div>
-  {% endif %}
+  </section>
+{% endif %}
 
-  {% if page.staff.size > 0 %}
-    <h2>
-      Department Champions
-    </h2>
-    <div class="flex flex-col">
-      {% for person in page.champs %}
-          {% include components/contact-card-guest.html person=person %}
-      {% endfor %}
-    </div>
-  {% endif %}
+{{content}}
 
-</article>
+{% if page.staff.size > 0 %}
+  <h2>
+    Office of Innovation Staff
+  </h2>
+  <div class="flex flex-wrap mx-blok max-w-3xl">
+    {% for person in page.staff %}
+      {% assign profile = site.people | where: 'short_name', person.name | first %}
+      {% if profile %}
+        {% include components/contact-card-mini.html person=profile %}
+      {% else %}
+        {% include components/contact-card-mini.html person=person %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if page.staff.size > 0 %}
+  <h2>
+    Department Champions
+  </h2>
+  <div class="flex flex-col mx-blok max-w-3xl">
+    {% for person in page.champs %}
+        {% include components/contact-card-guest.html person=person %}
+    {% endfor %}
+  </div>
+{% endif %}
