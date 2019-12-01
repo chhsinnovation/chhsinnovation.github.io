@@ -12,4 +12,4 @@ In Year 2, we will evolve our ability to develop fully coded applications to sup
 
 Please check out the work we did across a wide variety of disciplines and topic areas. 
 
-[Culture of Collaboration and Innovation: Procurement Reform & Product Delivery](/summaries/procurement-reform-and-product-delivery/)
+[Culture of Collaboration and Innovation: Procurement Reform & Product Delivery]({{ "/summaries/procurement-reform-and-product-delivery/" | relative_url}})
