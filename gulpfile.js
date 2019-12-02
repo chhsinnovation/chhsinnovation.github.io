@@ -7,7 +7,7 @@ const cssnested = require('postcss-nested');
 const tailwindcss = require('tailwindcss');
 const cssimporter = require('postcss-import');
 const autoprefixer = require('autoprefixer');
-const purgecss = require('@fullhuman/postcss-purgecss')
+const purgecss = require('@fullhuman/postcss-purgecss');
 
 const browsersync = require('browser-sync').create();
 

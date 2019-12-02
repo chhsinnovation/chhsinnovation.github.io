@@ -23,7 +23,7 @@ The Department of Rehabilitation (DOR) asked the Office of Innovation to engage 
 
 It has been a long time interest of the Secretary of Health & Human Services, Michael Wilkening, and many other staff at all levels of state service, to be able to connect consumers with as many possible services at one time. It seems like a no-brainer to want to streamline the potentially bureaucratic application process for Californians in need, who don’t often have time to wait for things like food, housing, vocational services, etc. but, pairing with a department like Rehabilitation, to work on this goal, where they are just completing the roll-out of their “expedited enrollment” process which is a revolutionary approach to get consumers approved for services, in record time, was a match made in heaven.
 
-!["A poster from a Speed Geeking session."](/assets/images/Speed Geeking Visual - DOR.png "Speed Geeking Visual")
+!["A poster from a Speed Geeking session."]({{ "/assets/images/Speed Geeking Visual - DOR.png" | relative_url }} "Speed Geeking Visual")
 
 ## Discovery
 

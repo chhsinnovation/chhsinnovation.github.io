@@ -19,7 +19,7 @@ tags:
   - Engagement
 ---
 
-!["A chart of DSH survey results."](/assets/images/DSH Survey Chart.png "DSH Survey Chart")
+!["A chart of DSH survey results."]({{ "/assets/images/DSH Survey Chart.png" | relative_url }} "DSH Survey Chart")
 
 ## The Initial Problem
 

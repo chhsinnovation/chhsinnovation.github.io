@@ -21,7 +21,7 @@ The Office of Statewide Health Planning and Development (OSHPD) is the office re
 
 CHHS’s Office of Innovation partnered with the OSHPD to streamline the process by which external researchers request departmental data. Historically our user community did not know which department kept the data they needed. Thus, they had to fill out multiple requests forms and go through several different review processes to gain access to data resources. The process was time-consuming and confusing. Sometimes important research projects were not able to be completed because of these delays.
 
-!["A poster from a Speed Geeking session."](/assets/images/Speed Geeking Visual - DOR.png "OSHPD Workshop for Higher Ed")
+!["A poster from a Speed Geeking session."]({{ "/assets/images/Speed Geeking Visual - DOR.png" | relative_url }} "OSHPD Workshop for Higher Ed")
 
 ## Discovery
 
