@@ -1716,6 +1716,10 @@ article#summaries ol, article#summaries ul {
     max-width: 100%;
   }
 
+  .xl\:max-w-9xl {
+    max-width: 96rem;
+  }
+
   .xl\:p-8 {
     padding: 2rem;
   }

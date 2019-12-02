@@ -11,6 +11,11 @@ module.exports = {
         '128': '32rem',
         '192': '48rem',
       },
+      maxWidth: {
+        '7xl': '80rem',
+        '8xl': '88rem',
+        '9xl': '96rem'
+      },
       zIndex: {
         '-10': '-10'
       },
