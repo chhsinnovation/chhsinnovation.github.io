@@ -1,0 +1,40 @@
+{
+  "name": "chhsinnovation.github.io",
+  "version": "1.0.0",
+  "description": "This is the GitHub.io presence for the CHHS Office of Innovation. This site houses information about the office, the official communications and outreach calendars, the playbook and open source innovation places for collaboration.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjensen/chhsinnovation.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjensen/chhsinnovation.github.io/issues"
+  },
+  "homepage": "https://github.com/xjensen/chhsinnovation.github.io#readme",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "lodash": "^4.17.15",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "require-dir": "^1.2.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.1.2",
+    "yargs": "^14.2.0"
+  },
+  "dependencies": {}
+}

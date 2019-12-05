@@ -1,24 +1,31 @@
-# theme: jekyll-theme-midnight
-
-collections:
-  authors:
-      output: true
-
 defaults:
   - scope:
-      path: ""
-      type: "authors"
+      path: "_people"
+      type: "people"
     values:
-      layout: "author"
+      layout: "person"
   - scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
+      type: "post"
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_summaries"
+      type: "summaries"
+    values:
+      layout: "page"
   - scope:
       path: ""
     values:
       layout: "default"
+
+environment: production
 
 plugins:
   - jekyll-seo-tag
@@ -26,8 +33,27 @@ plugins:
 
 encoding: utf-8
 
-sass:
-  add_charset: true
-  sass_dir: assets/css
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  summaries:
+    output: true
+    permalink: /summaries/:name/
+  people:
+    output: true
+    permalink: /people/:name/
+  plays:
+    output: true
+    permalink: /playbook/:name/
 
-exclude: []
+permalink: pretty
+
+exclude:
+  - _app
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,10 @@
+<svg class="absolute h-0 w-0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="sky-tint" x="0%" y="0%" width="100%" height="100%">
+            <feColorMatrix type="matrix" values="0.1046 0.1046 0.1046 0 0.6864
+                                                 0.0575 0.0575 0.0575 0 0.8275
+                                                 0.0196 0.0196 0.0196 0 0.9412
+                                                 0      0      0      1 0"/>
+        </filter>
+    </defs>
+</svg>

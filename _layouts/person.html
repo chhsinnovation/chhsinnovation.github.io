@@ -1,0 +1,19 @@
+---
+layout: article
+---
+<h1 class="max-w-3xl text-5xl text-gray-900 font-black mt-8 leading-none">
+  {{ page.name }}
+</h1>
+<span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mb-12 leading-none">
+  {{ page.position }}
+</span>
+
+{{ content }}
+
+<h2 class="max-w-3xl">Posts</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,18 +1,16 @@
-- name: About |
-  link: /staff.html
-- name: How We Work |
-  link: /how-we-work.html
-- name: Engagements |
-  link: /blog.html
-- name: Need help? |
-  link: /gethelp.html
-- name: Join Us |
-  link: /join.html
-- name: Our Methods |
-  link: /methods.html
-- name: Playbook |
-  link: /secondary.html
-- name: Training |
-  link: /training.html
-- name: Get Involved
-  link: /get-involved.html
+- name: About
+  link: /about
+- name: How We Work
+  link: /how-we-work
+- name: Engagements
+  link: /blog
+- name: Need help?
+  link: /get-help
+- name: Join Us
+  link: /join
+- name: Our Methods
+  link: /methods
+- name: Playbook
+  link: /playbook
+- name: Training
+  link: /training

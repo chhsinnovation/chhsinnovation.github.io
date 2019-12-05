@@ -1,8 +1,40 @@
-<nav>
-  <a href="/"><img src="/assets/images/OoI-logo-lg borders.png" alt="OI logo" height="45"></a>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
-</nav>
+<div class="fixed z-50 bg-white w-full">
+  <nav>
+    <div class="mx-blok py-1 md:py-2 h-16 md:h-24 flex items-center justify-between flex-wrap">
+      <div class="mr-4">
+        <a href="{{ "/" | relative_url }}">
+          <img class="object-contain h-12 md:h-16" src="{{ "/assets/images/OoI-logo-lg borders.png" | relative_url }}" alt="Office of Innovation Homepage">
+        </a>
+      </div>
+      <div class="hidden xl:block flex-grow flex items-center w-auto justify-start">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link | relative_url }}" class="text-base text-blue-700 hover:text-blue-900 mr-4">
+            {{ item.name }}
+          </a>
+        {% endfor %}
+      </div>
+      <div>
+        <a href="{{ "/get-involved" | relative_url }}" class="hidden xl:block no-underline text-lg font-bold px-6 xl:px-8 py-4 xl:py-4 leading-none border rounded bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
+          Get Involved
+        </a>
+        <a id="menu-link" href="#" class="block xl:hidden text-sm md:text-base no-underline md:text-lg font-bold px-6 md:px-8 py-4 md:py-4 leading-none border rounded bg-blue-500 text-gray-100 hover:text-blue-100 hover:bg-blue-700">
+          <span id="menu-link-text" class="">Menu</span>
+          <span id="menu-link-close-text" class="hidden">Close</span>
+        </a>
+      </div>
+    </div>
+    <div id="menu" class="hidden flex flex-col mx-blok w-full py-6 bg-blue-100 text-xl font-bold text-right">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link | relative_url }}" class="text-blue-700 hover:text-blue-900 mb-1">
+          {{ item.name }}
+        </a>
+      {% endfor %}
+      <a href="{{ "/get-involved" | relative_url }}" class="text-blue-700 hover:text-blue-900">
+				Get Involved
+			</a>
+    </div>
+
+  </nav>
+  <hr class="border-t border-gray-500">
+  
+</div>

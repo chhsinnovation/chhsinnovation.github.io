@@ -1,15 +1,67 @@
 ---
-layout: default
+layout: article
+type: post
 ---
-<h1>{{ page.title }}</h1>
+<span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mt-8 leading-none">
+    {{ page.host }}
+</span>
+<h1 class="max-w-3xl text-5xl text-gray-900 font-black mb-12 leading-none">
+  {{ page.full_title }}
+</h1>
 
-<p>{{ page.date  | date-to-string }}
-
-{% assign author = site.authors | where: 'short_name', page.author | first %}
-{% if author %}
-  - <a href="{{ author.url }}">{{ author.name }}</a>
-{% endif %}
-</p>
-<div class="container">
-{{content}}
+{% assign author = site.people | where: 'short_name', page.author | first %}
+<div class="mx-blok max-w-3xl mb-12">
+  {% if author %}
+    {% include components/contact-card-mini.html person=author %}
+  {% else %}
+    <span class="block">
+      {{ author.name }}
+    </span>
+  {% endif %}
 </div>
+  
+<span class="block mx-blok max-w-3xl">
+    {{ page.date  | date: "%B %-d, %Y" }}
+</span>
+
+{% if page.summary %}
+  <section class="max-w-3xl mx-blok">
+    <div class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
+      <h2 class="m-0 p-0">
+        Summary
+      </h2>
+      <p class="m-0 p-0">
+        {{ page.summary }}
+      </p>
+    </div>
+  </section>
+{% endif %}
+
+{{content}}
+
+{% if page.staff.size > 0 %}
+  <h2 class="max-w-3xl">
+    Office of Innovation Staff
+  </h2>
+  <div class="flex flex-wrap mx-blok max-w-3xl">
+    {% for person in page.staff %}
+      {% assign profile = site.people | where: 'short_name', person.name | first %}
+      {% if profile %}
+        {% include components/contact-card-mini.html person=profile %}
+      {% else %}
+        {% include components/contact-card-mini.html person=person %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if page.staff.size > 0 %}
+  <h2 class="max-w-3xl">
+    Department Champions
+  </h2>
+  <div class="flex flex-col mx-blok max-w-3xl">
+    {% for person in page.champs %}
+        {% include components/contact-card-guest.html person=person %}
+    {% endfor %}
+  </div>
+{% endif %}

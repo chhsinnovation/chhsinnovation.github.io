@@ -4,11 +4,8 @@ gem 'jekyll'
 gem "jekyll-seo-tag", "~> 2.1"
 gem "github-pages", group:  :jekyll_plugins
 gem "jekyll-include-cache"
-gem "bootstrap", "~> 4.3.1"
-gem "jquery-rails"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
-#gem "actionview", ">= 4.2.11.1"
 
 #source "https://rubygems.org"
 
