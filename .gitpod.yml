@@ -1,0 +1,8 @@
+ports:
+  - port: 4000
+    onOpen: notify
+  - port: 3001
+    onOpen: ignore
+tasks:
+  - init: npm install; bundle install
+    command: npx gulp watch
