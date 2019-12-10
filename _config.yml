@@ -21,6 +21,11 @@ defaults:
     values:
       layout: "page"
   - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: "page"
+  - scope:
       path: ""
     values:
       layout: "default"
@@ -46,6 +51,9 @@ collections:
   plays:
     output: true
     permalink: /playbook/:name/
+  docs:
+    output: true
+    permalink: /docs/:name/
 
 permalink: pretty
 

@@ -1,13 +1,6 @@
 ---
 layout: post
 author: chaeny
-title: "DMHC Distance"
-tags:
-  - Engagement
-
-
-layout: post
-author: chaeny
 host: Department of Managed Health Care
 title: DMHC Distance
 full_title: Distance to Provider
