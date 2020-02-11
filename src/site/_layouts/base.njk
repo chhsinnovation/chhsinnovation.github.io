@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CHHS Office of Innovation website">
+    <meta name="author" content="CHHS Staff">
+
+    <title>
+      {{ title }}
+    </title>
+
+    <link rel="stylesheet" href="{{ '/assets/compiled/styles.compiled.css' | url }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,400,400i,700,700i,900,900i|Permanent+Marker|Rock+Salt&display=swap" rel="stylesheet">     
+    
+    <script>
+      function toggleIt() {
+        var element = document.getElementById("menu");
+        element.classList.toggle("hidden");
+        var element2 = document.getElementById("menu-link-text");
+        element2.classList.toggle("hidden");
+        var element3 = document.getElementById("menu-link-close-text");
+        element3.classList.toggle("hidden");
+      }
+      document.addEventListener("DOMContentLoaded", function(event) {
+        document.getElementById('menu-link').onclick = toggleIt;
+      });
+    </script>
+
+  </head>
+
+  <body class="bg-blue-900">
+
+    {% include "navigation.njk" %}
+
+    <main class="bg-white">
+      {% block main %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
+    
+    {% include "footer.njk" %}
+
+    <script src="/assets/compiled/app.compiled.js"></script>
+
+  </body>
+
+</html>

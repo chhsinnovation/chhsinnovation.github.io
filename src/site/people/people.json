@@ -1,0 +1,4 @@
+{
+  "layout": "person.njk",
+  "permalink": "/people/{{ page.fileSlug }}/index.html"
+}

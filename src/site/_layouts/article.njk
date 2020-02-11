@@ -1,0 +1,11 @@
+{% extends './base.njk' %}
+
+{% block main %}
+  <article 
+    id="{% block type %}{{ type or 'article' }}{% endblock %}" 
+    class="pt-16 md:pt-24 xl:pt-32 pb-6 md:pb-16 xl:pb-24 text-lg text-gray-700">
+    {% block article %}
+      {{ content | safe }}
+    {% endblock %}
+  </article>
+{% endblock %}

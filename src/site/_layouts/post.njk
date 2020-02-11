@@ -1,0 +1,64 @@
+{% extends "./article.njk" %}
+{% import "macros.njk" as macro with context %}
+
+{% block type %}{{- type -}}{% endblock %}
+
+{% block article %}
+  <span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mt-8 leading-none">
+    {{ host }}
+  </span>
+  <h1 class="max-w-3xl text-5xl text-gray-900 font-black mb-12 leading-none">
+    {{ full_title }}
+  </h1>
+
+  <div class="mx-blok max-w-3xl mb-12">
+    {% for person in collections.person %}
+      {% if person.fileSlug === author %}
+        {{ macro.contactCardMini(person=person.data) }}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <span class="block mx-blok max-w-3xl">
+    {{ date | htmlDateString }}
+  </span>
+
+
+  {% if summary %}
+    <section class="max-w-3xl mx-blok">
+      <div class="border-l-8 rounded-r-lg border-gray-500 p-4 mt-2 mb-12 bg-gray-200">
+        <h2 class="m-0 p-0">
+          Summary
+        </h2>
+        <p class="m-0 p-0">
+          {{ summary }}
+        </p>
+      </div>
+    </section>
+  {% endif %}
+
+  {{ content | safe }}
+
+  {% if staff %}
+    <h2 class="max-w-3xl">
+      Office of Innovation Staff
+    </h2>
+    <div class="flex flex-wrap mx-blok max-w-3xl">
+      {% for person in staff %}
+        {{ macro.contactCardMini(person=person) }}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if champs %}
+    <h2 class="max-w-3xl">
+      Department Champions
+    </h2>
+    <div class="flex flex-col mx-blok max-w-3xl">
+      {% for person in champs %}
+        {{ macro.contactCardGuest(person=person) }}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+{% endblock %}

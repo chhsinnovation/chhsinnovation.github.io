@@ -1,0 +1,39 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set improvements %}
+Project sponsor reported high levels of satisfaction with the results six months later.
+{% endset %}
+
+{% set challenges %}
+DHCS wanted to improve efficiency for large and small contracts for an office that deals with a large volume of contracts.
+
+How might we improve the DHCS contract services process? 
+{% endset %}
+
+{% set deliverables %}
+* Revised plan for staffing
+* Created a new Vision/Mission Statement for CSB
+* Addressed lack of standardization and inconsistent feedback loop for bulk contracts
+* Format versus Substance (Contract review focused on “fatal errors”)
+* Recommended creating an Independent FI$Cal Unit
+* Created a contract tracking SharePoint Site 
+* Reorganized the Intranet
+{% endset %}
+
+{% set outcomes %}
+Reorganized staff to better utilize skills and abilities. Implemented the SharePoint site to better track and manage the work. 
+{% endset %}
+
+{{ macro.executiveSummary( 
+    title="DHCS - Contracts", 
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes 
+)}}

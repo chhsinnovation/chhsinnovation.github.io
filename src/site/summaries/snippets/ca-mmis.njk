@@ -1,0 +1,49 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we help CA-MMIS document, communicate and model the modernization vision to stakeholders?
+
+How might we streamline the internal project approval process using an agile approach?
+{% endset %}
+
+{% set deliverables %}
+* Journey map of the PAL Process
+* Prototyped and tested two models to increase cross-organizational collaboration. The models showed a sponsor group that makes business decisions, and a digital service team that researches and builds prototypes to help the sponsors better understand their product assumptions
+* Draft modernization vision
+{% endset %}
+
+{% set outcomes %}
+DHCS senior leadership is convening a group to create the sponsor group and associated digital service team.
+
+Increased collaboration between CA-MMIS and oversight partners led to faster decision making.
+{% endset %}
+
+{% set more %}
+Read our [full report]({{ "/post/CAMMIS/" | url}}) for more info on this engagement.
+{% endset %}
+
+{{ macro.executiveSummary( 
+    title="CA-MMIS", 
+    length=length,
+    more=more,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes 
+)}}
+
+
+
+
+
+
+
+
+
+
+
+
