@@ -82,7 +82,7 @@ Finally, it's time to run the site!
 npm run start
 ```
 
-When the site is running, you'll see some web addresses appear. You want `Local`, which will probably be [http://localhost:8081](http://localhost:8081). Click it.
+When the site is running, you'll see some web addresses appear. You want `Local`, which will probably be [http://localhost:8080](http://localhost:8080) or [http://localhost:8081](http://localhost:8081). Click the link that matches your terminal's output.
 
 You did it! The site is now running on your computer.
 
