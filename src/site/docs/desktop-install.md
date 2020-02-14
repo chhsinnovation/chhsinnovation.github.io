@@ -44,7 +44,7 @@ Next, let's pick a folder on your computer where you want to save the site's cod
 cd Documents
 ```
 
-Let's use git's `clone` tool to download the repository. This example will download Don's fork of the code.
+Now that we're in the *Documents* folder (or whatever folder you chose), let's use git's `clone` tool to download the repository. This example will download Don's fork of the code.
 
 ``` shell
 git clone https://github.com/mealordon/chhsinnovation.github.io.git
@@ -55,6 +55,16 @@ Now change into the folder for the code we just fetched from GitHub. In this exa
 ``` shell
 cd chhsinnovation.github.io.git
 ```
+
+**Don**, at this point, you will need to fetch the new changes from my repository to bring your fork up to date. Here's the magic to make that happen. 
+
+``` shell
+git fetch origin
+git checkout netlify
+git pull
+```
+
+I *think* that will pull the updates. Let me know if not. 
 
 ## Running the code
 
