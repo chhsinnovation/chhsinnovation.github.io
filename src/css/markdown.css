@@ -64,3 +64,12 @@ article#summaries {
         @apply mb-6;
     }
 }
+
+
+pre[class*="language-"] {
+    @apply max-w-3xl mx-auto mt-0 mb-6;
+}
+
+p code, li code {
+    @apply bg-gray-200 px-1 rounded border border-gray-500;
+} 

@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@fullhuman/postcss-purgecss": "^2.0.5",

@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const htmlmin = require("html-minifier");
 const yaml = require("js-yaml");
 const markdownIt = require('markdown-it')();
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (eleventyConfig) => {
 
@@ -25,6 +26,10 @@ module.exports = (eleventyConfig) => {
       return content;
     });
   };
+
+  eleventyConfig.addPlugin(syntaxHighlight);
+
+  eleventyConfig.setUseGitIgnore(false);
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (date) => {
