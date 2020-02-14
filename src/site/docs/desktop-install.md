@@ -29,7 +29,7 @@ You'll need a computer with one of the following operating systems. No Chromeboo
 
 Open up Visual Studio Code. 
 
-Within VS Code, go to the *Terminal* menu and select *New Terminal*. A command line terminal should appear toward the bottom of the screen.
+Within VS Code, go to the `Terminal` menu and select `New Terminal`. A command line terminal should appear toward the bottom of the screen.
 
 Our first order of business is to set up your name and email address in Git. Enter the following commands into the terminal, one line at a time, replacing "John Doe" with your own details.
 
@@ -38,13 +38,13 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-Next, let's pick a folder on your computer where you want to save the site's code. For example, if you want to keep your code in the *Documents* folder, you'll want to `cd` into said folder within the terminal. 
+Next, let's pick a folder on your computer where you want to save the site's code. For example, if you want to keep your code in the `Documents` folder, you'll want to `cd` into said folder within the terminal. 
 
 ``` shell
 cd Documents
 ```
 
-Now that we're in the *Documents* folder (or whatever folder you chose), let's use git's `clone` tool to download the repository. This example will download Don's fork of the code.
+Now that we're in the `Documents` folder (or whatever folder you chose), let's use `git clone` to download the repository. This example will download Don's fork of the code.
 
 ``` shell
 git clone https://github.com/mealordon/chhsinnovation.github.io.git
@@ -66,6 +66,8 @@ git pull
 
 I *think* that will pull the updates. Let me know if not. 
 
+> At this point, you may want to refocus VS Code's attention on your new `chhsinnovation.github.io.git` folder, so you can see all the files in the left-side *Explorer* pane. Go to the `File` menu, select `Open Folder`, and navigate to the `chhsinnovation.github.io.git` folder on your computer.
+
 ## Running the code
 
 With your terminal now pointed to the code's folder, run the following command to install the app's Javascript dependencies.
@@ -82,7 +84,7 @@ Finally, it's time to run the site!
 npm run start
 ```
 
-When the site is running, you'll see some web addresses appear. You want `Local`, which will probably be [http://localhost:8080](http://localhost:8080) or [http://localhost:8081](http://localhost:8081). Click the link that matches your terminal's output.
+When the site is running, you'll see some web addresses. You want `Local`, which will probably be [http://localhost:8080](http://localhost:8080) or [http://localhost:8081](http://localhost:8081). Click the link that matches your terminal's output.
 
 You did it! The site is now running on your computer.
 
@@ -108,11 +110,11 @@ The [Nunjucks Template](https://marketplace.visualstudio.com/items?itemName=eseo
 
 [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) helps process the PostCSS-based fanciness in our `.css` files. But first, we need to help Stylelint.
 
-1. Go ahead and install the Stylelint extension.
+1. Go ahead and install the [Stylelint extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint).
 
 2. Go to the `View` menu and select `Command Palette`.
 
-3. In the Command Palette, type `Open Settings`. From the menu that pops up, select `Preferences: Open Settings (JSON)`
+3. In the Command Palette, type `Open Settings`. From the menu that pops up, select `Preferences: Open Settings (JSON)`.
 
 4. Time to do some surgery. We will enter the following two lines into the file.
 
