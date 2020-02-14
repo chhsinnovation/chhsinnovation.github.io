@@ -31,7 +31,7 @@ Open up Visual Studio Code.
 
 Within VS Code, go to the *Terminal* menu and select *New Terminal*. A command line terminal should appear toward the bottom of the screen.
 
-Our first order of business is to set up your name and email address in Git. Enter the following commands into the terminal, replacing "John Doe" with your own details.
+Our first order of business is to set up your name and email address in Git. Enter the following commands into the terminal, one line at a time, replacing "John Doe" with your own details.
 
 ``` shell
 git config --global user.name "John Doe"
