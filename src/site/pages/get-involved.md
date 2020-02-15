@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Get Involved
 ---
 Being a member of the Office of Innovation (OI) team is not the only way to participate in fostering a culture of innovation within CHHS. Opportunities for staff to contribute include:

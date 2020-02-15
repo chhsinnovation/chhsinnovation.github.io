@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Join Our Team
 ---
 Our staff comes from all corners of CHHS and all levels. Specialized skills are a great bonus: software engineers, program/policy analysts, managers, lawyers, data scientists, designers, product managers, project managers, human resource specialists, procurement specialists, bureaucracy busters, organizers, inventors, “intra-preneurs” and more!

@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Work with us
 ---
 {% import "macros.njk" as macro with context %}

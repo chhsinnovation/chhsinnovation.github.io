@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 type: playbook
 title: Playbook
 ---
@@ -23,7 +22,7 @@ This is a constant work in progress. As we do each engagement, we look back at o
 10. [Adjust the methods to fit the culture of your organization](#adjust-the-methods-to-fit-the-culture-of-your-organization)
 11. [Honestly assess the leadership buy-in](#honestly-assess-the-leadership-buy-in)
 12. [Resist arbitrary measures of your success](#resist-arbitrary-measures-of-your-success)
-13. [“Find the Truth, Tell the Truth”](#find-the-truth-tell-the-truth)
+13. ["Find the Truth, Tell the Truth"](#find-the-truth-tell-the-truth)
 14. [Start with problem definition and iterate solutions](#start-with-problem-definition-and-iterate-solutions)
 15. [No individual contributors](#no-individual-contributors)
 
@@ -284,7 +283,7 @@ Use metrics like UTAUT, net promoter to see if your prototypes are improving thi
 
 
 
-## “Find the Truth, Tell the Truth”
+## "Find the Truth, Tell the Truth"
       
 {% set summary %}
 Develop values that fit where you want to go as an organization, but always include “Find the Truth, Tell the Truth”

@@ -9,9 +9,9 @@ Ready to reprogram the OI website? Follow these steps to become a true and right
 
 You'll need a computer with one of the following operating systems. No Chromebooks, at least for now.
 
-* Windows 10
-* Mac OS X (coming soon)
-* Linux (coming soon)
+* [Windows 10](#windows-10)
+* [Mac OS X](#mac-os-x)
+* [Linux](#linux)
 
 ## Windows 10
 
@@ -21,9 +21,23 @@ You'll need a computer with one of the following operating systems. No Chromeboo
 
 > While optional, *Git Credential Manager for Windows* is highly recommended. It helps you avoid entering a username and password to approve every little thing you do in git.
 
-3. Now we're going to download and install our Javascript processor, [NodeJS](https://nodejs.org/en/). **LTS** versions are preferred.
+3. Now we're going to download and install our Javascript processor, [NodeJS](https://nodejs.org/en/). **LTS** version is preferred.
 
 4. Finally, it's time to get [Visual Studio Code](https://code.visualstudio.com/). **Stable** builds are best.
+
+> *Visual Studio Code* is not the same as Microsoft's venerable Visual Studio IDE. VS Code is a newer product. It's free, open source, cross-platform, optimized for modern programming tools and techniques. It's very popular, even beyond Microsoft's usual niches.
+
+## Mac OS X
+
+Mac installation should be super easy. Most of the tools we need are pre-installed into OS X.
+
+1. Download and install our Javascript processor, [NodeJS](https://nodejs.org/en/). **LTS** version is preferred.
+
+2. Go get [Visual Studio Code](https://code.visualstudio.com/). **Stable** builds are best.
+
+## Linux 
+
+You're cool enough to run Linux, so you've got this. To follow the rest of the instructions below, ensure you have [git](https://git-scm.com/), [NodeJS](https://nodejs.org/en/), and [Visual Studio Code](https://code.visualstudio.com/). (Yes, Microsoft actually supports a Linux version of VS Code. 2020 is weird times.) ;)
 
 ## Fetching the code
 

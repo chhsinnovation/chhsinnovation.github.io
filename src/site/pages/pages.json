@@ -1,4 +1,4 @@
 {
-  "layout": "base.njk",
+  "layout": "page.njk",
   "permalink": "/{{ page.fileSlug }}/index.html"
 }

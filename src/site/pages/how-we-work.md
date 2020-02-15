@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: How We Work
 ---
 ## Affinity Mapping/ KJ Analysis

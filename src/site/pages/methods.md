@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Our Methods
 ---
 

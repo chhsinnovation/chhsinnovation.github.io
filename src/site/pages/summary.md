@@ -1,5 +1,4 @@
 ---
-layout: page.njk
 title: Executive Summary
 ---
 CHHS OI just past the one year anniversary of our first set of engagements. Working in teams of 4-5, we completed 21 engagements each lasting between two to eight weeks. 
