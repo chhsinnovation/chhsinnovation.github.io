@@ -67,7 +67,7 @@ git clone https://github.com/mealordon/chhsinnovation.github.io.git
 Now change into the folder for the code we just fetched from GitHub. In this example, we're already in the *Documents* folder from before, so we just need to `cd` into the new folder created by `clone`.
 
 ``` shell
-cd chhsinnovation.github.io.git
+cd chhsinnovation.github.io
 ```
 
 **Don**, at this point, you will need to fetch the new changes from my repository to bring your fork up to date. Here's the magic to make that happen. 
