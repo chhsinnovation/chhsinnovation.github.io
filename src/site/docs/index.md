@@ -8,5 +8,9 @@ All the notes you need to create, edit, structure, shape, and publish content on
 
 ## Developer Tools
 
-For now, the cool kids can start by [installing the developer tools]({{ '/docs/desktop-install' | url }}) on their desktops.
+For now, the cool kids can start by [installing the developer tools]({{ '/docs/desktop-setup' | url }}) on their desktops.
+
+## Git
+
+Learn about [how we use Git]({{ '/docs/git' | url }}) to share and publish changes to the OI website.
 

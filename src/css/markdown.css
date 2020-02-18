@@ -1,5 +1,5 @@
 article {
-    p, ol, ul, h1, h2, h3 {
+    p, ol, ul, h1, h2, h3, h4 {
         @apply max-w-3xl mx-auto px-2;
         @screen sm {
             @apply px-6;
@@ -35,6 +35,10 @@ article {
 
     h3 {
         @apply font-bold mt-12 text-gray-800;
+    }
+
+    h4 {
+        @apply font-bold italic mt-12 text-gray-800;
     }
 
 }
