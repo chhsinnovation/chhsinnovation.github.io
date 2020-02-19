@@ -1,5 +1,4 @@
 ---
-short_name: chaeny
 name: Chaeny Emanavin
 position: Director, Office of Innovation
 tags:

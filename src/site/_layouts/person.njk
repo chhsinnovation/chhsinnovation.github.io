@@ -1,11 +1,11 @@
-{% extends './base.njk' %}
+{% extends './page.njk' %}
 
-{% block main %}
+{% block page %}
   <h1 class="max-w-3xl text-5xl text-gray-900 font-black mt-8 leading-none">
-    {{ page.name }}
+    {{ name }}
   </h1>
   <span class="block mx-blok max-w-3xl text-3xl text-gray-800 font-thin mb-12 leading-none">
-    {{ page.position }}
+    {{ position }}
   </span>
 
   {% block person %}

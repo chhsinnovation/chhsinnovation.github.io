@@ -9,11 +9,15 @@ Learn how to start and stop the site on your own computer.
 
 This document assumes you have completed our guides on [installing desktop developer tools]({{ '/docs/desktop-setup' | url }}) and [setting up Git]({{ '/docs/git-setup' | url }}).
 
-## Setting up
+## Set up the workspace
 
-Open up Visual Studio Code, go to the `File` menu, select `Open Folder`, and navigate to the `chhsinnovation.github.io` folder on your computer. 
+Before we begin, let's set up your workspace.
 
-Next, open up your command-line terminal by going to the `Termimnal` menu and selecting `Open Terminal`.
+1. Open up Visual Studio Code.
+
+2. If needed, go to the `File` menu, and select `Open Folder`. Navigate to the `chhsinnovation.github.io` folder on your computer. Select it. 
+
+3. If needed, open up your command-line terminal by going to the `Termimnal` menu and selecting `Open Terminal`.
 
 ## Running the code
 

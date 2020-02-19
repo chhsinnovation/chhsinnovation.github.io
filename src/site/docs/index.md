@@ -6,11 +6,10 @@ permalink: /docs/index.html
 
 All the notes you need to create, edit, structure, shape, and publish content on the Office of Innovation website. More to come.
 
-## Developer Tools
+## Getting started
 
-For now, the cool kids can start by [installing the developer tools]({{ '/docs/desktop-setup' | url }}) on their desktops.
-
-## Git
-
-Learn about [how we use Git]({{ '/docs/git' | url }}) to share and publish changes to the OI website.
+* [Install developer tools]({{ '/docs/desktop-setup' | url }})
+* [Setting up Git]({{ '/docs/git-setup' | url }})
+* [Running the site]({{ '/docs/npm-setup' | url }})
+* [Intro to content]({{ '/docs/content-primer' | url }})
 

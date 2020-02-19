@@ -86,16 +86,26 @@ git config --global user.email johndoe@example.com
 
 A Git repository divides code into branches. Consider branches as separate, divergent versions of the code. Currently, the most up-to-date code on Jon's fork is in the `netlify` branch. So let's switch to it.
 
-``` shell
-git fetch origin
+First, set up Jon's fork as *upstream* on your repository. You only need to do this once.
+
+``` shell 
+git remote add upstream https://github.com/xjensen/chhsinnovation.github.io.git
+```
+
+Next, switch to the `netlify` branch.
+
+``` shell 
 git checkout netlify
 ```
 
-If it's been a while since you created the fork, you might want to bring your code up-to-date. The following commmand will bring changes from Jon's code into your fork.
+If it's been hours to days since you created the fork, you might want to fetch the latest upstream changes from Jon's code.
 
 ``` shell
-git pull
+git fetch upstream
+git merge upstream/netlify
 ```
+
+And now you should have the latest changes.
 
 ## Running the site
 
