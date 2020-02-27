@@ -1,0 +1,79 @@
+article {
+    p, ol, ul, h1, h2, h3, h4 {
+        @apply max-w-3xl mx-auto px-2;
+        @screen sm {
+            @apply px-6;
+        }
+    }
+
+    p {
+        @apply leading-relaxed mb-6;
+    }
+
+    ol {
+        @apply list-decimal mt-4;
+    }
+    
+    ul {
+        @apply list-disc mt-4;
+    }
+    
+    li {
+        @apply mb-4 ml-6;
+    }
+
+    blockquote {
+        @apply max-w-xl mx-auto border-l-4 border-gray-500 p-4 my-12 bg-gray-200 text-gray-800;
+        p {
+            @apply mb-0;
+        }
+    }
+
+    h2 {
+        @apply text-2xl font-bold mt-12 text-gray-800;
+    }
+
+    h3 {
+        @apply font-bold mt-12 text-gray-800;
+    }
+
+    h4 {
+        @apply font-bold italic mt-12 text-gray-800;
+    }
+
+}
+
+article#playbook {
+    h2 {
+        @apply text-4xl font-bold mb-12 pt-40 mt-40 text-gray-800 leading-none border-t border-gray-300;
+    }
+}
+
+article#post {
+    section h2 {
+        @apply mt-0;
+    }
+}
+
+article#summaries {
+    p, ol, ul, h1, h2, h3 {
+        @apply max-w-full mx-0;
+    }
+
+    h3 {
+        @apply mt-6;
+    }
+
+    ol, ul {
+        @apply mb-6;
+    }
+}
+
+
+pre[class*="language-"] {
+    @apply max-w-3xl mx-auto mt-0 mb-6;
+}
+
+p code, li code {
+    @apply bg-gray-200 px-1 rounded border border-gray-500;
+} 

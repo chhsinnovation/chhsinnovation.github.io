@@ -1,0 +1,53 @@
+{
+  "name": "chhsinnovation.github.io",
+  "version": "1.0.0",
+  "description": "This is the GitHub.io presence for the CHHS Office of Innovation. This site houses information about the office, the official communications and outreach calendars, the playbook and open source innovation places for collaboration.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "concurrently \"postcss src/css/styles.css -o src/compiled/styles.compiled.css\" \"webpack --config webpack.config.js\" &&  concurrently \"postcss src/css/styles.css -o src/compiled/styles.compiled.css --poll src/css --watch --verbose\" \"webpack --watch --config webpack.config.js\" \"eleventy --serve --watch\"",
+    "build": "del dist && eleventy && cross-env NODE_ENV=production postcss src/css/styles.css -o src/compiled/styles.compiled.css && webpack -p --config webpack.config.js && cross-env ELEVENTY_ENV=production eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjensen/chhsinnovation.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjensen/chhsinnovation.github.io/issues"
+  },
+  "homepage": "https://github.com/xjensen/chhsinnovation.github.io#readme",
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^5.0.2",
+    "cross-env": "^7.0.0",
+    "del-cli": "^3.0.0",
+    "html-minifier": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "luxon": "^1.21.3",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-emoji": "^1.4.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.1.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "optionalDependencies": {
+    "fsevents": "^0.0.1"
+  }
+}

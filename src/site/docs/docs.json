@@ -1,0 +1,5 @@
+{
+  "layout": "page.njk",
+  "type": "docs",
+  "permalink": "/docs/{{ page.fileSlug }}/index.html"
+}
