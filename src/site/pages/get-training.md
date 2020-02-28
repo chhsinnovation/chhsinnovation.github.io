@@ -1,5 +1,5 @@
 ---
-title: How We Work
+title: Get Training
 ---
 ## Affinity Mapping/ KJ Analysis
 

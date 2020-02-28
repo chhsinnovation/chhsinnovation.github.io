@@ -1,33 +1,33 @@
-[  
-  { 
+[
+  {
     "name": "About",
     "link": "/about"
-  }, 
-  { 
-    "name": "How We Work",
-    "link": "/how-we-work"
-  }, 
-  { 
+  },
+  {
+    "name": "Get Training",
+    "link": "/get-training"
+  },
+  {
     "name": "Engagements",
     "link": "/blog"
-  }, 
-  { 
+  },
+  {
     "name": "Need help?",
     "link": "/get-help"
-  }, 
-  { 
+  },
+  {
     "name": "Join Us",
     "link": "/join"
-  }, 
-  { 
+  },
+  {
     "name": "Our Methods",
     "link": "/methods"
-  }, 
-  { 
+  },
+  {
     "name": "Playbook",
     "link": "/playbook"
-  }, 
-  { 
+  },
+  {
     "name": "Training",
     "link": "/training"
   }
