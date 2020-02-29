@@ -1,60 +1,12 @@
 ---
-title: Work with us
+title: Engagement Prep
 ---
 {% import "macros.njk" as macro with context %}
 
 {% set block %}
-You have a challenge and an opportunity.
-
-You have questions.
-
-Let us answer them.
+How do you get an OI team to come work on your challenge?
 {% endset %}
 {{ macro.boldBlock(block=block) }}
-
-
-## Who are we?
-
-The Office of Innovation uses proven digital service, product driven, agile, lean, design thinking and human centered design techniques - honed in the private sector and customized for the government workforce - to deliver products and solutions that solve problems.
-
-### Our Mission
-
-Continuously improve our delivery of health and human services to Californians by nurturing and multiplying the creative potential of CHHS staff
-
-### Our Vision
-
-To embed design thinking, user-centered problem solving skills, and other innovative strategies into CHHS so that these methods are no longer thought of as novel and become just how work is done. 
-
-### Our Values
-
-We take our values very seriously. They guide our interactions and how we strive to deliver superior solutions.
-
-* Build and nurture safe psychological spaces
-* Trust others and be unfailingly worthy of their trust
-* Find the Truth, Tell the Truth
-* Design with users, not for them
-* Start small and iterate to create momentum
-* Value what failure teaches
-* Deliver and improve upon imperfect things, instead of waiting for perfection
-* Optimize for results, not optics
-* Design with data
-* Engage, invest in, and empower great people
-* Don’t start compromising right out of the gate, ask for what you really need
-
-
-
-## Where did we come from?
-
-### A Bit of History from Chaeny Emanavin, Director
-
-The methods we use in the Office of Innovation are constantly being refined. Before I was director, I was fortunate to witness firsthand early efforts to apply modern digital service techniques in the federal government. At Consumer Financial Protection Bureau and later at US Digital Service, I saw different models of bringing smart, dedicated people from industry to build incredible applications for government services. However, in these models skills exchange was secondary. As a long time government employee I know there were smart, dedicated people already serving in government. There is not an ability gap. There is a skills gap.
-
-Skills can be learned.
-
-I wanted to focus on training existing government staff with the skills I observed that make USDS and 18F so successful. However, I never found the opportunity to build this model out. When CA Health and Human Services Secretary Mike Wilkening created the CHHS Office of Innovation, opportunity finally appeared to make this idea into reality. 
-
-Another key is to provide staff the opportunity to use these great techniques. These skills are not simply just absorbed, they must be practiced. To practice them well means having projects that run unlike anything the government typically does. To have these unique projects means having high level executive buy in providing high level sponsorship, but also not predetermining what the outcome will be while the team learns. This requires a very unique and visionary leadership from Secretary Wilkening and also buy in from the organization to try to do things differently without any guarantee of success. Incrementally, we are changing the culture at CHHS to think about voice of the user and produce products that make government work better.
-
 
 
 ## What are we passionate about?
@@ -70,7 +22,7 @@ We don’t build things for you; we build things with you side by side.
 {% endset %}
 {{ macro.shortPunchSummary(summary=summary) }}
 
-We use the agile sprint methodology – 2 week long sprints focused on iterating on previous work. Each sprint has a specific goal and set of deliverables. 
+We use the agile sprint methodology – 2 week long sprints focused on iterating on previous work. Each sprint has a specific goal and set of deliverables.
 
 Deliverables vary by what we uncover during discovery and the highest value return based on those needs. Therefore, what you get might not be what you initially asked for, but the improvements will be significant.
 
@@ -89,7 +41,7 @@ We use a lot of sticky notes
 {% endset %}
 {{ macro.shortPunchSummary(summary=summary) }}
 
-Generally speaking, we’ll have a team of 4 people working with your staff during the eight week long engagement. We start with a meet and greet a week or two before we actually start. This is to introduce the team, get badges and most importantly, schedule interviews with stakeholders so we can start work on the first day. The first sprint is the discovery phase, where we learn as much as we can about the problem(s). We then spend the next four weeks prototyping, testing and iterating on the potential solution. 
+Generally speaking, we’ll have a team of 4 people working with your staff during the eight week long engagement. We start with a meet and greet a week or two before we actually start. This is to introduce the team, get badges and most importantly, schedule interviews with stakeholders so we can start work on the first day. The first sprint is the discovery phase, where we learn as much as we can about the problem(s). We then spend the next four weeks prototyping, testing and iterating on the potential solution.
 
 At the end of every sprint, we do a sprint demo. This is to highlight what we learned and built together. The demo is an opportunity to provide feedback and direction. We decide what to adjust, including major pivots in direction, based on your feedback from the demo. Some challenges are more complex and can get weekly demos as needed. We deliver the final prototype on the last demo day. Lastly, we spend an additional week wrapping up documentation and helping get your team ready to move the good things forward.
 
@@ -122,8 +74,8 @@ We bring our own equipment, but will need a few logistical things while working 
 * Sticky Notes
 * Sharpies/Markers
 
-          
-          
+
+
 ## What is the time commitment?
 
 We do not expect your staff to be available to us full time on these engagements. The most intensive is the Champion – our expert guide – someone to call when stuck and can help schedule meetings and interviews. For SMEs and other participants, we typically need 4-6 hours per week for interviews, workshops and follow up conversations. Depending on the nature of the work, we might need more or less so flexibility is appreciated.
@@ -145,4 +97,3 @@ Please feel free to call or email me if you have further questions. We cannot wa
 ## Who to contact for more information?
 
 Contact [Chaeny.Emanavin@chhs.ca.gov](mailto:Chaeny.Emanavin@chhs.ca.gov) for more information.
-

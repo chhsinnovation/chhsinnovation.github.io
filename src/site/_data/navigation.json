@@ -4,20 +4,16 @@
     "link": "/about"
   },
   {
-    "name": "Get Training",
-    "link": "/get-training"
-  },
-  {
-    "name": "Engagements",
+    "name": "Our Portfolio",
     "link": "/blog"
   },
   {
-    "name": "Need help?",
-    "link": "/get-help"
+    "name": "Catalog",
+    "link": "/catalog"
   },
   {
-    "name": "Join Us",
-    "link": "/join"
+    "name": "Engagement Prep",
+    "link": "/engagement-prep"
   },
   {
     "name": "Our Methods",
@@ -28,7 +24,11 @@
     "link": "/playbook"
   },
   {
-    "name": "Training",
+    "name": "Join Us",
+    "link": "/join"
+  },
+  {
+    "name": "Get Training",
     "link": "/training"
   }
 ]

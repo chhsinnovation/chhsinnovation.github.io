@@ -2,32 +2,24 @@
 title: Training
 ---
 
-We use proven digital service, product-driven, agile, lean design thinking and human-centered design and other innovative strategies to work with customers to build a thing that solves a problem. Before we can use these instruments, we must be trained in them and we must be able to practice what was learned in real engagements. So, the first step is to get trained. Please see below for a list of available courses.
+We build and we teach as we go along. With this dual delivery approach we aim to make human centered design and iterative product development methods the new core competencies of state work.
+
+Our staff goes through an intensive six week "bootcamp" style training to learn these methodologies. We then do engagement work with the departments to deliver value and make these skills sticky.
+
+Here's what we learn: (links to each the page below)
+| Facilitation | Design Thinking and Problem Definition | Human Centered Design  |
+| Product Management | Rapid Prototyping | Agile & Lean Methodologies |
+| Interviewing | UX Testing | Leadership, Communications & Team Building |
+| Personal Strengths | Software Development |  Leading Organizational Change Management |
+
+We offer introductions to these skills and techniques to you as part of our services. These courses are typically one day and open to anyone in your organization.
+
+Contact us about providing training to your office. (LINK)
 
 
+### Human Centered Design
 
-## HCD Methodologies
-
-In Human Centered Design training OI team members learn about the following techniques for each part of the 5-stage process. 
-
-1. Human Centered Design
-2. Problem Definition:
-    1. Design Thinking
-    2. Smallify (problem & challenge statements)
-3. Discovery, Ideating and Prototyping:
-    1. Affinity Mapping & KJ Method
-    2. Crazy Eights, Charettes, and One-Ups
-    3. Research methods, interviewing techniques
-    4. Synthesis
-    5. Personas, Empathy Maps
-    6. Prototyping
-4. Testing
-    1. UX Testing
-    2. User Acceptance Testing
-      
-### Human Centered Design 
-
-Experiential training in Human Centered Design (HCD). 
+Experiential training in Human Centered Design (HCD).
 
 The learning objective is understanding how to properly operationalize the HCD approach to involve human input throughout the entire empathize, define, ideate, prototype, test iterative process.
 
@@ -35,13 +27,13 @@ Experiential training in collaborative problem solving including but not limited
 
 ### Design Thinking  
 
-Experiential training in tools for rapid innovation. 
+Experiential training in tools for rapid innovation.
 
 The leading objective is to learn the mindset shift, techniques to make problems more well defined and gather highly varied idea to solve problems.
 
 Training explores students’ individual roles as trusted advisors and consultants to their organizations and their associated impact. Through discussion and interactive, learn-by-doing activities, students learn how to be an internal consultant and how to use rapid innovation skills, tools, and mindsets to get to the root cause of challenges and develop solutions aligned with customer-stakeholder needs. Emphasis is placed on how to be a "trusted advisor," how to actively listen to and engage customer-stakeholders, how to generate high impact, actionable solutions, and how to use small bets and small wins to manage risk, build alignment and accelerate results. We also reflect on how to use the tools in team-based settings and end with individual commitment to use the tools in their everyday within five days so they can start building sustainable habits.
 
-### Interviewing & User Testing 
+### Interviewing & UX Testing
 
 Experiential training in how to conduct interviews and empathetic listening techniques to discover deep understanding of user needs.
 
@@ -58,16 +50,16 @@ Team members receive training on techniques integral to the entire Human Centere
 1. Psychological safety
 2. Facilitation
 3. Product Management
-4. Content Strategy 
+4. Content Strategy
 5. Change Management
 
 ### Facilitation (Link-1)
 
-Experiential training in participatory workshop/meeting design. 
+Experiential training in participatory workshop/meeting design.
 
 The learning objective is to understand the methods and techniques to run meetings to get people to drive to better outcomes through iterative design.
 
-Includes techniques including but not limited to: how to facilitate an effective brainstorming session, how to facilitate towards decision making including negotiation tactics, stakeholder mapping, methods to prepare and follow up after workshops, convening groups with diverse viewpoints, aligning expectations, working with decision makers, and methodologies to run an effective meeting. 
+Includes techniques including but not limited to: how to facilitate an effective brainstorming session, how to facilitate towards decision making including negotiation tactics, stakeholder mapping, methods to prepare and follow up after workshops, convening groups with diverse viewpoints, aligning expectations, working with decision makers, and methodologies to run an effective meeting.
 
 ### Leading Organizational Change Management Digital Service Teams (Link-6)
 
@@ -81,7 +73,7 @@ The learning objectives are to lead all levels of an organization through the pr
 
 ## Effective Team Functioning
 
-A central principle of the Office of Innovation is the importance of team functioning. Teams need to be psychologically safe spaces, with team members who understand how to communicate effectively, leverage each other’s strengths, collectively produce results, and move past breakdowns quickly. 
+A central principle of the Office of Innovation is the importance of team functioning. Teams need to be psychologically safe spaces, with team members who understand how to communicate effectively, leverage each other’s strengths, collectively produce results, and move past breakdowns quickly.
 
 Trainings include:
 
@@ -104,7 +96,7 @@ The content includes, but is not limited to: iterative methods to adjust outputs
 
 Experiential training in personal strengths, using strengths in team dynamics and personalized coaching.
 
-Experiential training in how to communicate across different styles. How to get groups to work effectively despite different communication issues. 
+Experiential training in how to communicate across different styles. How to get groups to work effectively despite different communication issues.
 
 Experiential training in teamwork, team-building, and open communications. Potential methods shall include but not be limited to: physical/mental challenges; challenges that require teamwork to complete; and communication practices.
 
@@ -122,7 +114,3 @@ The learning objectives are to understand personal abilities, opportunities for 
 
 
 [Email us to learn about available trainings](mailto:name@email.com)
-
-
-
-
