@@ -30,7 +30,11 @@ Deliverables vary by what we uncover during discovery and the highest value retu
 
 Our deliverables can be digital products, improvements to workflows, policies changes, procedure recommendations, skills improvements, changes to forms or even suggestions for legislation changes.
 
-All our engagements last three sprints with a prep week before and a wrap up week after. Thus, expect us to be on this engagement for eight weeks total. After each two-week long sprint, we do a demo or what we learned and built. This demo is a chance to review and determine if we continue with the current plan or pivot to a new idea based on what we learned. From the first meeting to the delivery of the final prototype, we work with your team to transition the work to your staff. Each step of the way, we teach your team our methods with immersive, hand-ons co-creation.
+Our deliverables can be digital products, improvements to workflows, policies changes, procedure recommendations, skills improvements, changes to forms or even suggestions for legislation changes.
+
+All our engagements last four sprints with a few prep meetings in the weeks before and a wrap up week after. Thus, expect us to be actively working with you and your staff for at least eight weeks. After each two-week long sprint, we do a demo or what we learned and built. This demo is a chance to review and determine if we continue with the current plan or pivot to a new idea based on what we learned. From the first meeting to the delivery of the final prototype, we work with your team to transition the work to your staff. Each step of the way, we teach your team our methods with immersive, hand-ons co-creation.
+
+We don’t build things for you; we build things with you side by side.
 
 
 

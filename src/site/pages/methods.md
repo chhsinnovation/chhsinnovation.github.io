@@ -8,11 +8,27 @@ Deliverables vary by what we uncover during discovery and the highest value retu
 
 > “Therefore, what you get might not be what you initially asked for, but the improvements will be significant.”
 
-Our deliverables can be digital products, improvements to workflows, policies changes, procedure recommendations, skills improvements, changes to forms or even suggestions for legislation changes.
+##Driving Culture Change with HCD and Product Management
+We have the dual mission of delivering value and creating culture change. How do we drive that culture change? By teaching the methods and mindset of human centered design and iterative product management process. By reframing the nature of state government work, we show employees how to tightly define problems, set the desired business goal, understand user needs and design a product that will solve the problem.
 
-All our engagements last four sprints with a few prep meetings in the weeks before and a wrap up week after. Thus, expect us to be actively working with you and your staff for at least eight weeks. After each two-week long sprint, we do a demo or what we learned and built. This demo is a chance to review and determine if we continue with the current plan or pivot to a new idea based on what we learned. From the first meeting to the delivery of the final prototype, we work with your team to transition the work to your staff. Each step of the way, we teach your team our methods with immersive, hand-ons co-creation.
+When staff see how well this process works to solve long-standing problems, they start adopting these methods into their daily work. The simplest first step is to start talking to actual users!
 
-We don’t build things for you; we build things with you side by side.
+##The OI Method = HCD + Product + Facilitation + Communication skills
+
+##The HCD Process
+The HCD process we use is a cycle of: Discovery, Imagine, Prototype, Test and Iterate.
+(Add graphic)
+
+##Product Management
+Product management is basically can you build a thing to solve a problem. It is the combination of business goals, user needs, technical requirements and policy/regulations. Who better than the state employees to blend these skills into a single role. Moreover, by iterating and getting frequent feedback, the solution is crafted more mindfully. With less re-work the solution is delivered more quickly.
+
+##Facilitation
+The art of faciliation is convening groups of people to some shared understanding. This is a key skill for our team as we are often in the role of getting groups with diverse needs and goals to work together to craft some shared solution.
+
+##Communication skills
+One of the goals of OI is to help our staff become the best version of themselves. Working with our teams, we want our partners to also join similar journeys. The "soft skills" of communication are key to team success.
+
+Our methods and the skills included with them are how we deliver solutions and culture change.
 
 ## Methods
 
