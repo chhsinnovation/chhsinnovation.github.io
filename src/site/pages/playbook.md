@@ -4,9 +4,15 @@ title: Playbook
 ---
 {% import "macros.njk" as macro with context %}
 
-The creation of the CA Health and Human Services Office of Innovation (CHHS OI) progressed rapidly and is producing better than expected results. Informed by advice from many mentors and direct experience in government, private industry, higher ed and “Momma knows best” (my mother has been in state service for over 50 years and is currently crafting product roadmaps and writing user stories for FTB). Refined by experience in actual engagements.
+##How do I bring innovation to my organization?
 
-This is a constant work in progress. As we do each engagement, we look back at our processes and habits and refine them… also known as agile. These principles and techniques worked for us, but they may not work for you. We invite you to take anything from our experiences and try them. Fork the items here and if you find something that works better, let us know. Let’s work together to create the government services we all deserve.
+The creation of the CA Health and Human Services Office of Innovation (CHHS OI) progressed rapidly and is producing better than expected results. Informed by advice from many mentors and direct experience in government, private industry, higher ed and “Momma knows best” (my mother has been in state service for almost 50 years). This approach is a blend from what works in private industry and government to create a new model.
+
+##Adjust to fit
+
+What works for us might not work for you verbatum. However, there is flexibility to adapt these techniques to find what works best for you.
+
+Our approach is a constant work in progress. As we do each engagement, we look back at our processes and habits and refine them… also known as agile. These principles and techniques work for us, but they may not work for you. We invite you to take anything from our experiences and try them. Fork the items here and if you find something that works better, let us know. Let’s work together to create the government services we all deserve.
 
 ## The Fifteen Plays
 
@@ -30,7 +36,7 @@ This is a constant work in progress. As we do each engagement, we look back at o
 
 ## Create safe psychological spaces
 
-Must be free and believe that they are honestly supported to fail and learn. This must be honest and iron clad at all levels of leadership in the organization. 
+Must be free and believe that they are honestly supported to fail and learn. This must be honest and iron clad at all levels of leadership in the organization.
 
 The second one of the team gets burned for not “delivering” on something that was a learn/fail fast effort, all trust is lost and your innovation efforts become almost impossible to drive forward. We made an effort to take the negativity out of the term “failure”. We used Smallify’s “Failure bow” to make a joke out of messing something up. We follow up almost every usage of the term “failure” with the statement “what we learned was…”
 
@@ -42,7 +48,7 @@ Ask yourself:
 * Does my staff engage in brainstorming?
 
 Resources for you:
-		
+
 [Google’s two year study on high performing teams](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
 
 {{ macro.backToTop(selector="#the-fifteen-plays") }}
@@ -56,7 +62,7 @@ Train your staff in human centered design and product skills and emphasize commu
 {% endset %}
 {{ macro.shortPunchSummary(summary=summary) }}
 
-The foundation of successful products and services that resonate with users is Human Centered Design. This emphasizes learning and empathizing with the people using a good or service to deeply understand how to solve their problems. 
+The foundation of successful products and services that resonate with users is Human Centered Design. This emphasizes learning and empathizing with the people using a good or service to deeply understand how to solve their problems.
 
 Secondly, utilizing the iterative/Lean product development process (often broadly referred to as “agile”) as a framework to turn the insights from the HCD process into effective and lovable products. A good product manager must understand: business needs, laws and policies; technological constraints; voice of the users. Who better than state staff to fill this role? That’s why we believe that product management must become a core skill for government workers moving forward.
 
@@ -70,7 +76,7 @@ The Humanistic Centered Design Process
   image="/assets/images/humanistic-centered-design-process.png",
   title="The Humanistic Centered Design Process",
   description=description,
-  caption=caption 
+  caption=caption
 )}}
 
 {% set description %}
@@ -83,7 +89,7 @@ Design Thinking Process
   image="/assets/images/design-thinking-process.png",
   title="Design Thinking Process",
   description=description,
-  caption=caption 
+  caption=caption
 )}}
 
 *They are pretty much the same.*
@@ -99,7 +105,7 @@ Lastly, we strive to push staff into high levels of personal growth. The more en
 
 
 ## Timebox your efforts
-      
+
 {% set summary %}
 Timebox your efforts - you are limited resources and if they waste time, they lose value
 {% endset %}
@@ -141,14 +147,14 @@ Resources for you:
 Have an evolution plan for the types of challenge your office takes on, but start with PROBLEM DEFINITION
 {% endset %}
 {{ macro.shortPunchSummary(summary=summary) }}
-     	
+
 Problem definition is the core of innovation. We start with a “problem statement”. This is often broad like “Let’s fix access nutrition assistance programs for needy Californians.” It is a good articulation of the general problem space, but not specific enough to know where to start tackling the problems. Unfortunately, this is where most organizations stop.
 
 We take the problem statement and break it into smaller, more tightly defined “challenge statements”. These are typically parts of the problem that can be improved in an arbitrary amount of time. For example, “How might we improve EBT card usage in Mendocino County for the Spanish speaking community?” This is more specific and measurable. We can set up an effort to see if it improves things in eight weeks or less. After we get some momentum fixing this issue, then we move on to the next challenge, and the next until we have solved a large part of the bigger problem. This is how you generate positive momentum!
 
 Ask yourself:
 
-* Are these problems too broad? 
+* Are these problems too broad?
 * Can I break this problem into a smaller, more manageable chunk without it becoming trivial?
 * Is my statement phrased in a “How might we…” format?
 
@@ -183,15 +189,15 @@ The Phoenix Project by Kevin Behr, George Spafford, and Gene Kim
 
 
 ## Showcase skills daily
-      
+
 {% set summary %}
 Create a runway for your staff to use these new skills unfettered by status quo until these new talents become habit
 {% endset %}
 {{ macro.shortPunchSummary(summary=summary) }}
 
-My biggest complaint with typical training in the government, is that people get inspiring training, then return back to business as usual. They do not get to use the new skills or techniques they learned because there is no support to try anything new and the antibodies attack the new idea. The opportunity fades, the skill is lost, money wasted and inspiration squashed. Thus, staff that go through training join OI staff as part time or full time staff for 1 -2 years to practice the new skills until they become habit. 
+My biggest complaint with typical training in the government, is that people get inspiring training, then return back to business as usual. They do not get to use the new skills or techniques they learned because there is no support to try anything new and the antibodies attack the new idea. The opportunity fades, the skill is lost, money wasted and inspiration squashed. Thus, staff that go through training join OI staff as part time or full time staff for 1 -2 years to practice the new skills until they become habit.
 
-This means Innovation and organizational leadership must agree that 
+This means Innovation and organizational leadership must agree that
 
 1. The innovation staff are allowed to go into departments and work on problems
 2. They are given complete access to a champion, a scheduler and experts to find the truth
@@ -204,7 +210,7 @@ This means Innovation and organizational leadership must agree that
 
 
 ## Pick staff based on curiosity and grit
-      
+
 {% set summary %}
 Pick staff based on visible displays of curiosity and grit: from the inside and from the outside
 {% endset %}
@@ -212,18 +218,18 @@ Pick staff based on visible displays of curiosity and grit: from the inside and 
 
 This work is tough. Need people who want to do this and use the methods. Need grit to push through the plethora of blockers in the work and their participation.
 
-Create a team that has both career state talent and fresh skills from the outside. Start with talented internal staff. If you aren’t able to bring in outside talent, then use those same people to train their skills to your staff. If possible, cultivate some sort of fellowship to get talented outside talent in for fresh ideas on a 2 year basis. This will attract people that want to work in government, but do not want to make it a career, while allowing them to drive more culture change than if they were contracted staff. 
+Create a team that has both career state talent and fresh skills from the outside. Start with talented internal staff. If you aren’t able to bring in outside talent, then use those same people to train their skills to your staff. If possible, cultivate some sort of fellowship to get talented outside talent in for fresh ideas on a 2 year basis. This will attract people that want to work in government, but do not want to make it a career, while allowing them to drive more culture change than if they were contracted staff.
 
 An office cannot depend on all coming from inside or outside the organization. Esp. development talent - larger pool if contract for skilled developers given developer job options not realistic have them be state staff forever. That’s why so critical for state staff to be great product people to make sure the ask of what the contractor is clear on what they need to help build to solve the problem.
 
 Ask yourself:
-		
+
 * What talents do I have inside?
 * What skills do I need? What skills are temporary and which do I need permanently?
 * Do my contracts support the gaps that I have?
-		
+
 Resources for you:
-		
+
 LINK TO HIRING STRATEGY DOCUMENT WITH INTERVIEW QUESTIONS, SCORING STAFF AFTER INTERVIEWS (FORM ON DRIVE), STAFFING ASK METHOD FOR FT/PT STAFF (IO STAFFING PROPOSAL ON DRIVE), IO STAFFING POSITION DESC (ON DRIVE), STRUCTURE OVERVIEW FT/PT for 1 or 2 years (MAYBE MAKE A SECTION ON GH AND JUST LINK TO IT)
 
 {{ macro.backToTop(selector="#the-fifteen-plays") }}
@@ -231,7 +237,7 @@ LINK TO HIRING STRATEGY DOCUMENT WITH INTERVIEW QUESTIONS, SCORING STAFF AFTER I
 
 
 ## Meet with the highest leader of your organization
-      
+
 {% set summary %}
 Convenience the highest leader of your organization to think about calculus while you teach the organization how to do arithmetic and algebra
 {% endset %}
@@ -266,10 +272,10 @@ Honestly assess the leadership buy-in: top, middle and “influencers” not any
 Top must support 100% but not dictate what processes you do. Influencers - get grassroots and gurus onto projects and teach them the techniques either as staff or early engagements. Middle don’t forget….put in stuff about specialized training for them to learn how to manage and report project using these techniques.
 
 {{ macro.backToTop(selector="#the-fifteen-plays") }}
-      
+
 
 ## Resist arbitrary measures of your success
-      
+
 {% set summary %}
 Resist arbitrary measures of your success, while using metrics everywhere you can to assess your impact
 {% endset %}
@@ -284,7 +290,7 @@ Use metrics like UTAUT, net promoter to see if your prototypes are improving thi
 
 
 ## "Find the Truth, Tell the Truth"
-      
+
 {% set summary %}
 Develop values that fit where you want to go as an organization, but always include “Find the Truth, Tell the Truth”
 {% endset %}
@@ -316,4 +322,3 @@ Resist the temptation to make everything about technology. Tech is a tool and an
 Individual contributors get swallowed by the larger organization and this process needs a team. Teams of 4 or at least multiples of 2 so you have a note taker and interviewer. (Can pull in quote from Content Strategy Toolkit Meghan Casey)
 
 {{ macro.backToTop(selector="#the-fifteen-plays") }}
-

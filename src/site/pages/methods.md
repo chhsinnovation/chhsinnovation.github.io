@@ -9,15 +9,23 @@ Deliverables vary by what we uncover during discovery and the highest value retu
 > “Therefore, what you get might not be what you initially asked for, but the improvements will be significant.”
 
 ##Driving Culture Change with HCD and Product Management
-We have the dual mission of delivering value and creating culture change. How do we drive that culture change? By teaching the methods and mindset of human centered design and iterative product management process. By reframing the nature of state government work, we show employees how to tightly define problems, set the desired business goal, understand user needs and design a product that will solve the problem.
+We have the dual mission of delivering value and creating culture change. How do we drive that culture change? By teaching the methods and mindset of human centered design and iterative product management process then showing firsthand how these approaches deliver better results.
 
-When staff see how well this process works to solve long-standing problems, they start adopting these methods into their daily work. The simplest first step is to start talking to actual users!
+By reframing the nature of state government work, we show employees how to tightly define problems, set the desired business goal, understand user needs and design a product that will solve the problem.
+
+These approaches created some of the most widely used software in the world. The OI process adapts them to government work.
+
+When staff see how well this process works to solve long-standing problems and how easy it is to apply the skills into their daily work, then we see culture change. This change works for senior level to mid level management down the the practitioner level.
+
+Learn how you can bring this change to your organization below.
 
 ##The OI Method = HCD + Product + Facilitation + Communication skills
+The simplest first step is to start talking to actual users!
 
 ##The HCD Process
 The HCD process we use is a cycle of: Discovery, Imagine, Prototype, Test and Iterate.
 (Add graphic)
+OI staff are taught to empathize with users to deeply understand their problems. By talking to a wide range of users (remember staff are users too), we learn as much breadth and depth of the issues as possible. Then focus on a small aspect of the problem. Develop a hypothesis of how to fix the problem. Prototype, test and adjust that prototype until they are confident that it will solve the problem.
 
 ##Product Management
 Product management is basically can you build a thing to solve a problem. It is the combination of business goals, user needs, technical requirements and policy/regulations. Who better than the state employees to blend these skills into a single role. Moreover, by iterating and getting frequent feedback, the solution is crafted more mindfully. With less re-work the solution is delivered more quickly.
@@ -80,6 +88,7 @@ Our methods and the skills included with them are how we deliver solutions and c
 
 {% set testSkills %}
 * UX Testing
+* the demo and the Go/No Go decision
 {% endset %}
 
 {% set iterateTraining %}
