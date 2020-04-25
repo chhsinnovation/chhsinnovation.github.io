@@ -12,3 +12,18 @@ In Year 2, we will evolve our ability to develop fully coded applications to sup
 Please check out the work we did across a wide variety of disciplines and topic areas.
 
 [Culture of Collaboration and Innovation: Procurement Reform & Product Delivery]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Culture of Collaboration and Innovation: Executive Situational Awareness Assistance]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Culture of Collaboration and Innovation: HR/Recruiting Improvement]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Culture of Collaboration and Innovation: Data Research]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Culture of Collaboration and Innovation: Training]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Whole person care: Improved patient intake]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+
+[Whole person care: Discharge]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Whole person care: Safety]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Using Data to Drive Decisions]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Current Engagements]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
