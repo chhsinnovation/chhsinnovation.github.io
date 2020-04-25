@@ -1,0 +1,44 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we improve the process, tracking and situational awareness regarding tasks related to VIP contact requests from the Governor.
+
+What tools and methods do staff prefer to use when working both in office and remotely
+
+How might we improve the speed, efficiency and situational awareness for the appointments process
+{% endset %}
+
+{% set deliverables %}
+* Process map by which the staff communicate, collaborate and track work related to assignments from the governor
+* Survey on staff preferences and mobility/computing needs
+* Identified system requirements to support the improved workflow/process
+* Created, ran and reported results for product and vendor (integrator) selection process
+* Created a product roadmap and agile development backlog for system build
+* Provided training for staff to take over the product management
+* Recommended improvements to the appointments process
+
+{% endset %}
+
+{% set outcomes %}
+All recommended actions were adopted by engagement sponsors in GO.
+
+Awaiting funding for selected product and vendor.
+{% endset %}
+
+{% set more %}
+Read our [full report]({{ "/post/CAMMIS/" | url}}) for more info on this engagement.
+{% endset %}
+
+{{ macro.executiveSummary(
+    title="GO-CRM",
+    length=length,
+    more=more,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
