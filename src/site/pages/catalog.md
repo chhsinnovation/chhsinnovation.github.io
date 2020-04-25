@@ -9,12 +9,12 @@ We come to work shoulder to shoulder with your team to solve complex problems. W
 
 ##Facilitations
 Need to get your team thinking about a problem holistically and understand what your staff and clients really think? We can come facilitate sessions to really understand problems and service delivery from everyone's perspective.
-Visit our [faciliations](https://chhsinnovation.netlify.app/engagement-prep/) page for more information.
+Visit our [faciliations](https://chhsinnovation.netlify.app/facilitations/) page for more information.
 
 ##Workshops
 Hands on practices to get your staff and your clients crafting solutions together. This is the best way to re-imagine your services and deliver what people really want.
-Visit our [rapid prototyping](https://chhsinnovation.netlify.app/engagement-prep/) page for more information
+Visit our [rapid prototyping](https://chhsinnovation.netlify.app/rapidproto/) page for more information
 
 ##Training
 Learn how methods to make these techniques part of how your do business.
-Visit our [rapid prototyping](https://chhsinnovation.netlify.app/engagement-prep/) page for more information
+Visit our [training](https://chhsinnovation.netlify.app/training/) page for more information
