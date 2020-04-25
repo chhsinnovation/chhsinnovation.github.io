@@ -24,6 +24,8 @@ We don’t build things for you; we build things with you side by side.
 
 We use the agile sprint methodology – 2 week long sprints focused on iterating on previous work. Each sprint has a specific goal and set of deliverables.
 
+images/OI_Engagement_Model.png
+
 Deliverables vary by what we uncover during discovery and the highest value return based on those needs. Therefore, what you get might not be what you initially asked for, but the improvements will be significant.
 
 > “Therefore, what you get might not be what you initially asked for, but the improvements will be significant.”
@@ -35,7 +37,6 @@ Our deliverables can be digital products, improvements to workflows, policies ch
 All our engagements last four sprints with a few prep meetings in the weeks before and a wrap up week after. Thus, expect us to be actively working with you and your staff for at least eight weeks. After each two-week long sprint, we do a demo or what we learned and built. This demo is a chance to review and determine if we continue with the current plan or pivot to a new idea based on what we learned. From the first meeting to the delivery of the final prototype, we work with your team to transition the work to your staff. Each step of the way, we teach your team our methods with immersive, hand-ons co-creation.
 
 We don’t build things for you; we build things with you side by side.
-
 
 
 ## What to expect from us?
@@ -50,8 +51,6 @@ Generally speaking, we’ll have a team of 4 people working with your staff duri
 At the end of every sprint, we do a sprint demo. This is to highlight what we learned and built together. The demo is an opportunity to provide feedback and direction. We decide what to adjust, including major pivots in direction, based on your feedback from the demo. Some challenges are more complex and can get weekly demos as needed. We deliver the final prototype on the last demo day. Lastly, we spend an additional week wrapping up documentation and helping get your team ready to move the good things forward.
 
 We are in a perpetual work in progress mode. Each sprint with your team is followed by a retro. This is a chance to talk about with us what worked and what did not work. We make changes so the next two weeks go more smoothly. There is always room for improvement.
-
-
 
 ## What do we need from you?
 
@@ -100,4 +99,4 @@ Please feel free to call or email me if you have further questions. We cannot wa
 
 ## Who to contact for more information?
 
-Contact [Chaeny.Emanavin@chhs.ca.gov](mailto:Chaeny.Emanavin@chhs.ca.gov) for more information.
+Contact Chaeny Emanavin for more information.

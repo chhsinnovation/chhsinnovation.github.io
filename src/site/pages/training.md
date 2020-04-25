@@ -6,16 +6,7 @@ We build and we teach as we go along. With this dual delivery approach we aim to
 
 Our staff goes through an intensive six week "bootcamp" style training to learn these methodologies. We then do engagement work with the departments to deliver value and make these skills sticky.
 
-Here's what we learn: (links to each the page below)
-| Facilitation | Design Thinking and Problem Definition | Human Centered Design  |
-| Product Management | Rapid Prototyping | Agile & Lean Methodologies |
-| Interviewing | UX Testing | Leadership, Communications & Team Building |
-| Personal Strengths | Software Development |  Leading Organizational Change Management |
-
 We offer introductions to these skills and techniques to you as part of our services. These courses are typically one day and open to anyone in your organization.
-
-Contact us about providing training to your office. (LINK)
-
 
 ### Human Centered Design
 
@@ -53,7 +44,7 @@ Team members receive training on techniques integral to the entire Human Centere
 4. Content Strategy
 5. Change Management
 
-### Facilitation (Link-1)
+### Facilitation
 
 Experiential training in participatory workshop/meeting design.
 
@@ -61,14 +52,13 @@ The learning objective is to understand the methods and techniques to run meetin
 
 Includes techniques including but not limited to: how to facilitate an effective brainstorming session, how to facilitate towards decision making including negotiation tactics, stakeholder mapping, methods to prepare and follow up after workshops, convening groups with diverse viewpoints, aligning expectations, working with decision makers, and methodologies to run an effective meeting.
 
-### Leading Organizational Change Management Digital Service Teams (Link-6)
+### Leading Organizational Change Management Digital Service Teams
 
 Experiential training in organizational change management. Coursework includes but is not limited to: an introduction to the discipline that guides how we prepare, equip and support individuals to successfully adopt change in order to drive organizational success and outcomes; introduction to frameworks and structures for support; promotes best practices; helps people within an organization understand, commit to, promote and ultimately embrace change; proactive vs. reactive methods to promoting positive change; methods to promote a culture that change is difficult, but also necessary.
 
 Experiential training in communicating and working with leaders through change management processes. Coursework includes but is not limited to: experimental lab settings for leaders; methods to build trust with organizational leaders; methods to positively influence leaders; leading staff from all levels through change.
 
 The learning objectives are to lead all levels of an organization through the process of changing culture and workflows to new methods and then measuring the impact of the changes.
-
 
 
 ## Effective Team Functioning
@@ -84,7 +74,7 @@ Trainings include:
 5. Crucial Conversations
 6. Norm Setting & Tech tools
 
-### Digital Services Training: Agile/Lean Methodologies (Link-7)
+### Digital Services Training: Agile/Lean Methodologies
 
 Experiential training in how to conduct agile projects without reverting into waterfall style, big planning up-front methods.
 
@@ -92,7 +82,7 @@ The learning objectives are the ability to run an agile project following the pr
 
 The content includes, but is not limited to: iterative methods to adjust outputs, methods and intended outcomes based on learnings; how to collaboratively write and utilize user stories; the roles of product manager, developer, and design/content; the difference between agile, lean, XP and other similar methodologies.
 
-### Digital Services Training: Leadership, Communication and Team Building Skills for Multi-disciplinary Teams (Link-8)
+### Digital Services Training: Leadership, Communication and Team Building Skills for Multi-disciplinary Teams
 
 Experiential training in personal strengths, using strengths in team dynamics and personalized coaching.
 
@@ -103,14 +93,6 @@ Experiential training in teamwork, team-building, and open communications. Poten
 The learning objectives are to understand personal abilities, opportunities for personal growth and how best to blend personal strengths in teams of different skills and abilities, and how to work with individuals with different communication styles.
 
 
-
 ## Upcoming Trainings
 
-
-* January 6-8, 2020: Human Centered Design -- understanding how to properly operationalize the HCD approach to involve human input throughout the entire empathize, define, ideate, prototype, test iterative process.
-* Janurary 9, 2020: Facilitation -- understand the methods and techniques to run meetings to get people to drive to better outcomes through iterative design
-* January 10, 2020: Product -- Learn how to build a thing to solve a problem
-
-
-
-[Email us to learn about available trainings](mailto:name@email.com)
+* Due to the COVID19 effort, we are pausing out training offerings until staff is more available.
