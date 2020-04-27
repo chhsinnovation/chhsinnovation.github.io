@@ -13,17 +13,20 @@ Please check out the work we did across a wide variety of disciplines and topic 
 
 [Culture of Collaboration and Innovation: Procurement Reform & Product Delivery]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
 
-[Culture of Collaboration and Innovation: Executive Situational Awareness Assistance]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Culture of Collaboration and Innovation: Executive Situational Awareness Assistance]({{ "/summaries/executive-situational-awareness-assistance/" | url}})
 
-[Culture of Collaboration and Innovation: HR/Recruiting Improvement]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Culture of Collaboration and Innovation: HR/Recruiting Improvement]({{ "/summaries/hr-recruiting-improvement/" | url}})
 
-[Culture of Collaboration and Innovation: Data Research]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Culture of Collaboration and Innovation: Data Research]({{ "/summaries/data-research/" | url}})
 
-[Culture of Collaboration and Innovation: Training]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Culture of Collaboration and Innovation: Training]({{ "/summaries/training/" | url}})
 
-[Whole person care: Improved patient intake]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Whole person care: Improved patient intake]({{ "/summaries/improved-patient-intake/" | url}})
 
-[Whole person care: Discharge]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
-[Whole person care: Safety]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
-[Using Data to Drive Decisions]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
+[Whole person care: Discharge]({{ "/summaries/discharge/" | url}})
+
+[Whole person care: Safety]({{ "/summaries/safety/" | url}})
+
+[Using Data to Drive Decisions]({{ "/summaries/using-data-to-drive-decisions/" | url}})
+
 [Current Engagements]({{ "/summaries/procurement-reform-and-product-delivery/" | url}})
