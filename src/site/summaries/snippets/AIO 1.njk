@@ -1,0 +1,32 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we help AIO understand the common challenges around collaborative workflows within and across CHHS?
+{% endset %}
+
+{% set deliverables %}
+* Process map including pain points, and opportunities for BCP, HR RPA, timesheets and Local Assistant Estimates processes
+* Created user stories based system requirements and rating criteria
+* Researched and rated four different software solutions: 0365, Salesforce, SimpiGov, Docusign/Intelledox
+{% endset %}
+
+{% set outcomes %}
+OI’s research and comparison framework provided a clear decision balancing performance, user preference and cost. This led to the selection of different products based on need and number of users.
+
+The process yielded SimpliGov as the best solution for the Red Folder process.
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="AIO 1.0 document collaboration",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
