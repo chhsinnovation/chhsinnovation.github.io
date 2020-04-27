@@ -1,0 +1,35 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we develop a proof of concept  level electronic workflow for Agency’s document approval process, and support SSS to build a maturity model?
+
+How might we develop an MVP electronic workflow for Agency’s document approval process, and support SSS to create a solution inventory?
+{% endset %}
+
+{% set deliverables %}
+* Product testing: SimpliGov, Docusign/Intelledox, and Salesforce with Agency staff members
+* A process flow diagram for the Agency document routing workflow. 
+* UTAUT survey results
+* Roles and Responsibilities and Document Intake Process Narrative
+* Lucidchart showing synthesized results of categorized questions and stakeholders for SSS to gather information from Departments.
+* Minimum Viable Product (MVP) in SimpliGov of the current Agency document workflow
+{% endset %}
+
+{% set outcomes %}
+As an extension of the research engagement delivered, this effort delivered an automated workflow for routing red folder documents within CHHSA..
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="AIO 2.0 Implementing an MVP of electronic workflow",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
