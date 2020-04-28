@@ -1,0 +1,45 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+alumni engagement
+{% endset %}
+
+{% set challenges %}
+How might we better engage front-line employees in violence reduction efforts across the DSH system.
+{% endset %}
+
+{% set deliverables %}
+Hospital specific workshops:
+* Five hospital-specific workshops with employees who have been assaulted (Napa, Coalinga, Metropolitan, Patton and Atascadero).  Each workshop hosted approximately 15-20 staff members who had been assaulted by DSH patients in the last 12 months.
+* Identified hospital-specific problem areas that contribute to violence.
+* Brainstorming sessions with prototyping of potential solutions.
+
+Statewide Employee Safety and Support Summit
+* Over 120 DSH staff were in attendance.  Approximately half of the attendees were front-line staff who had been assaulted while the other half of attendees were Executive Management staff from DSH-Sacramento or one of the DSH facilities. 
+* Facilitators used Human Centered Design activities to facilitate discussion and change. Sub sessions included:
+* Storytellers from around the state – rotation stations of assaulted staff to increase participants’ understanding of the unique human experience of workplace violence
+* Deep dive – Small group deep dive to gain deep understanding of the violence within our hospitals
+* Believable next steps - brainstorming potential paths for improvement.  
+* Knowledge market – iterating upon potential paths for improvement. 
+* Mapping out solutions – using feasibility and potential for change, executives then mapped out all potential solutions to identify top 10 on which to put early efforts in for quick wins.
+{% endset %}
+
+{% set outcomes %}
+* DSH is currently mapping out the 5-year initiative steps 
+* Quick wins have included: 
+* DSH-Sacramento commitment to project by posting a Project Manager position to oversee the 5-year implementation of the Safety and Support Initiative.
+* Initial financial commitment from Clinical Operations division to fund and provide Therapeutic Options as an improved training resource for front-line staff. 
+* Provision of scripts and short-term help for Health and Safety officers on how to better engage with staff after they have been assaulted. 
+* In winter of 2019, DSH workgroup leader will begin initial stages of utilizing peer-support for post-incident support. 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DSH-Reduction in Violence",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
