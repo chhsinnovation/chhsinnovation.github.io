@@ -1,0 +1,43 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+4 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we increase awareness and utilization of Agency data assets, initiatives, tools and resources in order to improve delivery of programs and services across CHHS?
+
+How might we increase data literacy in relevant ways to CHHS department staff?
+{% endset %}
+
+{% set deliverables %}
+* Workshop on data literacy 
+* Baseline on understanding and usage
+* establishing this initial framework
+* Successes and need analysis
+
+While exploring the components of data literacy, workgroup participants identified 6 major categories:
+* Finding Data
+* Understanding Data
+* Validating / Data Integrity
+* Data Tools
+* Using Data
+* Disseminating & Reporting Data
+{% endset %}
+
+{% set outcomes %}
+Feedback from prototype testing indicate that the existing playbook content is valuable, just not as it’s currently organized. Some of the resources are hidden, some are too prominent, and additional resources are needed to make it responsive to the data-related needs of staff.
+
+We demoed our findings to the Data Subcommittee team and the Ad Council. Both entities have found our findings and recommendations valuable and are currently looking to restructure and are putting together an action plan based on these findings. 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Data Subcommittee- Data Literacy",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
