@@ -1,0 +1,31 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+09/23/2019
+{% endset %}
+
+{% set challenges %}
+How might we create a better user experience for applicants for care facilities across the state
+{% endset %}
+
+{% set deliverables %}
+* Intake, review and completion workflows
+* Improved communications and status visibility for plan submitters
+* Identify appropriate OKRs for state to measure customer satisfaction and service delivery
+{% endset %}
+
+{% set outcomes %}
+* Improved customer experience, staff experience and communications methods throughout the FDD plan review and inspection process
+* Metrics and model that are repeatable in other customer facing department
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="OSHPD - FDD",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
