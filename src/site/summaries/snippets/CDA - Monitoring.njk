@@ -1,0 +1,33 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+10/21/2019
+{% endset %}
+
+{% set challenges %}
+How can we improve the C-BAS program requirement to monitor partner performance with standards state wide in a more efficient, timely manner
+{% endset %}
+
+{% set deliverables %}
+* Survey collection process
+* Appropriate customer satisfaction metrics/OKRs
+* Mapping between policy changes and survey methods to measure effectiveness
+* SMS tool to easily gather survey data from client in situ
+* Model to use clients’ own device to satisfy reasonable accommodation needs
+{% endset %}
+
+{% set outcomes %}
+* Improved use of data to measure policy effectiveness and answer legislative inquiries
+* Improved customer experience and visibility of CHHS commitment to customer service
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="CDA - Monitoring",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
