@@ -1,0 +1,29 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+Feb 10, 2020
+{% endset %}
+
+{% set challenges %}
+Research Data Hub, helping DJJ determine good data models, finishing data model work for Cannabis effort
+{% endset %}
+
+{% set deliverables %}
+* Better UX for accessing RDH, improved data dictionary, Data catalogue, data request forms and guidelines for staff
+{% endset %}
+
+{% set outcomes %}
+* Improved usage metrics for web based tools and data sources
+* Improved internal processes to get data to external stakeholders
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Data Usage",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
