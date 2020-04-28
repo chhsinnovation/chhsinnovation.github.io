@@ -1,0 +1,32 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+2 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we streamline data request form used by researchers in an effort to improve user experience and efficiency of data requesting process?
+{% endset %}
+
+{% set deliverables %}
+* The Common Application - a template to Re-engineer department processes and configure software to make it easier for researchers to request data
+* Clickable Prototype of Common Application, user tested by seven different departments.
+* Prototypes of CHHS Data Sharing Platform, which was the result of collaborative effort between five university researchers and twenty state staff.
+{% endset %}
+
+{% set outcomes %}
+Workshop series - tested improvements to the data Created a single request form for researchers to get CHHS data. This adds clarity and speed to the process.
+
+“The CHHS Innovation Team facilitated a design session to develop a prototype of a new, streamlined, common request application and facilitated a prototype test with university researchers, the users of the application. The CHHS Data Subcommittee has taken the initial prototype and further iterated upon it, validating assumptions and diving deeper into the detailed requirements. The CHHS Data Subcommittee is planning to conduct a second user test, based on the most recent iteration, submit the application for review by the CHHS Governance Advisory Council, then to roll out the common application for adoption by departments and programs. The application design can be implemented as a paper application or fillable PDF application, or can be used as baseline design requirements for a digital application. The CHHS Innovation Team helped to catalyze, organize, and define this important work.” 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="OSHPD - Workshop for Higher Ed",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
