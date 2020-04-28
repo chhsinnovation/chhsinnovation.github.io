@@ -1,0 +1,36 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+2 week engagement
+{% endset %}
+
+{% set challenges %}
+We spoke with small, medium and large departments, and learned that web content strategies ranged from ad hoc organic processes, to formal efforts employing current industry best practices. While some departments have implemented mature web content strategies, and are delivering accurate, relevant, accessible content, others were not yet to a point where their web content strategies yielded optimal results
+{% endset %}
+
+{% set deliverables %}
+* Created a community of practice
+* Trained six CHHS Agency departments on web content strategy
+* Workshop topics included: Stakeholder Strategy, Web content Governance, Publishing policies, standards, and procedures, Content workflow, roles, Web Content Accessibility, User Experience Testing, and Influence, Creation, & Adoption Strategy
+
+{% endset %}
+
+{% set outcomes %}
+Helped departments meet the Web Accessibility deadline. Improvements in: 
+* Content creation and workflow for participants. 
+* Methods for organizing and streamlining existing web content
+* Best practices for delivering and maintaining content accessible by people with disabilities
+* Human-centered user experience testing
+* Techniques for influencing decision-makers to embrace and support web content strategy
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Content Strategy COP & Workshops",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
