@@ -1,0 +1,32 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we more effectively attract and engage great talent to join (DMHC), Office of Technology and Innovation (OTI)?
+{% endset %}
+
+{% set deliverables %}
+* Revised reviews steps for hiring managers
+* Prototyped an appealing website and job announcement for recruiting talented IT staff to DMHC, highlighting the skills needed, skills applicants could develop, and the benefits of working for DMHC and California. 
+* Created an appendix describing 
+{% endset %}
+
+{% set outcomes %}
+Granting ECOS access to hiring managers, to provide access to the applicants faster.
+
+Implemented new website, job announcement template and cultural practices for attracting IT candidates to DMHC based on user feedback from prototype
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DMHC-Recruiting",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
