@@ -1,0 +1,28 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+2 week engagement
+{% endset %}
+
+{% set challenges %}
+Human Centered Design was most desired training based on the survey we implemented with CHHS departments 
+{% endset %}
+
+{% set deliverables %}
+Developed a training workshop on Human Centered Design
+{% endset %}
+
+{% set outcomes %}
+OI is ready to offer these trainings for CHHS staff to learn the skills 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Training Development",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
