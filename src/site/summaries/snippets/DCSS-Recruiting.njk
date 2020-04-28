@@ -1,0 +1,28 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+2 week engagement
+{% endset %}
+
+{% set challenges %}
+Help DCSS create a faster hiring process
+{% endset %}
+
+{% set deliverables %}
+* Based on the deliverables of the DMHC recruiting engagement, the team delivered the principles to DCSS staff in a two week interactive workshop
+{% endset %}
+
+{% set outcomes %}
+Helped the DCSS team streamline an expected surge in IT hiring yielding in higher scoring candidates than previous efforts.
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DCSS-Recruiting",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
