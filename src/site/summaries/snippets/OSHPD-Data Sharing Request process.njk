@@ -1,0 +1,33 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+6 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we strengthen communication among CHHS data sharing stakeholders and promote awareness and usability of online data sharing resources to increase data sharing within CHHS?
+{% endset %}
+
+{% set deliverables %}
+* Developed Prototypes on ways to strengthen communication and awareness among CHHS data sharing resources and governance
+* Developed a proof-of-concept application that uses the Open Data API to easily, intuitively identify and locate OSHPD data in the CHHS Open Data Portal
+* Provided user experience testing results around the usability of CHHS data sharing process available under the Data PlayBook on CHHS’s GitHub platform
+* Identified issues such as lack of awareness and communication around the Agency’s Online Data resources; Departments are not aware of what is getting published on the Open Data Portal; Departments not leveraging their own internal resources for expertise, relationships, and even data; and hesitation to change from current processes
+{% endset %}
+
+{% set outcomes %}
+The new form helped clarify the data and purpose of the request. Additionally, the revised process better identifies the experts needed to engage on the effort.
+
+The issues discovered here led to further engagements with the data subcommittee to further identify solutions to these complex problems. 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="OSHPD-Data Sharing Request process",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
