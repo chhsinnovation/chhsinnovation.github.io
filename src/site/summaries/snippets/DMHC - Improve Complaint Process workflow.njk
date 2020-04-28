@@ -1,0 +1,37 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+Feb 10, 2020
+{% endset %}
+
+{% set challenges %}
+By new statue, DMHC must review 100% of complaints about providers. They need help to go from 60% review to 100% without additional resources
+{% endset %}
+
+{% set deliverables %}
+* Business process re-engineering for intake, review and completion workflows
+* Continual improvement processes
+* Metrics for customer satisfaction
+* Process to track complaint outcomes
+* Requirements for new supporting tool(s)
+* Improved experience for users and staff
+* Product management/agile development training to implement new tools
+{% endset %}
+
+{% set outcomes %}
+* Repeatable improvements for any CHHS process that involves processing data from multiple external sources
+* Process improvements for situational awareness across different program areas working the case
+* Case load management reports and processes
+* Use of automation tool to speed manual data entry tasks.
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DMHC - Improve Complaint Process workflow",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
