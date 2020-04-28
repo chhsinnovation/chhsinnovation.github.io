@@ -53,7 +53,7 @@ Our methods and the skills included with them are how we deliver solutions and c
 * Story Harvesting
 * Journey Mapping
 * Affinity Analysis
-* [KJ Analysis]({{ "/pages/KJ/" | url}})
+* [KJ Analysis]({{ "/KJ/" | url}})
 {% endset %}
 
 {% set imagineTraining %}
