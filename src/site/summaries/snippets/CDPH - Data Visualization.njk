@@ -1,0 +1,31 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+2 week engagement
+{% endset %}
+
+{% set challenges %}
+How might OI support CDPH in adopting a structured process to track and monitor product roadmap and workflow? 
+{% endset %}
+
+{% set deliverables %}
+* Modified process for their controlled user testing.
+* Adapted bug tracking tool 
+* Provided guidance and training on how to derive the most value from UX testing
+* Test scripts for in-person and remote user-experience testing
+{% endset %}
+
+{% set outcomes %}
+CDPH Fusion Center developers were able to prioritize new features from user-experience testing results and improve efficiency.
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="CDPH - Data Visualization",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
