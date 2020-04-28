@@ -1,0 +1,30 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+4 week engagement
+{% endset %}
+
+{% set challenges %}
+How can we encourage and streamline the process and flow of communication between CHHS Governance subcommittees? 
+{% endset %}
+
+{% set deliverables %}
+* User tested and revised existing communications  (website, newsletter, other medium channels and templates, etc.)
+* Prototyped new artifacts and channels for delivering communication
+* Proposed recommendations for modification of the current committee structure
+{% endset %}
+
+{% set outcomes %}
+We demoed our findings to the Communications Subcommittee team and the Ad Council. Both entities have found our findings and recommendations valuable and are currently looking to restructure and are putting together an action plan based on these findings. 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Communications Subcommittee",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
