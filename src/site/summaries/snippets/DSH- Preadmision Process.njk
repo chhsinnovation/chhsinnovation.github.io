@@ -1,0 +1,37 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+8 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we most efficiently meet the needs of patients determined incompetent to stand trial (IST) by reducing the number of days between a couty court’s commitment date and the hospital admission date?
+{% endset %}
+
+{% set deliverables %}
+* Prototyped pre-admissions governance structure and working group
+* Developed more efficient workflows
+* Roadmap to add new process supporting features for PARTS system
+* Recommended staffing changes to right size based on new workflow
+{% endset %}
+
+{% set outcomes %}
+The department has taken the following actions to reduce the time between commitment and admission from 7 months to less than a month based on ideas from our engagement, as follows:
+* Established a pre-admissions governance structure.
+* Created an IST pre-admission workgroup with one rep representative from each hospital, as well as representatives from business areas within headquarters that perform a role in the pre-admissions process.
+* Converted workflows developed during our engagement into Visio, and are starting to implement policies and procedures to define roles and responsibilities.
+* Continuing information systems enhancements to capture more relevant data.
+* Considering budget change based on planning work from our engagement
+* Continue to use OI techniques to brainstorm solutions
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DSH- Preadmision Process",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
