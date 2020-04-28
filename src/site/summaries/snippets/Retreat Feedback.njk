@@ -1,0 +1,28 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+
+{% endset %}
+
+{% set challenges %}
+Feb 3, 2020
+{% endset %}
+
+{% set deliverables %}
+Build output documents from feedback and brainstorming sessions from retreat
+{% endset %}
+
+{% set outcomes %}
+Realistic improvements to OI processes and engagement methods
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Retreat Feedback",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
