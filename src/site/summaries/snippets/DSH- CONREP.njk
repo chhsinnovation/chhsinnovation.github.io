@@ -1,0 +1,37 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+8 week engagement
+{% endset %}
+
+{% set challenges %}
+How might we sandardize the CONREP referral process in DSH
+
+How can SHs, CONREPs, Courts, and Patients collaborate on a process that supports a safe and successful transition from the SH to CONREP? 
+{% endset %}
+
+{% set deliverables %}
+* Modelled two different referral processes 
+* MVP (minimum viable product) of the highest yield process. 
+* Process flow, clickable collaboration prototype, stakeholder map, and implementation plan
+* Improved metrics collection via changes to use of existing data and the collection of additional data to help measure the success of the project implementation.
+{% endset %}
+
+{% set outcomes %}
+This engagement recently wrapped up (September 2019). The public outreach effort of this engagement was strongly felt. Family members interviewed for this process were personally touched that the “state cared enough to ask them how to best care for their loved ones”. This represents a potential positive result in public perception of the department.
+
+Early returns are that DSH is planning on implementing the OI recommendations in total.
+
+They are looking for resources to manage the effort, including potentially are considering borrowing back a DHS staffer in the current OI cohort. 
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="DSH- CONREP",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
