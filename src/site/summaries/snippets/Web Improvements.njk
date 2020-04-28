@@ -1,0 +1,33 @@
+{% import "macros.njk" as macro with context %}
+
+{% set length %}
+Feb 10, 2020
+{% endset %}
+
+{% set challenges %}
+Help OSG set up the speaking request portal and processes
+How can the OPA Provider report card be of better value to Californians
+{% endset %}
+
+{% set deliverables %}
+* Website structure, language and back end tools for request management
+* Website structure, language and back end tools for OPA report card
+* Potential partnerships with Alpha.ca.gov team
+{% endset %}
+
+{% set outcomes %}
+* Repeatable (in other offices) process for requesting data or meetings with CHHS /Government staff from external stakeholders
+* Repeatable Processes to triage requests 
+* Better UX for data driven reports and info from CHHS to users
+{% endset %}
+
+
+{{ macro.executiveSummary(
+    title="Web Improvements",
+    length=length,
+    more=null,
+    improvements=improvements,
+    challenges=challenges,
+    deliverables=deliverables,
+    outcomes=outcomes
+)}}
