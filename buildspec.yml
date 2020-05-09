@@ -7,11 +7,12 @@ phases:
   pre_build:
     commands:
       - echo "pre_build step"
-      - npm run build
+      # - npm run build
   build:
     commands:
       - echo "build step"
-      - aws s3 sync --delete . "s3://oi.chhs.ca.gov"
+      # - aws s3 sync --delete . "s3://oi.chhs.ca.gov"
+      - npm run build
   post_build:
     commands:
       - echo "post_build step"
